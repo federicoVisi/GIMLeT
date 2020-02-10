@@ -10,3 +10,7 @@
 - rapidmax : Max external for interactive machine learning
   https://github.com/samparkewolfe/RapidMax (Mac)
   https://github.com/MartinTownley/RapidMax_Windows 
+
+### Contact
+
+mail[at]federicovisi[dot]com
