@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1055.0, 723.0 ],
+		"rect" : [ 39.0, 195.0, 1055.0, 723.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -6478,7 +6478,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 172.363688275714708, 39.999972631771129, 30.0, 30.0 ]
 								}
 
@@ -7114,12 +7114,12 @@
 					"patching_rect" : [ 637.750000206786126, 568.822403790870794, 354.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Volume",
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "Volume",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -7237,7 +7237,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 149.333333333333343, 174.616504907608032, 116.666666666666657, 22.0 ],
+					"patching_rect" : [ 133.666666666666686, 178.616504907608032, 101.333333333333314, 22.0 ],
 					"text" : "unpack f f f"
 				}
 
@@ -7247,11 +7247,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 5,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.136311724285179, 106.495145857334137, 530.176792337157167, 34.0 ]
+					"patching_rect" : [ 541.313104061442345, 108.616504907608032, 445.436896145343894, 88.0 ],
+					"text" : "/groups/mygroup/qom : 2.17705,\n/points/stick/vel_mag : 1.73302,\n/points/stick/rot_rpy : [-90.8463, 40.6841, 91.6],\n/points/C/vel_mag : 0.88807,\n/points/C/rot_rpy : [-0., 0., -56.4]"
 				}
 
 			}
@@ -7364,8 +7366,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 16.0, 145.0, 419.0, 22.0 ],
-					"text" : "o.route /points/leftIMU/acc_mag /points/leftIMU/rot_rpy /groups/mygroup/qom"
+					"patching_rect" : [ 16.0, 145.0, 372.0, 22.0 ],
+					"text" : "o.route /points/C/vel_mag /points/stick/rot_rpy /groups/mygroup/qom"
 				}
 
 			}
@@ -7447,6 +7449,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 3 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 2 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -7461,7 +7470,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 3 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -7511,6 +7520,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-36", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -7534,15 +7550,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-4", 2 ]
 				}
 
 			}
@@ -7645,7 +7654,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-34", 1 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -7702,12 +7711,11 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7770,8 +7778,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
