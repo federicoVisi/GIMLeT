@@ -10,13 +10,13 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 141.0, 79.0, 1390.0, 899.0 ],
+		"rect" : [ 62.0, 79.0, 905.0, 548.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 2,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
@@ -90,12 +90,12 @@
 					"presentation_rect" : [ 654.0966796875, 63.949999999999989, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "number",
 							"parameter_type" : 3,
 							"parameter_longname" : "number",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_initial" : [ 1 ]
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -112,7 +112,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 588.0, 677.703125, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.0, 64.949999999999989, 56.656552030721059, 20.0 ],
+					"presentation_rect" : [ 707.0, 64.949999999999989, 57.0, 20.0 ],
 					"text" : "Delay (s)"
 				}
 
@@ -125,9 +125,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 476.0, 753.203125, 68.0, 23.0 ],
-					"text" : "pipe 3000"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 476.0, 753.203125, 58.0, 23.0 ],
+					"text" : "del 3000"
 				}
 
 			}
@@ -2191,7 +2191,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 372.5, 547.542444708427638, 68.0, 22.0 ],
+					"patching_rect" : [ 375.61328125, 525.593284185268999, 68.0, 22.0 ],
 					"text" : "s playstop"
 				}
 
@@ -4032,9 +4032,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-30" : [ "multislider[10]", "multislider[1]", 0 ],
+			"obj-19" : [ "number", "number", 0 ],
 			"obj-25" : [ "multislider[5]", "multislider[1]", 0 ],
 			"obj-28" : [ "multislider[8]", "multislider[1]", 0 ],
-			"obj-19" : [ "number", "number", 0 ],
 			"obj-31" : [ "multislider[11]", "multislider[1]", 0 ],
 			"obj-32" : [ "multislider[12]", "multislider[1]", 0 ],
 			"obj-18" : [ "multislider[3]", "multislider[1]", 0 ],
@@ -4043,7 +4044,6 @@
 			"obj-29" : [ "multislider[9]", "multislider[1]", 0 ],
 			"obj-24" : [ "multislider[4]", "multislider[1]", 0 ],
 			"obj-27" : [ "multislider[7]", "multislider[1]", 0 ],
-			"obj-30" : [ "multislider[10]", "multislider[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -4058,8 +4058,8 @@
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Dropbox/Postdocs/HfMT/HfMT Max",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Utility",
+				"patcherrelativepath" : "./Utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4088,6 +4088,7 @@
 				"type" : "iLaX"
 			}
  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
