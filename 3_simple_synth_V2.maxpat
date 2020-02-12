@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 502.0, 87.0, 838.0, 400.0 ],
+		"rect" : [ 502.0, 87.0, 743.0, 363.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2256,7 +2256,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.298039215686275, 0.372549019607843, 0.996078431372549, 1.0 ],
@@ -2485,12 +2484,12 @@
 					"presentation_rect" : [ 616.365169238585963, 143.945075660943985, 31.0, 126.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2771,14 +2770,14 @@
 					"presentation_rect" : [ 163.474358558654785, 33.437350690364838, 52.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : -1200.0,
+							"parameter_longname" : "number[2]",
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 1200.0,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number",
-							"parameter_type" : 3,
-							"parameter_mmin" : -1200.0,
-							"parameter_longname" : "number[2]",
-							"parameter_initial_enable" : 1
+							"parameter_type" : 3
 						}
 
 					}
@@ -2818,14 +2817,14 @@
 					"presentation_rect" : [ 96.502990571352157, 33.437350690364838, 55.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmin" : -10.0,
+							"parameter_longname" : "number",
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_mmax" : 10.0,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "number",
-							"parameter_type" : 3,
-							"parameter_mmin" : -10.0,
-							"parameter_longname" : "number",
-							"parameter_initial_enable" : 1
+							"parameter_type" : 3
 						}
 
 					}
@@ -3553,9 +3552,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-120" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-15" : [ "number", "number", 0 ],
 			"obj-18" : [ "number[2]", "number", 0 ],
-			"obj-120" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
