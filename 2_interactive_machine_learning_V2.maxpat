@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 62.0, 79.0, 905.0, 548.0 ],
+		"rect" : [ 225.0, 147.0, 788.0, 502.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -90,12 +90,12 @@
 					"presentation_rect" : [ 654.0966796875, 63.949999999999989, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "number",
-							"parameter_type" : 3,
 							"parameter_longname" : "number",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "number",
+							"parameter_type" : 3
 						}
 
 					}
@@ -589,12 +589,12 @@
 					"presentation_rect" : [ 169.841797000000014, 434.75, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[11]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -621,12 +621,12 @@
 					"presentation_rect" : [ 169.841797000000014, 396.050000000000011, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[12]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -653,18 +653,19 @@
 					"presentation_rect" : [ 169.841797000000014, 357.349999999999966, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[10]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
 ,
 					"setstyle" : 1,
 					"signed" : 1,
+					"size" : 3,
 					"varname" : "multislider[10]"
 				}
 
@@ -685,18 +686,19 @@
 					"presentation_rect" : [ 169.841797000000014, 318.649999999999977, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[9]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
 ,
 					"setstyle" : 1,
 					"signed" : 1,
+					"size" : 3,
 					"varname" : "multislider[9]"
 				}
 
@@ -717,12 +719,12 @@
 					"presentation_rect" : [ 169.841797000000014, 279.949999999999989, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[8]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -750,12 +752,12 @@
 					"presentation_rect" : [ 169.841797000000014, 241.25, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[7]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -783,12 +785,12 @@
 					"presentation_rect" : [ 169.841797000000014, 202.549999999999983, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[6]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -816,12 +818,12 @@
 					"presentation_rect" : [ 169.841797000000014, 163.849999999999994, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[5]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -849,12 +851,12 @@
 					"presentation_rect" : [ 169.841797000000014, 125.149999999999991, 137.560547000000014, 38.999999999999986 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[4]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -882,12 +884,12 @@
 					"presentation_rect" : [ 169.841797000000014, 86.449999999999989, 137.560547000000014, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "multislider[3]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -1424,6 +1426,40 @@
 						"subpatcher_template" : "mzed_default",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 57.0, 322.0, 146.0, 20.0 ],
+									"text" : "Gets buffer length on load"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 30.0, 288.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 352.0, 80.0, 22.0 ],
+									"text" : "s queryBuffer"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 6,
@@ -1487,7 +1523,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 308.0, 237.0, 29.5, 22.0 ],
+									"patching_rect" : [ 313.399999999999977, 223.0, 29.5, 22.0 ],
 									"text" : "f"
 								}
 
@@ -1500,7 +1536,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 308.0, 208.1878662109375, 79.0, 22.0 ],
+									"patching_rect" : [ 313.399999999999977, 194.1878662109375, 79.0, 22.0 ],
 									"text" : "r bufferlength"
 								}
 
@@ -1690,6 +1726,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 4 ],
 									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -2824,7 +2867,7 @@
 					"patching_rect" : [ 448.5, 216.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 647.0, 168.149999999999977, 113.0, 20.0 ],
-					"text" : "Status: Not Trained",
+					"text" : "Status: Trained",
 					"textcolor" : [ 0.941176474094391, 0.219607844948769, 0.219607844948769, 1.0 ]
 				}
 
@@ -3467,10 +3510,10 @@
 					"presentation_rect" : [ 551.75, 222.050000000000068, 134.0, 251.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "multislider[1]",
-							"parameter_type" : 3,
 							"parameter_longname" : "multislider[1]",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "multislider[1]",
+							"parameter_type" : 3
 						}
 
 					}
@@ -4033,8 +4076,8 @@
  ],
 		"parameters" : 		{
 			"obj-30" : [ "multislider[10]", "multislider[1]", 0 ],
-			"obj-19" : [ "number", "number", 0 ],
 			"obj-25" : [ "multislider[5]", "multislider[1]", 0 ],
+			"obj-19" : [ "number", "number", 0 ],
 			"obj-28" : [ "multislider[8]", "multislider[1]", 0 ],
 			"obj-31" : [ "multislider[11]", "multislider[1]", 0 ],
 			"obj-32" : [ "multislider[12]", "multislider[1]", 0 ],
@@ -4101,8 +4144,8 @@
 , 			{
 				"name" : "black in white",
 				"default" : 				{
-					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "number001",
@@ -4111,8 +4154,8 @@
 , 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
