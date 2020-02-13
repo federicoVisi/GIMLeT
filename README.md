@@ -1,5 +1,6 @@
-# GIMLeT
- GIMLeT – Gestural Interaction Machine Learning Toolkit
+# GIMLeT – Gestural Interaction Machine Learning Toolkit
+
+A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. 
  
 ## Dependencies
 
