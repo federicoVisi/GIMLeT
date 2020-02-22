@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 830.0, 822.382397413253784, 138.0, 22.0 ],
+					"text" : "udpsend 127.0.0.1 1313"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -413,7 +424,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 908.882397413253784, 169.0, 20.0 ],
+					"patching_rect" : [ 834.0, 900.882397413253784, 169.0, 20.0 ],
 					"text" : "Selected features to port 9999"
 				}
 
@@ -506,7 +517,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 907.882397413253784, 138.0, 22.0 ],
+					"patching_rect" : [ 685.0, 899.882397413253784, 138.0, 22.0 ],
 					"text" : "udpsend 127.0.0.1 9999"
 				}
 
@@ -851,11 +862,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-5",
+					"linecount" : 12,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 813.0, 392.262272372841835, 558.0, 34.0 ]
+					"patching_rect" : [ 813.0, 392.262272372841835, 558.0, 184.0 ],
+					"text" : "/acc_old : [-0.0014, 0.00032, -0.01628],\n/modosc/points/leftIMU/rot_rpy : [-0.0382736, 0.851946, 0.00763619],\n/modosc/points/leftIMU/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/modosc/points/leftIMU/rawAcc : [-0.057008, 0.01148, -0.478184],\n/modosc/points/leftIMU/acc : [-13.2, -13.8, 8.4, -64.2],\n/modosc/points/leftIMU/acc_mag : 67.5047,\n/modosc/points/leftIMU/gyro : [-0.000698, 0., -0.000698],\n/modosc/points/leftIMU/version : 0.815,\n/modosc/points/leftIMU/battery : 3.61,\n/modosc/points/leftIMU/jrk : [-2.4, -0.8, 0.2],\n/modosc/points/leftIMU/jrk_mag : 2.53772,\n/modosc/points/leftIMU/fluidity : 0.303162"
 				}
 
 			}
@@ -864,11 +877,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-8",
+					"linecount" : 8,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 813.0, 180.249999761581421, 422.0, 34.0 ]
+					"patching_rect" : [ 813.0, 180.249999761581421, 422.0, 129.0 ],
+					"text" : "/rotatexyz : [-0.0382736, 0.851946, 0.00763619],\n/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/rawAcc : [-0.057008, 0.01148, -0.478184],\n/acc_old : [-0.0014, 0.00032, -0.01628],\n/gyro : [-0.000698, 0., -0.000698],\n/version : 0.815,\n/battery : 3.61,\n/acc : [-13.2, -13.8, 8.4, -64.2]"
 				}
 
 			}
@@ -913,11 +928,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-7",
+					"linecount" : 9,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 761.882397413253784, 534.252465963363647, 34.0 ]
+					"patching_rect" : [ 32.0, 761.882397413253784, 534.252465963363647, 143.0 ],
+					"text" : "/groups/mygroup/qom : 4.1699,\n/points/stick/vel_mag : 3.12918,\n/points/stick/rot_rpy : [-90.8463, 40.6841, 64.6],\n/points/C/vel_mag : 2.08144,\n/points/C/rot_rpy : [-0., 0., -6.4],\n/points/leftIMU/jrk_mag : 2.16333,\n/points/leftIMU/fluidity : 0.326859,\n/points/leftIMU/rot_rpy : [-0.0382736, 0.851946, 0.00763619],\n/points/leftIMU/acc_mag : 68.2366"
 				}
 
 			}
@@ -986,11 +1003,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-20",
+					"linecount" : 11,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.546567559242249, 470.262272372841835, 534.705898404121399, 34.0 ]
+					"patching_rect" : [ 32.546567559242249, 470.262272372841835, 534.705898404121399, 170.0 ],
+					"text" : "/modosc/points/stick/pos : [9.4, 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, 64.6],\n/modosc/points/C/pos : [13.4, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., -6.4],\n/modosc/points/C/vel : [2.08144, 0., 0.],\n/modosc/points/C/vel_mag : 2.08144,\n/modosc/points/stick/vel : [-3.12918, 3.89899e-16, 1.5596e-14],\n/modosc/points/stick/vel_mag : 3.12918,\n/modosc/groups/mygroup/points : [\"/C\", \"/stick\"],\n/modosc/groups/mygroup/weights : [1., 2.],\n/modosc/groups/mygroup/qom : 4.1699"
 				}
 
 			}
@@ -1059,11 +1078,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-6",
+					"linecount" : 4,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 34.0 ]
+					"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
+					"text" : "/modosc/points/stick/pos : [9.4, 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, 64.6],\n/modosc/points/C/pos : [13.4, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., -6.4]"
 				}
 
 			}
@@ -1159,7 +1180,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1244,6 +1274,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1280,13 +1319,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
