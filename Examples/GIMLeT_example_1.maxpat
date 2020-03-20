@@ -639,7 +639,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1486.0, 393.262272372841835, 558.0, 88.0 ],
-									"text" : "/modosc/points/phone1/acc : [-0.182861, -0.330231, -0.924591],\n/modosc/points/phone1/acc_mag : 0.998679,\n/modosc/points/phone1/jrk : [-0.00152588, -0.00140381, -0.00195312],\n/modosc/points/phone1/jrk_mag : 0.00284845,\n/modosc/points/phone1/fluidity : 0.994113"
+									"text" : "/modosc/points/phone1/acc : [0.00537109, 0.0159149, -0.997894],\n/modosc/points/phone1/acc_mag : 0.998036,\n/modosc/points/phone1/jrk : [-0.00424194, 0.0017395, -0.00296021],\n/modosc/points/phone1/jrk_mag : 0.00545736,\n/modosc/points/phone1/fluidity : 0.994564"
 								}
 
 							}
@@ -653,7 +653,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1468.0, 99.887257099151611, 558.0, 34.0 ],
-									"text" : "/accxyz : [-0.182861, -0.330231, -0.924591]"
+									"text" : "/accxyz : [0.00537109, 0.0159149, -0.997894]"
 								}
 
 							}
@@ -2163,8 +2163,8 @@
 			"obj-9::obj-1::obj-46" : [ "multislider[27]", "multislider[1]", 0 ],
 			"obj-10::obj-15::obj-19" : [ "live.text[27]", "live.text", 0 ],
 			"obj-9::obj-1::obj-85" : [ "multislider[22]", "multislider[1]", 0 ],
-			"obj-10::obj-4::obj-44" : [ "live.text[11]", "live.text", 0 ],
 			"obj-10::obj-4::obj-189" : [ "gswitch2[35]", "gswitch2[12]", 0 ],
+			"obj-10::obj-4::obj-44" : [ "live.text[11]", "live.text", 0 ],
 			"obj-10::obj-15::obj-196" : [ "gswitch2[18]", "gswitch2[5]", 0 ],
 			"obj-9::obj-1::obj-77" : [ "multislider[17]", "multislider[1]", 0 ],
 			"obj-10::obj-1::obj-44" : [ "live.text[5]", "live.text", 0 ],
@@ -2260,8 +2260,8 @@
 			"obj-9::obj-1::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
 			"obj-10::obj-15::obj-55" : [ "Pan max[1]", "Pan max", 0 ],
 			"obj-9::obj-1::obj-62" : [ "number[4]", "number[4]", 0 ],
-			"obj-10::obj-4::obj-53" : [ "Cutoff[6]", "Cutoff", 0 ],
 			"obj-10::obj-4::obj-43" : [ "live.text[10]", "live.text", 0 ],
+			"obj-10::obj-4::obj-53" : [ "Cutoff[6]", "Cutoff", 0 ],
 			"obj-10::obj-15::obj-197" : [ "gswitch2[27]", "gswitch2[4]", 0 ],
 			"obj-10::obj-15::obj-179" : [ "gswitch2[21]", "gswitch2", 0 ],
 			"obj-9::obj-2::obj-49" : [ "multislider[57]", "multislider[1]", 0 ],
@@ -2425,12 +2425,12 @@
 					"parameter_longname" : "Speed[3]"
 				}
 ,
-				"obj-10::obj-4::obj-53" : 				{
-					"parameter_longname" : "Cutoff[6]"
-				}
-,
 				"obj-10::obj-4::obj-43" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-10::obj-4::obj-53" : 				{
+					"parameter_longname" : "Cutoff[6]"
 				}
 ,
 				"obj-10::obj-4::obj-67" : 				{
