@@ -11,7 +11,7 @@ A set of Max patches for gesture analysis, interactive machine learning, and ges
 - rapidmax : Max external for interactive machine learning
   https://github.com/samparkewolfe/RapidMax (Mac)
   https://github.com/MartinTownley/RapidMax_Windows 
-- HfMT Optitrack OSC birdge
+- HfMT Optitrack OSC bridge
   https://github.com/HfMT-ZM4/motion-tracking
 
 ### Contact
