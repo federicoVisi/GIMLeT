@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1852.0, 967.0 ],
+		"rect" : [ 34.0, 79.0, 1442.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1928,7 +1928,7 @@
 							"parameter_longname" : "number[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 6666 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[2]"
 						}
 
@@ -1984,7 +1984,7 @@
 							"parameter_longname" : "number[7]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2222 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[4]"
 						}
 
@@ -2040,7 +2040,7 @@
 							"parameter_longname" : "number[6]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2222 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[4]"
 						}
 
@@ -2096,7 +2096,7 @@
 							"parameter_longname" : "number[5]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2222 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[4]"
 						}
 
@@ -6765,7 +6765,7 @@
 							"parameter_longname" : "number[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 9999 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[3]"
 						}
 
@@ -7769,7 +7769,7 @@
 							"parameter_longname" : "number[4]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_initial" : [ 2222 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "number[4]"
 						}
 
@@ -10751,8 +10751,8 @@
 			"obj-188" : [ "gswitch2[1]", "gswitch2[1]", 0 ],
 			"obj-174" : [ "number[6]", "number[4]", 0 ],
 			"obj-196" : [ "number[2]", "number[2]", 0 ],
-			"obj-178" : [ "number[7]", "number[4]", 0 ],
 			"obj-10" : [ "live.text[1]", "live.text", 0 ],
+			"obj-178" : [ "number[7]", "number[4]", 0 ],
 			"obj-170" : [ "number[5]", "number[4]", 0 ],
 			"obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
 			"obj-38" : [ "multislider[42]", "multislider[1]", 0 ],
@@ -10834,7 +10834,6 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
