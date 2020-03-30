@@ -1149,7 +1149,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1339.0, 427.262272372841835, 558.0, 88.0 ],
-									"text" : "/modosc/points/phone1/acc : [0.0667419, -0.00613403, -0.996353],\n/modosc/points/phone1/acc_mag : 0.998605,\n/modosc/points/phone1/jrk : [0.00933838, -0.00898743, 0.0181732],\n/modosc/points/phone1/jrk_mag : 0.0223214,\n/modosc/points/phone1/fluidity : 0.986228"
+									"text" : "/modosc/points/phone1/acc : [0.0348663, 0.0068512, -1.02118],\n/modosc/points/phone1/acc_mag : 1.0218,\n/modosc/points/phone1/jrk : [0.00267029, 0.00131226, 0.00540161],\n/modosc/points/phone1/jrk_mag : 0.00616684,\n/modosc/points/phone1/fluidity : 0.995334"
 								}
 
 							}
@@ -1163,7 +1163,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1339.0, 196.387234300374985, 558.0, 34.0 ],
-									"text" : "/accxyz : [0.0667419, -0.00613403, -0.996353]"
+									"text" : "/accxyz : [0.0348663, 0.0068512, -1.02118]"
 								}
 
 							}
@@ -2039,7 +2039,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 703.0, 427.262272372841835, 558.0, 170.0 ],
-									"text" : "/modosc/points/leftIMU/rot_rpy : [-0.0382736, 0.851946, 0.00763619],\n/modosc/points/leftIMU/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/modosc/points/leftIMU/rawAcc : [-0.057008, 0.01148, -0.478184],\n/modosc/points/leftIMU/acc : [11.4, 70., 38., -3.4],\n/modosc/points/leftIMU/acc_mag : 80.5327,\n/modosc/points/leftIMU/gyro : [-0.000698, 0., -0.000698],\n/modosc/points/leftIMU/version : 0.815,\n/modosc/points/leftIMU/battery : 3.61,\n/modosc/points/leftIMU/jrk : [-2.2, 0.2, -2.],\n/modosc/points/leftIMU/jrk_mag : 2.97993,\n/modosc/points/leftIMU/fluidity : 0.255468"
+									"text" : "/modosc/points/leftIMU/rot_rpy : [-0.0382736, 0.851946, 0.00763619],\n/modosc/points/leftIMU/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/modosc/points/leftIMU/rawAcc : [-0.057008, 0.01148, -0.478184],\n/modosc/points/leftIMU/acc : [87.8, -64.6, -83., -87.4],\n/modosc/points/leftIMU/acc_mag : 162.511,\n/modosc/points/leftIMU/gyro : [-0.000698, 0., -0.000698],\n/modosc/points/leftIMU/version : 0.815,\n/modosc/points/leftIMU/battery : 3.61,\n/modosc/points/leftIMU/jrk : [1.6, -1, 0.2],\n/modosc/points/leftIMU/jrk_mag : 1.89737,\n/modosc/points/leftIMU/fluidity : 0.330013"
 								}
 
 							}
@@ -2054,7 +2054,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 703.0, 196.387234300374985, 558.0, 116.0 ],
-									"text" : "/rotatexyz : [-0.0382736, 0.851946, 0.00763619],\n/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/rawAcc : [-0.057008, 0.01148, -0.478184],\n/gyro : [-0.000698, 0., -0.000698],\n/version : 0.815,\n/battery : 3.61,\n/acc : [11.4, 70., 38., -3.4]"
+									"text" : "/rotatexyz : [-0.0382736, 0.851946, 0.00763619],\n/quat : [0.00219727, -0.97113, -0.0612183, -0.230774],\n/rawAcc : [-0.057008, 0.01148, -0.478184],\n/gyro : [-0.000698, 0., -0.000698],\n/version : 0.815,\n/battery : 3.61,\n/acc : [87.8, -64.6, -83., -87.4]"
 								}
 
 							}
@@ -2165,7 +2165,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 492.262272372841835, 534.705898404121399, 170.0 ],
-									"text" : "/modosc/points/stick/pos : [-12., 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, -17.2],\n/modosc/points/C/pos : [-23.2, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., -7.6],\n/modosc/points/C/vel : [-0.607647, 0., 0.],\n/modosc/points/C/vel_mag : 0.607647,\n/modosc/points/stick/vel : [0.790775, 3.89899e-16, 1.5596e-14],\n/modosc/points/stick/vel_mag : 0.790775,\n/modosc/groups/mygroup/points : [\"/C\", \"/stick\"],\n/modosc/groups/mygroup/weights : [1., 2.],\n/modosc/groups/mygroup/qom : 1.0946"
+									"text" : "/modosc/points/stick/pos : [33.6, 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, 52.],\n/modosc/points/C/pos : [-96.4, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., 27.8],\n/modosc/points/C/vel : [1.33648, 0., 0.],\n/modosc/points/C/vel_mag : 1.33648,\n/modosc/points/stick/vel : [2.05662, 3.89899e-16, 1.5596e-14],\n/modosc/points/stick/vel_mag : 2.05662,\n/modosc/groups/mygroup/points : [\"/C\", \"/stick\"],\n/modosc/groups/mygroup/weights : [1., 2.],\n/modosc/groups/mygroup/qom : 2.72486"
 								}
 
 							}
@@ -2240,7 +2240,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
-									"text" : "/modosc/points/stick/pos : [-12., 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, -17.2],\n/modosc/points/C/pos : [-23.2, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., -7.6]"
+									"text" : "/modosc/points/stick/pos : [33.6, 26.2063, 245.24],\n/modosc/points/stick/rot_rpy : [-90.8463, 40.6841, 52.],\n/modosc/points/C/pos : [-96.4, 0., 0.],\n/modosc/points/C/rot_rpy : [-0., 0., 27.8]"
 								}
 
 							}
