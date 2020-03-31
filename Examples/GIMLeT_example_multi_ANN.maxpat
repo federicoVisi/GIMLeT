@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 892.0, 967.0 ],
+		"rect" : [ 33.0, 79.0, 892.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -126,7 +126,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 892.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 892.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -992,7 +992,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 892.0, 941.0 ],
+						"rect" : [ 33.0, 105.0, 892.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1141,13 +1141,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
-									"linecount" : 5,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1339.0, 427.262272372841835, 558.0, 88.0 ],
-									"text" : "/modosc/points/phone1/acc : [0.0348663, 0.0068512, -1.02118],\n/modosc/points/phone1/acc_mag : 1.0218,\n/modosc/points/phone1/jrk : [0.00267029, 0.00131226, 0.00540161],\n/modosc/points/phone1/jrk_mag : 0.00616684,\n/modosc/points/phone1/fluidity : 0.995334"
+									"patching_rect" : [ 1339.0, 427.262272372841835, 558.0, 34.0 ]
 								}
 
 							}
@@ -1160,8 +1158,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1339.0, 196.387234300374985, 558.0, 34.0 ],
-									"text" : "/accxyz : [0.0348663, 0.0068512, -1.02118]"
+									"patching_rect" : [ 1339.0, 196.387234300374985, 558.0, 34.0 ]
 								}
 
 							}
