@@ -37,8 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showrootpatcherontab" : 0,
-		"showontab" : 0,
+		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"align" : 0,
@@ -126,7 +125,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 892.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 892.0, 915.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -372,8 +371,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -473,8 +472,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -512,7 +511,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 892.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 892.0, 915.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -593,7 +592,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 892.0, 941.0 ],
+						"rect" : [ 34.0, 131.0, 892.0, 915.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -731,13 +730,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
-									"linecount" : 5,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 439.262272372841835, 558.0, 88.0 ],
-									"text" : "/modosc/points/phone1/acc : [0.0634613, 0.00770569, -1.00743],\n/modosc/points/phone1/acc_mag : 1.00946,\n/modosc/points/phone1/jrk : [0.000854492, 0.000335693, -0.000167847],\n/modosc/points/phone1/jrk_mag : 0.000933284,\n/modosc/points/phone1/fluidity : 0.997964"
+									"patching_rect" : [ 25.0, 439.262272372841835, 558.0, 34.0 ]
 								}
 
 							}
@@ -750,8 +747,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 34.0 ],
-									"text" : "/accxyz : [0.0634613, 0.00770569, -1.00743]"
+									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 34.0 ]
 								}
 
 							}
@@ -851,8 +847,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -952,8 +948,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -986,133 +982,71 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9::obj-1::obj-23" : [ "multislider[25]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-95" : [ "multislider[35]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-70" : [ "multislider[15]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-85" : [ "multislider[22]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-19" : [ "number", "number", 0 ],
-			"obj-10::obj-1::obj-16" : [ "Speed[2]", "Speed", 0 ],
-			"obj-10::obj-1::obj-67" : [ "Resonance[2]", "Res", 0 ],
-			"obj-9::obj-1::obj-17" : [ "number[3]", "number[3]", 0 ],
-			"obj-9::obj-1::obj-56" : [ "multislider[32]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-124" : [ "number[1]", "number[1]", 0 ],
-			"obj-9::obj-1::obj-119" : [ "multislider[40]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-82" : [ "multislider[20]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-44" : [ "live.text[5]", "live.text", 0 ],
-			"obj-9::obj-1::obj-46" : [ "multislider[27]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-6" : [ "multislider[23]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-49" : [ "live.text[6]", "live.text", 0 ],
-			"obj-9::obj-1::obj-77" : [ "multislider[17]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-22" : [ "multislider[24]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
-			"obj-10::obj-1::obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
-			"obj-10::obj-1::obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
-			"obj-10::obj-1::obj-11" : [ "live.text[7]", "live.text", 0 ],
-			"obj-9::obj-1::obj-78" : [ "multislider[34]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-9::obj-1::obj-127" : [ "multislider[42]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-43" : [ "live.text[10]", "live.text", 0 ],
 			"obj-9::obj-1::obj-66" : [ "multislider[14]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
+			"obj-9::obj-1::obj-127" : [ "multislider[42]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-53" : [ "Cutoff[6]", "Cutoff", 0 ],
+			"obj-10::obj-1::obj-44" : [ "live.text[11]", "live.text", 0 ],
+			"obj-9::obj-1::obj-182" : [ "number[5]", "number[3]", 0 ],
 			"obj-9::obj-1::obj-50" : [ "multislider[29]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
-			"obj-9::obj-1::obj-72" : [ "number[2]", "number[2]", 0 ],
-			"obj-10::obj-1::obj-188" : [ "gswitch2[33]", "gswitch2[13]", 0 ],
-			"obj-9::obj-1::obj-53" : [ "multislider[31]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-120" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-9::obj-1::obj-109" : [ "multislider[39]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-28" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-10::obj-1::obj-18" : [ "Duration[4]", "Duration", 0 ],
+			"obj-9::obj-1::obj-23" : [ "multislider[25]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-52" : [ "multislider[30]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-11" : [ "live.text[9]", "live.text", 0 ],
+			"obj-10::obj-1::obj-189" : [ "gswitch2[35]", "gswitch2[12]", 0 ],
+			"obj-10::obj-1::obj-15" : [ "StartTime[1]", "StartTime", 0 ],
+			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-90" : [ "Pitch Shift[2]", "Pitch Shift", 0 ],
 			"obj-9::obj-1::obj-81" : [ "multislider[19]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
-			"obj-9::obj-1::obj-41" : [ "multislider[26]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-192" : [ "gswitch2[34]", "gswitch2[9]", 0 ],
+			"obj-9::obj-1::obj-95" : [ "multislider[35]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-85" : [ "multislider[22]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-18" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-18" : [ "Duration[3]", "Duration", 0 ],
-			"obj-10::obj-1::obj-15" : [ "StartTime[4]", "StartTime", 0 ],
-			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
-			"obj-9::obj-1::obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-47" : [ "multislider[28]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-76" : [ "multislider[16]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-43" : [ "live.text[8]", "live.text", 0 ],
-			"obj-9::obj-1::obj-64" : [ "multislider[33]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
-			"obj-9::obj-1::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-39" : [ "gswitch2", "gswitch2", 0 ],
+			"obj-9::obj-1::obj-56" : [ "multislider[32]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-109" : [ "multislider[39]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-49" : [ "multislider[13]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-19" : [ "number", "number", 0 ],
 			"obj-9::obj-1::obj-84" : [ "multislider[21]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-62" : [ "number[4]", "number[4]", 0 ],
-			"obj-9::obj-1::obj-39" : [ "gswitch2", "gswitch2", 0 ],
-			"obj-9::obj-1::obj-52" : [ "multislider[30]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-151" : [ "Beep", "Beep", 0 ],
-			"obj-9::obj-1::obj-153" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-9::obj-1::obj-86" : [ "live.text", "live.text", 0 ],
-			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-182" : [ "number[5]", "number[3]", 0 ],
+			"obj-9::obj-1::obj-6" : [ "multislider[23]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-22" : [ "multislider[24]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-190" : [ "gswitch2[39]", "gswitch2[11]", 0 ],
+			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-17" : [ "number[3]", "number[3]", 0 ],
+			"obj-9::obj-1::obj-28" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-9::obj-1::obj-80" : [ "multislider[18]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-16" : [ "Speed[3]", "Speed", 0 ],
+			"obj-9::obj-1::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-193" : [ "gswitch2[38]", "gswitch2[7]", 0 ],
+			"obj-10::obj-1::obj-67" : [ "Resonance[3]", "Res", 0 ],
+			"obj-9::obj-1::obj-78" : [ "multislider[34]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-153" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-9::obj-1::obj-70" : [ "multislider[15]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-120" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-9::obj-1::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-124" : [ "number[1]", "number[1]", 0 ],
+			"obj-9::obj-1::obj-41" : [ "multislider[26]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-53" : [ "multislider[31]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-188" : [ "gswitch2[42]", "gswitch2[13]", 0 ],
+			"obj-9::obj-1::obj-82" : [ "multislider[20]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-50" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-86" : [ "live.text", "live.text", 0 ],
+			"obj-10::obj-1::obj-51" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-9::obj-1::obj-119" : [ "multislider[40]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-72" : [ "number[2]", "number[2]", 0 ],
+			"obj-9::obj-1::obj-46" : [ "multislider[27]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-191" : [ "gswitch2[36]", "gswitch2[10]", 0 ],
+			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-47" : [ "multislider[28]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-77" : [ "multislider[17]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-151" : [ "Beep Vol.", "Beep", 0 ],
+			"obj-10::obj-1::obj-49" : [ "live.text[12]", "live.text", 0 ],
+			"obj-10::obj-1::obj-29" : [ "gswitch2[37]", "gswitch2[40]", 0 ],
+			"obj-9::obj-1::obj-64" : [ "multislider[33]", "multislider[1]", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-10::obj-1::obj-16" : 				{
-					"parameter_longname" : "Speed[2]"
-				}
-,
-				"obj-10::obj-1::obj-67" : 				{
-					"parameter_longname" : "Resonance[2]"
-				}
-,
-				"obj-10::obj-1::obj-44" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-10::obj-1::obj-50" : 				{
-					"parameter_longname" : "live.toggle[3]"
-				}
-,
-				"obj-10::obj-1::obj-49" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
-				"obj-10::obj-1::obj-11" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-10::obj-1::obj-51" : 				{
-					"parameter_longname" : "live.toggle[6]"
-				}
-,
-				"obj-10::obj-1::obj-120" : 				{
-					"parameter_initial" : -12.0,
-					"parameter_initial_enable" : 1,
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-10::obj-1::obj-53" : 				{
-					"parameter_longname" : "Cutoff[5]"
-				}
-,
-				"obj-10::obj-1::obj-18" : 				{
-					"parameter_longname" : "Duration[3]"
-				}
-,
-				"obj-10::obj-1::obj-15" : 				{
-					"parameter_longname" : "StartTime[4]"
-				}
-,
-				"obj-10::obj-1::obj-90" : 				{
-					"parameter_longname" : "Pitch Shift[1]"
-				}
-,
-				"obj-10::obj-1::obj-43" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-9::obj-1::obj-151" : 				{
-					"parameter_longname" : "Beep",
-					"parameter_shortname" : "Beep"
-				}
 
 			}
 
@@ -1127,8 +1061,8 @@
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1148,56 +1082,57 @@
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Modules",
-				"patcherrelativepath" : "../Modules",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Utility",
-				"patcherrelativepath" : "../Utility",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Utility",
-				"patcherrelativepath" : "../Utility",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Media",
-				"patcherrelativepath" : "../Media",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Utility",
-				"patcherrelativepath" : "../Utility",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Utility",
-				"patcherrelativepath" : "../Utility",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.mangle.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Modules",
-				"patcherrelativepath" : "../Modules",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/GIMLeT_proj/patchers",
+				"patcherrelativepath" : "../GIMLeT_proj/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1246,12 +1181,11 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1351,8 +1285,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
