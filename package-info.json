@@ -1,0 +1,23 @@
+{
+    "author" : "Federico Ghelli Visi",
+    "description" : "A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design.",
+    "homepatcher" : "GIMLeT examples.maxpat",
+    "max_version_min" : "7.1", "max_version_max" : "none",
+    "name" : "GIMLeT",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+
+    },
+    "tags" : ["interaction design", "machine learning"],
+    "version" : "0.2",
+    "website" : "http://www.federicovisi.com"
+}
