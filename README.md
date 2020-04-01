@@ -1,6 +1,11 @@
 # GIMLeT – Gestural Interaction Machine Learning Toolkit
 
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. 
+
+## Installation
+Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" folder. 
+### Examples
+Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
  
 ## Dependencies
 
@@ -23,6 +28,6 @@ A set of Max patches for gesture analysis, interactive machine learning, and ges
 - HfMT Optitrack OSC bridge  
   https://github.com/HfMT-ZM4/motion-tracking  
 
-### Contact
+## Contact
 
 mail[at]federicovisi[dot]com
