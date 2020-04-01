@@ -4,7 +4,7 @@ A set of Max patches for gesture analysis, interactive machine learning, and ges
 
 ## Installation
 Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" folder. 
-#### Launching Example Patches
+### Launching Example Patches
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
  
 ## Dependencies
