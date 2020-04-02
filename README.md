@@ -8,7 +8,7 @@ Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" f
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
  
 ## Dependencies
-NOTE: these dependencies are included in the package in order to make distribution easier.
+NOTE: the required objects from these libraries are included in the package in order to make distribution easier.
 
 - o.dot : OSC-centred multipardigm dynamic programming in Max  
   https://github.com/CNMAT/CNMAT-odot  
