@@ -1,6 +1,6 @@
 # GIMLeT – Gestural Interaction Machine Learning Toolkit
 
-A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. 
+A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
 ## Installation
 Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" folder. 
@@ -8,6 +8,7 @@ Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" f
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
  
 ## Dependencies
+NOTE: these dependencies are included in the package in order to make distribution easier.
 
 - o.dot : OSC-centred multipardigm dynamic programming in Max  
   https://github.com/CNMAT/CNMAT-odot  
