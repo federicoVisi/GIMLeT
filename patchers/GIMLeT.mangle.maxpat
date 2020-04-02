@@ -108,13 +108,13 @@
 					"patching_rect" : [ 997.6651611328125, 522.037353898437459, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "gswitch2[40]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[41]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "gswitch2[40]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -135,13 +135,13 @@
 					"patching_rect" : [ 652.89508056640625, 145.1219482421875, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[7]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[28]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[7]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -162,13 +162,13 @@
 					"patching_rect" : [ 540.728393566406339, 145.1219482421875, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[9]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[29]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[9]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -189,13 +189,13 @@
 					"patching_rect" : [ 445.24505656640622, 145.1219482421875, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[10]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[30]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[10]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -216,13 +216,13 @@
 					"patching_rect" : [ 337.84997599999997, 145.1219482421875, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[11]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[31]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[11]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -243,13 +243,13 @@
 					"patching_rect" : [ 231.715097870452837, 145.1219482421875, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[12]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[32]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[12]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -270,13 +270,13 @@
 					"patching_rect" : [ 108.4049072265625, 152.3157958984375, 39.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "gswitch2[13]",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "gswitch2[33]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "gswitch2[13]"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -857,8 +857,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1938,13 +1938,13 @@
 					"presentation_rect" : [ 499.63418947962623, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.toggle",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.toggle[6]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.toggle"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1968,13 +1968,13 @@
 					"presentation_rect" : [ 458.161114403834745, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.toggle",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.toggle[3]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.toggle"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1998,13 +1998,13 @@
 					"presentation_rect" : [ 387.503838989524695, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[6]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.text"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -2028,13 +2028,13 @@
 					"presentation_rect" : [ 308.503838989524695, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[5]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.text"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -2058,13 +2058,13 @@
 					"presentation_rect" : [ 221.326461520737951, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[8]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.text"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -2088,13 +2088,13 @@
 					"presentation_rect" : [ 126.252990571352115, 6.388889, 17.050632314739801, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text[7]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "live.text"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -2736,8 +2736,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3252,14 +3252,14 @@
 					"presentation_rect" : [ 461.68482179436603, 6.388889, 56.0, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 100.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Res",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5,
 							"parameter_units" : "cents",
 							"parameter_longname" : "Resonance[2]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Res"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3282,15 +3282,15 @@
 					"presentation_rect" : [ 411.581624750907622, 6.388889, 56.0, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 16000.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Cutoff",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_units" : "cents",
 							"parameter_mmin" : 20.0,
 							"parameter_longname" : "Cutoff[5]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16000.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Cutoff"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3314,14 +3314,14 @@
 					"presentation_rect" : [ 337.725226845044631, 6.388889, 50.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 2000.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_units" : "cents",
 							"parameter_longname" : "Duration[3]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 2000.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Duration"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3345,14 +3345,14 @@
 					"presentation_rect" : [ 250.503838989524695, 6.388889, 58.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 100.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "StartTime",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5,
 							"parameter_units" : "cents",
 							"parameter_longname" : "StartTime[4]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "StartTime"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3376,15 +3376,15 @@
 					"presentation_rect" : [ 162.326461520737951, 6.388889, 59.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1200.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "Pitch Shift",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 9,
 							"parameter_units" : "cents",
 							"parameter_mmin" : -1200.0,
 							"parameter_longname" : "Pitch Shift[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 1200.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "Pitch Shift"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -3408,14 +3408,14 @@
 					"presentation_rect" : [ 82.752990571352157, 6.388889, 50.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 10.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "Speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : -10.0,
 							"parameter_longname" : "Speed[2]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 10.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_shortname" : "Speed"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -4719,7 +4719,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+						"rect" : [ 694.0, 285.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4746,6 +4746,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -4903,7 +4904,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 50.0, 195.7215576171875, 123.0, 22.0 ],
+									"patching_rect" : [ 50.0, 195.7215576171875, 143.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
@@ -4911,15 +4912,15 @@
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 5759.999938309195386, "ticks" ],
-										"originaltempo" : 120.000000000000057,
+										"originallength" : [ 0.0, "ticks" ],
+										"originaltempo" : 120.0,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
 										"quality" : "basic",
 										"timestretch" : [ 0 ]
 									}
 ,
-									"text" : "groove~ simple-synth"
+									"text" : "groove~ #0_simple-synth"
 								}
 
 							}
@@ -5870,14 +5871,14 @@
 					"presentation_rect" : [ 574.896579015713655, 147.099653818117559, 31.0, 126.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ -12.0 ],
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -12.0 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -6972,26 +6973,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-188" : [ "gswitch2[33]", "gswitch2[13]", 0 ],
-			"obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
-			"obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
-			"obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
+			"obj-120" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-67" : [ "Resonance[2]", "Res", 0 ],
 			"obj-18" : [ "Duration[3]", "Duration", 0 ],
 			"obj-15" : [ "StartTime[4]", "StartTime", 0 ],
 			"obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
-			"obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
-			"obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
-			"obj-120" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-16" : [ "Speed[2]", "Speed", 0 ],
-			"obj-49" : [ "live.text[6]", "live.text", 0 ],
-			"obj-67" : [ "Resonance[2]", "Res", 0 ],
-			"obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
 			"obj-43" : [ "live.text[8]", "live.text", 0 ],
+			"obj-16" : [ "Speed[2]", "Speed", 0 ],
+			"obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
+			"obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
+			"obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
+			"obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
+			"obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
+			"obj-188" : [ "gswitch2[33]", "gswitch2[13]", 0 ],
+			"obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
+			"obj-49" : [ "live.text[6]", "live.text", 0 ],
+			"obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
 			"obj-11" : [ "live.text[7]", "live.text", 0 ],
 			"obj-44" : [ "live.text[5]", "live.text", 0 ],
-			"obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -7000,8 +7001,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/Media",
-				"patcherrelativepath" : "../Media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/media",
+				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/media",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -7129,8 +7130,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
