@@ -544,13 +544,13 @@
 								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-8",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 878.0, 445.0, 170.0, 51.0 ],
-									"presentation_linecount" : 3,
-									"text" : "This port is for controlling to module remotely (e.g. via TouchOsc)"
+									"patching_rect" : [ 815.0, 446.0, 231.0, 37.0 ],
+									"presentation_linecount" : 4,
+									"text" : "This input port is for controlling the module remotely (e.g. via TouchOsc)"
 								}
 
 							}
@@ -559,11 +559,13 @@
 									"bubble" : 1,
 									"bubbleside" : 2,
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 499.0, 23.0, 167.0, 39.0 ],
-									"text" : "Sound In Port (from synth)"
+									"patching_rect" : [ 468.0, 15.0, 250.0, 52.0 ],
+									"presentation_linecount" : 3,
+									"text" : "Synth Input Port (gets synth parameters from the synth in the Sound Synthesis tab)"
 								}
 
 							}
@@ -572,11 +574,13 @@
 									"bubble" : 1,
 									"bubbleside" : 2,
 									"id" : "obj-6",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 82.0, 23.0, 167.0, 39.0 ],
-									"text" : "Gesture In Port"
+									"patching_rect" : [ 140.0, 15.0, 250.0, 52.0 ],
+									"presentation_linecount" : 4,
+									"text" : "Gesture In Port (gets the gesture features from the Gesture Feature Extraction tab)"
 								}
 
 							}
