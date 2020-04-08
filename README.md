@@ -28,6 +28,13 @@ NOTE: the required objects from these libraries are included in the package in o
   
 - HfMT Optitrack OSC bridge  
   https://github.com/HfMT-ZM4/motion-tracking  
+  
+## Acknowledgements
+
+KiSS: Kinetics in Sound and Space – HfMT Hamburg, Germany. 
+
+gimlet.mangle is based on a synth design by Atau Tanaka. 
+The data recorder in gimlet.ml.ann is based on a design by Michael Zbyszyński. 
 
 ## Contact
 
