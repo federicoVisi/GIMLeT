@@ -6,6 +6,11 @@ A set of Max patches for gesture analysis, interactive machine learning, and ges
 Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" folder. 
 ### Launching Example Patches
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
+### Installing the TouchOSC layout
+- Install TouchOSC on your smarphone (iOS or Android, you'll find it on the app store)
+- Sync the /TouchOSC/GIMLeT_TouchOSC_remote.touchosc using this guide: https://hexler.net/docs/touchosc-editor-sync
+- Connect TouchOSC to your computer followng this guide: https://hexler.net/docs/touchosc-configuration-connections-osc 
+- Make sure the outgoing OSC port in the TouchOSC settings (see link above) is the same as the RmtCtrl Port shown in the `gimlet.ml.ann` module.
  
 ## Dependencies
 NOTE: the required objects from these libraries are included in the package in order to make distribution easier.
