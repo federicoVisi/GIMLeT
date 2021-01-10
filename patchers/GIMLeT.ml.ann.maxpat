@@ -2861,8 +2861,8 @@
 , 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2967,8 +2967,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3182,7 +3182,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1644.919907788882028, 398.656657377205647, 97.0, 22.0 ],
+					"patching_rect" : [ 1638.919907788882028, 394.043104768004184, 97.0, 22.0 ],
 					"text" : "s #0_trainRun"
 				}
 
@@ -5632,7 +5632,6 @@
 						"style" : "",
 						"subpatcher_template" : "mzed_default",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -5640,7 +5639,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 625.0, 624.0, 76.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "To dictionary"
 								}
 
@@ -5652,7 +5650,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 216.0, 624.0, 167.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "Bang when finished recording"
 								}
 
@@ -5675,7 +5672,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 597.0, 8.129150390625, 125.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Clear model message"
 								}
 
@@ -5687,7 +5683,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 476.0, 8.129150390625, 99.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Output examples"
 								}
 
@@ -5699,7 +5694,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 255.5, 8.129150390625, 99.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Output examples"
 								}
 
@@ -5711,7 +5705,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 161.5, 8.129150390625, 90.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Input examples"
 								}
 
@@ -7635,8 +7628,8 @@
 , 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7741,8 +7734,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
