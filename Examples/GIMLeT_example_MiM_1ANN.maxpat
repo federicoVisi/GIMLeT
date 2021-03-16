@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 772.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 960.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 960.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -299,11 +299,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
+									"linecount" : 6,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 132.5, 189.0, 34.0 ]
+									"patching_rect" : [ 901.0, 132.5, 189.0, 102.0 ],
+									"text" : "/speed : 9.66142,\n/pitchShift : 1200.,\n/startTime : 100.,\n/dur : 1921.26,\n/cutoff : 15748.3,\n/resonance : 100."
 								}
 
 							}
@@ -475,8 +477,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -514,7 +516,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
+						"rect" : [ 34.0, 105.0, 960.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -544,6 +546,45 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "multislider",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 615.0, 665.0, 247.0, 155.0 ],
+									"setminmax" : [ -100.0, 100.0 ],
+									"setstyle" : 1,
+									"size" : 6
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 615.0, 618.0, 90.0, 22.0 ],
+									"text" : "o.route /regrLst"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 615.0, 580.0, 142.0, 22.0 ],
+									"text" : "udpreceive 2001 CNMAT"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-8",
@@ -633,7 +674,21 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 224.0, 112.0, 181.0, 22.0 ],
@@ -666,7 +721,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 772.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 960.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -697,13 +752,36 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 204.0, 57.0, 55.0, 20.0 ],
+									"text" : "test data"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 163.0, 55.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 25.0, 85.715688586235046, 163.0, 22.0 ],
-									"text" : "mo.imu.mim /mim 6666 1000"
+									"patching_rect" : [ 25.0, 85.715688586235046, 157.0, 22.0 ],
+									"text" : "mo.imu.mim /mim 6666 100"
 								}
 
 							}
@@ -807,8 +885,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 25.0, 734.091914989054203, 572.0, 22.0 ],
-									"text" : "o.gather.select /points/phone1/acc_mag /points/phone1/acc /points/phone1/fluidity /points/phone1/jrk_mag"
+									"patching_rect" : [ 25.0, 734.091914989054203, 503.0, 22.0 ],
+									"text" : "o.gather.select /points/mim/acc_mag /points/mim/acc /points/mim/fluidity /points/mim/jrk_mag"
 								}
 
 							}
@@ -823,7 +901,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 156.0 ],
-									"text" : "/modosc/points/mim/acc : [1, 2, 3],\n/modosc/points/mim/acc_mag : 3.74166,\n/modosc/points/mim/gyro : [4, 5, 6],\n/modosc/points/mim/quat : [10, 11, 12, 13],\n/modosc/points/mim/rot_rpy : [0., 75.1372, 90.],\n/modosc/points/mim/battery : 14,\n/modosc/points/mim/buttons : [15, 16],\n/modosc/points/mim/jrk : [0, 0, 0],\n/modosc/points/mim/jrk_mag : 0.,\n/modosc/points/mim/fluidity : 1."
+									"text" : "/modosc/points/mim/acc : [75, 30, 9],\n/modosc/points/mim/acc_mag : 81.2773,\n/modosc/points/mim/gyro : [3, 94, 12],\n/modosc/points/mim/quat : [4, 24, 30, 41],\n/modosc/points/mim/rot_rpy : [0., 11.1444, 90.],\n/modosc/points/mim/battery : 7,\n/modosc/points/mim/buttons : [64, 37],\n/modosc/points/mim/jrk : [4, 0, -37],\n/modosc/points/mim/jrk_mag : 37.2156,\n/modosc/points/mim/fluidity : 0.0240974"
 								}
 
 							}
@@ -838,7 +916,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 136.387234300374985, 558.0, 116.0 ],
-									"text" : "/modosc/points/mim/acc : [1, 2, 3],\n/modosc/points/mim/acc_mag : 3.74166,\n/modosc/points/mim/gyro : [4, 5, 6],\n/modosc/points/mim/quat : [10, 11, 12, 13],\n/modosc/points/mim/rot_rpy : [0., 75.1372, 90.],\n/modosc/points/mim/battery : 14,\n/modosc/points/mim/buttons : [15, 16]"
+									"text" : "/modosc/points/mim/acc : [75, 30, 9],\n/modosc/points/mim/acc_mag : 81.2773,\n/modosc/points/mim/gyro : [3, 94, 12],\n/modosc/points/mim/quat : [4, 24, 30, 41],\n/modosc/points/mim/rot_rpy : [0., 11.1444, 90.],\n/modosc/points/mim/battery : 7,\n/modosc/points/mim/buttons : [64, 37]"
 								}
 
 							}
@@ -847,6 +925,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 1 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -997,8 +1082,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1111,15 +1196,15 @@
 			}
 , 			{
 				"name" : "mo.jerk.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/modosc",
-				"patcherrelativepath" : "../patchers/abstractions/modosc",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.fluidity.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/modosc",
-				"patcherrelativepath" : "../patchers/abstractions/modosc",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1335,8 +1420,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
