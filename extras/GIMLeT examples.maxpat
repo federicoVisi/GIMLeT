@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 542.0, 194.0, 697.0, 690.0 ],
+		"rect" : [ 555.0, 195.0, 697.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-25",
@@ -45,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 541.080795057526075, 678.0, 47.0 ],
-					"text" : "Motion tracking: TouchOSC accelerometers\nMachine learning: gesture variation follower\nSound synthesis: 4 grain synths"
+					"text" : "Motion tracking: PoseNet using Node for Max\nMachine learning: Gesture Variation Follower\nSound synthesis: 4 grain synths"
 				}
 
 			}
@@ -81,8 +82,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 514.080795057526075, 250.0, 25.0 ],
-					"text" : "GIMLeT_example_temporalAnalysis"
+					"patching_rect" : [ 14.0, 514.080795057526075, 316.0, 25.0 ],
+					"text" : "GIMLeT_example_PoseNet_temporalAnalysis"
 				}
 
 			}
@@ -341,7 +342,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
@@ -415,8 +416,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -452,8 +453,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
