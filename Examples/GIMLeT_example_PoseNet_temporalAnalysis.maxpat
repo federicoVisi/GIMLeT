@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -176,8 +176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 601.0, 385.0, 34.0 ],
-									"text" : "/points/body/leftWrist/pos : [326.908, 487.226, 0.]"
+									"patching_rect" : [ 25.0, 601.0, 385.0, 34.0 ]
 								}
 
 							}
@@ -345,13 +344,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
-									"linecount" : 17,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 238.166662693023682, 625.0, 252.0 ],
-									"text" : "/modosc/points/body/nose/pos : [260.558, 125.645, 0.],\n/modosc/points/body/leftEye/pos : [270.066, 75.2343, 0.],\n/modosc/points/body/rightEye/pos : [220.093, 72.8712, 0.],\n/modosc/points/body/leftEar/pos : [297.392, 95.267, 0.],\n/modosc/points/body/rightEar/pos : [147.512, 99.6641, 0.],\n/modosc/points/body/leftShoulder/pos : [280.174, 295.012, 0.],\n/modosc/points/body/rightShoulder/pos : [76.0031, 322.388, 0.],\n/modosc/points/body/leftElbow/pos : [300.266, 472.054, 0.],\n/modosc/points/body/rightElbow/pos : [41.3123, 532.715, 0.],\n/modosc/points/body/leftWrist/pos : [326.908, 487.226, 0.],\n/modosc/points/body/rightWrist/pos : [351.76, 140.161, 0.],\n/modosc/points/body/leftHip/pos : [284.527, 511.424, 0.],\n/modosc/points/body/rightHip/pos : [261.375, 513.62, 0.],\n/modosc/points/body/leftKnee/pos : [372.521, 468.036, 0.],\n/modosc/points/body/rightKnee/pos : [411.645, 468.331, 0.],\n/modosc/points/body/leftAnkle/pos : [450.486, 470.694, 0.],\n/modosc/points/body/rightAnkle/pos : [354.763, 160.758, 0.]"
+									"patching_rect" : [ 25.0, 238.166662693023682, 625.0, 34.0 ]
 								}
 
 							}
@@ -558,7 +555,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -589,6 +586,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ 1001, 2001, 2002, 2003, 2004 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -602,7 +600,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 9.0, 7.0, 860.0, 524.0 ],
+									"patching_rect" : [ 9.0, 7.0, 746.0, 527.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -1048,6 +1046,7 @@
 			"obj-1::obj-24::obj-78" : [ "Pitch min[4]", "Pitch min", 0 ],
 			"obj-1::obj-24::obj-90" : [ "Offset max[4]", "Offset max", 0 ],
 			"obj-2::obj-5::obj-10" : [ "live.text[64]", "live.text", 0 ],
+			"obj-2::obj-5::obj-104" : [ "number[8]", "number[3]", 0 ],
 			"obj-2::obj-5::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
 			"obj-2::obj-5::obj-130" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-5::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
@@ -1058,6 +1057,11 @@
 			"obj-2::obj-5::obj-178" : [ "number[7]", "number[4]", 0 ],
 			"obj-2::obj-5::obj-188" : [ "gswitch2[1]", "gswitch2[1]", 0 ],
 			"obj-2::obj-5::obj-196" : [ "number[28]", "number[2]", 0 ],
+			"obj-2::obj-5::obj-197" : [ "live.text[68]", "live.text", 0 ],
+			"obj-2::obj-5::obj-198" : [ "live.text[67]", "live.text", 0 ],
+			"obj-2::obj-5::obj-247" : [ "number[9]", "number[3]", 1 ],
+			"obj-2::obj-5::obj-249" : [ "live.text[65]", "live.text", 0 ],
+			"obj-2::obj-5::obj-254" : [ "live.text[66]", "live.text", 0 ],
 			"obj-2::obj-5::obj-38" : [ "multislider[42]", "multislider[1]", 0 ],
 			"obj-2::obj-5::obj-62" : [ "number[26]", "number[3]", 0 ],
 			"obj-2::obj-5::obj-7" : [ "gswitch2", "gswitch2", 0 ],
@@ -1394,6 +1398,22 @@
 				"obj-2::obj-5::obj-10" : 				{
 					"parameter_longname" : "live.text[64]"
 				}
+,
+				"obj-2::obj-5::obj-197" : 				{
+					"parameter_longname" : "live.text[68]"
+				}
+,
+				"obj-2::obj-5::obj-198" : 				{
+					"parameter_longname" : "live.text[67]"
+				}
+,
+				"obj-2::obj-5::obj-249" : 				{
+					"parameter_longname" : "live.text[65]"
+				}
+,
+				"obj-2::obj-5::obj-254" : 				{
+					"parameter_longname" : "live.text[66]"
+				}
 
 			}
 ,
@@ -1471,15 +1491,15 @@
 			}
 , 			{
 				"name" : "modosc_posenet_main.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/n4m-posenet",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/n4m-posenet",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "index.js",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/n4m-posenet",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/n4m-posenet",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
