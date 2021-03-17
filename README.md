@@ -3,13 +3,19 @@
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
 ## Video Tutorial
-https://youtu.be/Dace1sHy1IM
+Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
 
 ## Installation
-Download the .zip file, open it, copy the GIMLeT folder in your Max "Packages" folder. 
-### Launching Example Patches
+### Install the required packages
+1. Download the modosc package .zip file: https://github.com/motiondescriptors/modosc/archive/main.zip
+2. Open the .zip file and copy the `modosc` folder in your `/Max 8/Packages` folder. 
+3. Download the GIMLeT package .zip file: https://github.com/federicoVisi/GIMLeT/archive/main.zip
+4. Open the .zip file and copy the `GIMLeT` folder in your `/Max 8/Packages` folder. 
+
+### Launch the example patches
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
-### Installing the TouchOSC layout
+
+### Install the TouchOSC layout
 - Install TouchOSC on your smarphone (iOS or Android, you'll find it on the app store)
 - Sync the /TouchOSC/GIMLeT_TouchOSC_remote.touchosc using this guide: https://hexler.net/docs/touchosc-editor-sync
 - Connect TouchOSC to your computer followng this guide: https://hexler.net/docs/touchosc-configuration-connections-osc 
@@ -19,10 +25,7 @@ Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an exampl
 NOTE: the required objects from these libraries are included in the package in order to make distribution easier.
 
 - o.dot : OSC-centred multipardigm dynamic programming in Max  
-  https://github.com/CNMAT/CNMAT-odot  
-  
-- modosc : real-time motion feature extraction  
-  https://github.com/motiondescriptors/modosc  
+  https://github.com/CNMAT/CNMAT-odot 
   
 - rapidmax : Max external for interactive machine learning  
   https://github.com/samparkewolfe/RapidMax (Mac)  
