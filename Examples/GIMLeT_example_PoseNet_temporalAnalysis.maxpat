@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 1327.0 ],
+		"rect" : [ 34.0, 79.0, 1034.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1034.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -158,6 +158,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "FullPacket", "" ],
+									"patching_rect" : [ 25.0, 217.978723526000977, 182.0, 22.0 ],
+									"text" : "mo.acceleration 1 /body/leftWrist"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "FullPacket" ],
+									"patching_rect" : [ 25.0, 251.437057852745056, 127.0, 22.0 ],
+									"text" : "mo.jerk /body/leftWrist"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -172,11 +196,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 601.0, 385.0, 34.0 ]
+									"patching_rect" : [ 25.0, 671.0, 378.0, 48.0 ],
+									"text" : "/points/body/leftWrist/jrk_mag : 13.5453,\n/points/body/leftWrist/pos : [336.795, 499.35, 0.]"
 								}
 
 							}
@@ -310,7 +336,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 129.453432440757751, 508.209517575800419, 298.0, 20.0 ],
+									"patching_rect" : [ 129.453432440757751, 608.209517575800419, 298.0, 20.0 ],
 									"text" : "strips off /modosc, making addresses more compact"
 								}
 
@@ -322,7 +348,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 25.0, 508.0, 95.0, 22.0 ],
+									"patching_rect" : [ 25.0, 608.0, 95.0, 22.0 ],
 									"text" : "o.route /modosc"
 								}
 
@@ -334,8 +360,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 25.0, 543.091914989054203, 224.0, 22.0 ],
-									"text" : "o.gather.select /points/body/leftWrist/pos"
+									"patching_rect" : [ 25.0, 642.091914989054203, 384.0, 22.0 ],
+									"text" : "o.gather.select /points/body/leftWrist/pos /points/body/leftWrist/jrk_mag"
 								}
 
 							}
@@ -344,18 +370,20 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
+									"linecount" : 21,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 238.166662693023682, 625.0, 34.0 ]
+									"patching_rect" : [ 25.0, 284.166662693023682, 625.0, 306.0 ],
+									"text" : "/modosc/points/body/nose/pos : [281.829, 104.848, 0.],\n/modosc/points/body/leftEye/pos : [290.64, 66.8957, 0.],\n/modosc/points/body/rightEye/pos : [239.992, 75.5795, 0.],\n/modosc/points/body/leftEar/pos : [311.761, 68.1684, 0.],\n/modosc/points/body/rightEar/pos : [175.312, 121.388, 0.],\n/modosc/points/body/leftShoulder/pos : [325.619, 312.403, 0.],\n/modosc/points/body/rightShoulder/pos : [105.738, 333.174, 0.],\n/modosc/points/body/leftElbow/pos : [313.174, 466.699, 0.],\n/modosc/points/body/rightElbow/pos : [12.1378, 514.976, 0.],\n/modosc/points/body/leftWrist/pos : [336.795, 499.35, 0.],\n/modosc/points/body/rightWrist/pos : [101.44, 324.604, 0.],\n/modosc/points/body/leftHip/pos : [291.337, 517.255, 0.],\n/modosc/points/body/rightHip/pos : [291.831, 515.092, 0.],\n/modosc/points/body/leftKnee/pos : [502.534, 204.811, 0.],\n/modosc/points/body/rightKnee/pos : [505.14, 204.817, 0.],\n/modosc/points/body/leftAnkle/pos : [96.7483, 417.233, 0.],\n/modosc/points/body/rightAnkle/pos : [95.5955, 417.253, 0.],\n/modosc/points/body/leftWrist/acc : [-4.92212, -0.333502, 0.],\n/modosc/points/body/leftWrist/acc_mag : 4.9334,\n/modosc/points/body/leftWrist/jrk : [-10.703, 8.30185, 0.],\n/modosc/points/body/leftWrist/jrk_mag : 13.5453"
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -365,6 +393,13 @@
 									"destination" : [ "obj-8", 1 ],
 									"midpoints" : [ 119.5, 200.43334950000002, 321.5, 200.43334950000002 ],
 									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -380,6 +415,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 1 ],
 									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -415,8 +457,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -555,7 +597,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1034.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -638,7 +680,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
+						"rect" : [ 34.0, 105.0, 1034.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -669,6 +711,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ 2004, 0, 1001 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -689,6 +732,7 @@
 							}
 , 							{
 								"box" : 								{
+									"args" : [ 2003, 0, 1001 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -709,6 +753,7 @@
 							}
 , 							{
 								"box" : 								{
+									"args" : [ 2002, 0, 1001 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -729,6 +774,7 @@
 							}
 , 							{
 								"box" : 								{
+									"args" : [ 2001, 0, 1001 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1056,10 +1102,9 @@
 			"obj-2::obj-5::obj-174" : [ "number[25]", "number[4]", 0 ],
 			"obj-2::obj-5::obj-178" : [ "number[7]", "number[4]", 0 ],
 			"obj-2::obj-5::obj-188" : [ "gswitch2[1]", "gswitch2[1]", 0 ],
-			"obj-2::obj-5::obj-196" : [ "number[28]", "number[2]", 0 ],
 			"obj-2::obj-5::obj-197" : [ "live.text[68]", "live.text", 0 ],
 			"obj-2::obj-5::obj-198" : [ "live.text[67]", "live.text", 0 ],
-			"obj-2::obj-5::obj-247" : [ "number[9]", "number[3]", 1 ],
+			"obj-2::obj-5::obj-242" : [ "number", "number", 0 ],
 			"obj-2::obj-5::obj-249" : [ "live.text[65]", "live.text", 0 ],
 			"obj-2::obj-5::obj-254" : [ "live.text[66]", "live.text", 0 ],
 			"obj-2::obj-5::obj-38" : [ "multislider[42]", "multislider[1]", 0 ],
@@ -1491,16 +1536,30 @@
 			}
 , 			{
 				"name" : "modosc_posenet_main.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/n4m-posenet",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "index.js",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/n4m-posenet",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.jerk.maxpat",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.acceleration.maxpat",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1536,10 +1595,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.select.mxo",
 				"type" : "iLaX"
 			}
@@ -1551,13 +1606,17 @@
 				"name" : "o.if.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
