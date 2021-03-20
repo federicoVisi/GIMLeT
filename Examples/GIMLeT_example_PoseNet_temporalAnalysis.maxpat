@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1314.0, 79.0, 1212.0, 1327.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -358,8 +358,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 25.0, 642.091914989054203, 384.0, 22.0 ],
-									"text" : "o.gather.select /points/body/leftWrist/pos /points/body/leftWrist/jrk_mag"
+									"patching_rect" : [ 25.0, 642.091914989054203, 224.0, 22.0 ],
+									"text" : "o.gather.select /points/body/leftWrist/pos"
 								}
 
 							}
@@ -554,8 +554,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -676,7 +676,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1314.0, 105.0, 1212.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1248,6 +1248,8 @@
 				}
 ,
 				"obj-2::obj-5::obj-197" : 				{
+					"parameter_initial" : 0.0,
+					"parameter_initial_enable" : 1,
 					"parameter_longname" : "live.text[68]"
 				}
 ,
@@ -1519,8 +1521,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
