@@ -196,13 +196,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
-									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 671.0, 378.0, 48.0 ],
-									"text" : "/points/body/leftWrist/jrk_mag : 13.5453,\n/points/body/leftWrist/pos : [336.795, 499.35, 0.]"
+									"patching_rect" : [ 25.0, 671.0, 378.0, 34.0 ]
 								}
 
 							}
@@ -370,13 +368,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
-									"linecount" : 21,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 284.166662693023682, 625.0, 306.0 ],
-									"text" : "/modosc/points/body/nose/pos : [281.829, 104.848, 0.],\n/modosc/points/body/leftEye/pos : [290.64, 66.8957, 0.],\n/modosc/points/body/rightEye/pos : [239.992, 75.5795, 0.],\n/modosc/points/body/leftEar/pos : [311.761, 68.1684, 0.],\n/modosc/points/body/rightEar/pos : [175.312, 121.388, 0.],\n/modosc/points/body/leftShoulder/pos : [325.619, 312.403, 0.],\n/modosc/points/body/rightShoulder/pos : [105.738, 333.174, 0.],\n/modosc/points/body/leftElbow/pos : [313.174, 466.699, 0.],\n/modosc/points/body/rightElbow/pos : [12.1378, 514.976, 0.],\n/modosc/points/body/leftWrist/pos : [336.795, 499.35, 0.],\n/modosc/points/body/rightWrist/pos : [101.44, 324.604, 0.],\n/modosc/points/body/leftHip/pos : [291.337, 517.255, 0.],\n/modosc/points/body/rightHip/pos : [291.831, 515.092, 0.],\n/modosc/points/body/leftKnee/pos : [502.534, 204.811, 0.],\n/modosc/points/body/rightKnee/pos : [505.14, 204.817, 0.],\n/modosc/points/body/leftAnkle/pos : [96.7483, 417.233, 0.],\n/modosc/points/body/rightAnkle/pos : [95.5955, 417.253, 0.],\n/modosc/points/body/leftWrist/acc : [-4.92212, -0.333502, 0.],\n/modosc/points/body/leftWrist/acc_mag : 4.9334,\n/modosc/points/body/leftWrist/jrk : [-10.703, 8.30185, 0.],\n/modosc/points/body/leftWrist/jrk_mag : 13.5453"
+									"patching_rect" : [ 25.0, 284.166662693023682, 625.0, 34.0 ]
 								}
 
 							}
@@ -457,8 +453,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -558,8 +554,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -597,7 +593,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1034.0, 1301.0 ],
+						"rect" : [ 34.0, 105.0, 1034.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -680,7 +676,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1034.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1034.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1615,8 +1611,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1716,8 +1712,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
