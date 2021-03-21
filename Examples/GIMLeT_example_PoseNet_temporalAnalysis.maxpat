@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 1327.0 ],
+		"rect" : [ 674.0, 79.0, 1212.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 1301.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -157,6 +157,21 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"linecount" : 3,
+									"maxclass" : "o.expr.codebox",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "FullPacket", "FullPacket" ],
+									"patching_rect" : [ 25.0, 673.0, 378.0, 59.0 ],
+									"text" : "/points/body/leftWrist/pos2D =  /points/body/leftWrist/pos[[0, 1]],\ndelete(/points/body/leftWrist/pos)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
@@ -200,7 +215,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 671.0, 378.0, 34.0 ]
+									"patching_rect" : [ 25.0, 737.0, 378.0, 34.0 ],
+									"text" : "/points/body/leftWrist/pos2D : [320.875, 464.469]"
 								}
 
 							}
@@ -288,7 +304,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 176.0, 726.382397413253784, 169.0, 20.0 ],
+									"patching_rect" : [ 176.0, 792.382397413253784, 169.0, 20.0 ],
 									"text" : "Selected features to port 1001"
 								}
 
@@ -299,7 +315,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 844.0, 897.382397413253784, 19.0, 20.0 ],
+									"patching_rect" : [ 873.0, 898.382397413253784, 19.0, 20.0 ],
 									"text" : " "
 								}
 
@@ -323,7 +339,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 726.382397413253784, 138.0, 22.0 ],
+									"patching_rect" : [ 25.0, 792.382397413253784, 138.0, 22.0 ],
 									"text" : "udpsend 127.0.0.1 1001"
 								}
 
@@ -368,11 +384,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
+									"linecount" : 21,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 284.166662693023682, 625.0, 34.0 ]
+									"patching_rect" : [ 25.0, 284.166662693023682, 625.0, 306.0 ],
+									"text" : "/modosc/points/body/nose/pos : [223.301, 161.683, 0.],\n/modosc/points/body/leftEye/pos : [215.768, 136.306, 0.],\n/modosc/points/body/rightEye/pos : [175.58, 132.484, 0.],\n/modosc/points/body/leftEar/pos : [235.556, 143.106, 0.],\n/modosc/points/body/rightEar/pos : [94.0526, 187.714, 0.],\n/modosc/points/body/leftShoulder/pos : [211.23, 366.259, 0.],\n/modosc/points/body/rightShoulder/pos : [1.63613, 356.67, 0.],\n/modosc/points/body/leftElbow/pos : [228.003, 483.527, 0.],\n/modosc/points/body/rightElbow/pos : [426.68, 192.25, 0.],\n/modosc/points/body/leftWrist/pos : [320.875, 464.469, 0.],\n/modosc/points/body/rightWrist/pos : [363.399, 475.631, 0.],\n/modosc/points/body/leftHip/pos : [275.23, 162.608, 0.],\n/modosc/points/body/rightHip/pos : [441.572, 220.38, 0.],\n/modosc/points/body/leftKnee/pos : [348.385, 455.176, 0.],\n/modosc/points/body/rightKnee/pos : [355.568, 483.325, 0.],\n/modosc/points/body/leftAnkle/pos : [371.914, 474.941, 0.],\n/modosc/points/body/rightAnkle/pos : [370.71, 473.25, 0.],\n/modosc/points/body/leftWrist/acc : [1.36474, 0.100944, 0.],\n/modosc/points/body/leftWrist/acc_mag : 1.36846,\n/modosc/points/body/leftWrist/jrk : [0.836986, 0.134159, 0.],\n/modosc/points/body/leftWrist/jrk_mag : 0.84767"
 								}
 
 							}
@@ -437,7 +455,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -449,12 +467,19 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -593,7 +618,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 1301.0 ],
+						"rect" : [ 674.0, 105.0, 1212.0, 1301.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1008,6 +1033,7 @@
 			"obj-2::obj-5::obj-130" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-5::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
 			"obj-2::obj-5::obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
+			"obj-2::obj-5::obj-146" : [ "live.text[53]", "live.text", 0 ],
 			"obj-2::obj-5::obj-149" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-2::obj-5::obj-170" : [ "number[29]", "number[4]", 0 ],
 			"obj-2::obj-5::obj-174" : [ "number[25]", "number[4]", 0 ],
@@ -1247,14 +1273,30 @@
 					"parameter_longname" : "live.text[64]"
 				}
 ,
+				"obj-2::obj-5::obj-146" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[53]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-2::obj-5::obj-197" : 				{
 					"parameter_initial" : 0.0,
 					"parameter_initial_enable" : 1,
-					"parameter_longname" : "live.text[68]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[68]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-2::obj-5::obj-198" : 				{
-					"parameter_longname" : "live.text[67]"
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[67]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-2::obj-5::obj-249" : 				{
@@ -1420,8 +1462,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
