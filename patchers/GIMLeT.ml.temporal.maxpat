@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 7.0, 79.0, 1639.0, 1327.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 113.218100323932731, 918.7984619140625, 56.0, 22.0 ],
+					"restore" : 					{
+						"gswitch2" : [ 0 ],
+						"gswitch2[1]" : [ 0 ],
+						"live.text" : [ 0.0 ],
+						"live.text[1]" : [ 0.0 ],
+						"live.text[2]" : [ 0.0 ],
+						"live.text[3]" : [ 0.0 ],
+						"live.text[4]" : [ 0.0 ],
+						"live.text[5]" : [ 0.0 ],
+						"live.text[6]" : [ 0.0 ],
+						"live.text[7]" : [ 1.0 ],
+						"live.text[8]" : [ 0.0 ],
+						"live.toggle[2]" : [ 0.0 ],
+						"multislider[39]" : [ 0.0 ],
+						"multislider[40]" : [ 0.0 ],
+						"multislider[41]" : [ 0.0 ],
+						"multislider[42]" : [ 0.0 ],
+						"number" : [ 1 ],
+						"number[1]" : [ 0 ],
+						"number[3]" : [ 0 ],
+						"number[4]" : [ 0 ],
+						"number[5]" : [ 0 ],
+						"number[6]" : [ 0 ],
+						"number[7]" : [ 8000 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u496003185"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 11.0,
 					"id" : "obj-42",
@@ -9722,8 +9761,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9764,8 +9803,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
