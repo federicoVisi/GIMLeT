@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 2492.0, 1327.0 ],
+		"rect" : [ 34.0, 79.0, 1760.0, 1327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,70 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 13.446615695953369, 128.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"alphaMax" : [ 4.0 ],
+						"alphaMin" : [ 4.0 ],
+						"density" : [ 0.0 ],
+						"gainMax" : [ 1.0 ],
+						"gainMin[1]" : [ 1.0 ],
+						"gswitch2" : [ 0 ],
+						"gswitch2[10]" : [ 1 ],
+						"gswitch2[11]" : [ 1 ],
+						"gswitch2[12]" : [ 1 ],
+						"gswitch2[13]" : [ 1 ],
+						"gswitch2[14]" : [ 0 ],
+						"gswitch2[1]" : [ 1 ],
+						"gswitch2[2]" : [ 1 ],
+						"gswitch2[3]" : [ 1 ],
+						"gswitch2[4]" : [ 1 ],
+						"gswitch2[5]" : [ 1 ],
+						"gswitch2[6]" : [ 1 ],
+						"gswitch2[7]" : [ 1 ],
+						"gswitch2[8]" : [ 1 ],
+						"gswitch2[9]" : [ 1 ],
+						"lengthMax" : [ 150.0 ],
+						"lengthMin" : [ 150.0 ],
+						"live.gain~" : [ -6.0 ],
+						"live.text" : [ 1.0 ],
+						"live.text[10]" : [ 1.0 ],
+						"live.text[11]" : [ 1.0 ],
+						"live.text[12]" : [ 1.0 ],
+						"live.text[1]" : [ 1.0 ],
+						"live.text[2]" : [ 1.0 ],
+						"live.text[3]" : [ 1.0 ],
+						"live.text[4]" : [ 1.0 ],
+						"live.text[5]" : [ 1.0 ],
+						"live.text[6]" : [ 1.0 ],
+						"live.text[7]" : [ 1.0 ],
+						"live.text[8]" : [ 1.0 ],
+						"live.text[9]" : [ 1.0 ],
+						"number" : [ 0.5 ],
+						"number[1]" : [ 50.0 ],
+						"number[2]" : [ 0 ],
+						"number[3]" : [ 0 ],
+						"number[4]" : [ 0 ],
+						"offsetMax" : [ 0.0 ],
+						"offsetMin" : [ 0.0 ],
+						"panMax" : [ 0.0 ],
+						"panMin" : [ 0.0 ],
+						"pitchMax" : [ 1.0 ],
+						"pitchMin" : [ 1.0 ],
+						"textbutton" : [ 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u597011691"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +121,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1046.446615695953597, 668.5484619140625, 107.0, 22.0 ],
+					"patching_rect" : [ 1046.446615695953597, 668.5484619140625, 120.0, 22.0 ],
 					"text" : "r #0_replaceBuffer"
 				}
 
@@ -79,7 +143,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2015.4151611328125, 103.6453857421875, 109.0, 22.0 ],
+					"patching_rect" : [ 2015.4151611328125, 103.6453857421875, 122.0, 22.0 ],
 					"text" : "s #0_replaceBuffer"
 				}
 
@@ -158,7 +222,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[40]",
+							"parameter_longname" : "gswitch2[44]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[40]",
 							"parameter_type" : 2
@@ -197,7 +261,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[25]",
+							"parameter_longname" : "gswitch2[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[1]",
 							"parameter_type" : 2
@@ -224,7 +288,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[16]",
+							"parameter_longname" : "gswitch2[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[2]",
 							"parameter_type" : 2
@@ -251,7 +315,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[22]",
+							"parameter_longname" : "gswitch2[45]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[3]",
 							"parameter_type" : 2
@@ -278,7 +342,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[27]",
+							"parameter_longname" : "gswitch2[42]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[4]",
 							"parameter_type" : 2
@@ -305,7 +369,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[18]",
+							"parameter_longname" : "gswitch2[34]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[5]",
 							"parameter_type" : 2
@@ -332,7 +396,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[24]",
+							"parameter_longname" : "gswitch2[32]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[6]",
 							"parameter_type" : 2
@@ -359,7 +423,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[15]",
+							"parameter_longname" : "gswitch2[30]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[8]",
 							"parameter_type" : 2
@@ -386,7 +450,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[20]",
+							"parameter_longname" : "gswitch2[28]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[7]",
 							"parameter_type" : 2
@@ -413,7 +477,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[26]",
+							"parameter_longname" : "gswitch2[46]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[9]",
 							"parameter_type" : 2
@@ -440,7 +504,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[17]",
+							"parameter_longname" : "gswitch2[43]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[10]",
 							"parameter_type" : 2
@@ -467,7 +531,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[23]",
+							"parameter_longname" : "gswitch2[35]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[11]",
 							"parameter_type" : 2
@@ -494,7 +558,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[14]",
+							"parameter_longname" : "gswitch2[33]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[12]",
 							"parameter_type" : 2
@@ -521,7 +585,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[19]",
+							"parameter_longname" : "gswitch2[31]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2[13]",
 							"parameter_type" : 2
@@ -551,7 +615,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "textbutton[1]",
+							"parameter_longname" : "textbutton[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "textbutton",
 							"parameter_type" : 2
@@ -605,7 +669,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "gswitch2[21]",
+							"parameter_longname" : "gswitch2[41]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "gswitch2",
 							"parameter_type" : 2
@@ -678,7 +742,7 @@
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[10]",
+							"parameter_longname" : "number[6]",
 							"parameter_shortname" : "number[1]",
 							"parameter_type" : 3
 						}
@@ -706,7 +770,7 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[11]",
+							"parameter_longname" : "number[5]",
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -788,7 +852,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[30]",
+							"parameter_longname" : "live.text[39]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -818,7 +882,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Density[1]",
+							"parameter_longname" : "Density[2]",
 							"parameter_mmax" : 255.0,
 							"parameter_shortname" : "Density",
 							"parameter_type" : 1,
@@ -2119,8 +2183,8 @@
 , 											{
 												"name" : "black in white",
 												"default" : 												{
-													"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "number001",
@@ -2129,8 +2193,8 @@
 , 											{
 												"name" : "filtergraphBronze",
 												"default" : 												{
-													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2193,8 +2257,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3078,7 +3142,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[4]",
+							"parameter_longname" : "number[13]",
 							"parameter_shortname" : "number[4]",
 							"parameter_type" : 3
 						}
@@ -3199,7 +3263,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[3]",
+							"parameter_longname" : "number[14]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -3227,7 +3291,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[2]",
+							"parameter_longname" : "number[12]",
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 3
 						}
@@ -4008,8 +4072,8 @@
 , 							{
 								"name" : "black in white",
 								"default" : 								{
-									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "number001",
@@ -4018,8 +4082,8 @@
 , 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4082,8 +4146,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4173,7 +4237,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.toggle[5]",
+							"parameter_longname" : "live.toggle[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
@@ -4203,7 +4267,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.toggle[4]",
+							"parameter_longname" : "live.toggle[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
@@ -4234,7 +4298,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Alpha Max[1]",
+							"parameter_longname" : "Alpha Max[2]",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.1,
 							"parameter_shortname" : "Alpha Max",
@@ -4267,7 +4331,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 4.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Alpha min[1]",
+							"parameter_longname" : "Alpha min[2]",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.1,
 							"parameter_shortname" : "Alpha min",
@@ -4299,7 +4363,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[25]",
+							"parameter_longname" : "live.text[40]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4330,7 +4394,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Gain max[1]",
+							"parameter_longname" : "Gain max[2]",
 							"parameter_mmax" : 2.0,
 							"parameter_shortname" : "Gain max",
 							"parameter_type" : 0,
@@ -4361,7 +4425,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[32]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4392,7 +4456,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Gain min[1]",
+							"parameter_longname" : "Gain min[2]",
 							"parameter_mmax" : 2.0,
 							"parameter_shortname" : "Gain min",
 							"parameter_type" : 0,
@@ -4423,7 +4487,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[29]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4454,7 +4518,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Pan max[1]",
+							"parameter_longname" : "Pan max[2]",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "Pan max",
@@ -4486,7 +4550,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[27]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4517,7 +4581,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Pitch max[1]",
+							"parameter_longname" : "Pitch max[2]",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 0.001,
 							"parameter_shortname" : "Pitch max",
@@ -4572,7 +4636,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[34]",
+							"parameter_longname" : "live.text[36]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4603,7 +4667,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 150.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Length max[1]",
+							"parameter_longname" : "Length max[2]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "Length max",
 							"parameter_type" : 0,
@@ -4634,7 +4698,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[33]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4664,7 +4728,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[31]",
+							"parameter_longname" : "live.text[38]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4695,7 +4759,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Pan min[1]",
+							"parameter_longname" : "Pan min[2]",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "Pan min",
@@ -4728,7 +4792,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Pitch min[1]",
+							"parameter_longname" : "Pitch min[2]",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 0.001,
 							"parameter_shortname" : "Pitch min",
@@ -4799,7 +4863,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[26]",
+							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4829,7 +4893,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[28]",
+							"parameter_longname" : "live.text[37]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4859,7 +4923,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[35]",
+							"parameter_longname" : "live.text[41]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -4890,7 +4954,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 150.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Length min[1]",
+							"parameter_longname" : "Length min[2]",
 							"parameter_mmax" : 500.0,
 							"parameter_shortname" : "Length min",
 							"parameter_type" : 0,
@@ -4922,7 +4986,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Offset max[1]",
+							"parameter_longname" : "Offset max[2]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "Offset max",
 							"parameter_type" : 0,
@@ -4952,7 +5016,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
-							"parameter_longname" : "Offset min[1]",
+							"parameter_longname" : "Offset min[2]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "Offset min",
 							"parameter_type" : 0,
@@ -5080,7 +5144,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -6.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[5]",
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
@@ -6171,7 +6235,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "/groups/mygroup/qom", ",", "/points/stick/vel_mag", ",", "/points/stick/rot_rpy", ",", "/points/C/vel_mag", ",", "/points/C/rot_rpy" ],
+					"items" : "/points/body/leftWrist/pos2D",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7516,54 +7580,54 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-101" : [ "live.text[34]", "live.text", 0 ],
-			"obj-102" : [ "Length max[1]", "Length max", 0 ],
-			"obj-121" : [ "number[4]", "number[4]", 0 ],
-			"obj-136" : [ "number[3]", "number[3]", 0 ],
-			"obj-137" : [ "number[2]", "number[2]", 0 ],
-			"obj-146" : [ "live.text[30]", "live.text", 0 ],
-			"obj-147" : [ "Density[1]", "Density", 0 ],
-			"obj-179" : [ "gswitch2[21]", "gswitch2", 0 ],
-			"obj-183" : [ "textbutton[1]", "textbutton", 0 ],
-			"obj-188" : [ "gswitch2[19]", "gswitch2[13]", 0 ],
-			"obj-189" : [ "gswitch2[14]", "gswitch2[12]", 0 ],
-			"obj-19" : [ "live.text[27]", "live.text", 0 ],
-			"obj-190" : [ "gswitch2[23]", "gswitch2[11]", 0 ],
-			"obj-191" : [ "gswitch2[17]", "gswitch2[10]", 0 ],
-			"obj-192" : [ "gswitch2[26]", "gswitch2[9]", 0 ],
-			"obj-193" : [ "gswitch2[20]", "gswitch2[7]", 0 ],
-			"obj-194" : [ "gswitch2[15]", "gswitch2[8]", 0 ],
-			"obj-195" : [ "gswitch2[24]", "gswitch2[6]", 0 ],
-			"obj-196" : [ "gswitch2[18]", "gswitch2[5]", 0 ],
-			"obj-197" : [ "gswitch2[27]", "gswitch2[4]", 0 ],
-			"obj-198" : [ "gswitch2[22]", "gswitch2[3]", 0 ],
-			"obj-199" : [ "gswitch2[16]", "gswitch2[2]", 0 ],
-			"obj-200" : [ "gswitch2[25]", "gswitch2[1]", 0 ],
-			"obj-23" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-25" : [ "Pitch max[1]", "Pitch max", 0 ],
-			"obj-28" : [ "number[11]", "number", 0 ],
-			"obj-29" : [ "gswitch2[40]", "gswitch2[40]", 0 ],
-			"obj-33" : [ "live.text[29]", "live.text", 0 ],
-			"obj-42" : [ "number[10]", "number[1]", 0 ],
-			"obj-55" : [ "Pan max[1]", "Pan max", 0 ],
-			"obj-56" : [ "live.text[26]", "live.text", 0 ],
-			"obj-57" : [ "live.text[28]", "live.text", 0 ],
-			"obj-59" : [ "live.text[35]", "live.text", 0 ],
-			"obj-61" : [ "live.text[25]", "live.text", 0 ],
-			"obj-62" : [ "Gain max[1]", "Gain max", 0 ],
-			"obj-66" : [ "Length min[1]", "Length min", 0 ],
-			"obj-67" : [ "live.text[32]", "live.text", 0 ],
-			"obj-68" : [ "Offset min[1]", "Offset min", 0 ],
-			"obj-69" : [ "Gain min[1]", "Gain min", 0 ],
-			"obj-70" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-71" : [ "live.text[33]", "live.text", 0 ],
-			"obj-72" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-73" : [ "live.text[31]", "live.text", 0 ],
-			"obj-74" : [ "Alpha Max[1]", "Alpha Max", 0 ],
-			"obj-75" : [ "Pan min[1]", "Pan min", 0 ],
-			"obj-76" : [ "Alpha min[1]", "Alpha min", 0 ],
-			"obj-78" : [ "Pitch min[1]", "Pitch min", 0 ],
-			"obj-90" : [ "Offset max[1]", "Offset max", 0 ],
+			"obj-101" : [ "live.text[36]", "live.text", 0 ],
+			"obj-102" : [ "Length max[2]", "Length max", 0 ],
+			"obj-121" : [ "number[13]", "number[4]", 0 ],
+			"obj-136" : [ "number[14]", "number[3]", 0 ],
+			"obj-137" : [ "number[12]", "number[2]", 0 ],
+			"obj-146" : [ "live.text[39]", "live.text", 0 ],
+			"obj-147" : [ "Density[2]", "Density", 0 ],
+			"obj-179" : [ "gswitch2[41]", "gswitch2", 0 ],
+			"obj-183" : [ "textbutton[2]", "textbutton", 0 ],
+			"obj-188" : [ "gswitch2[31]", "gswitch2[13]", 0 ],
+			"obj-189" : [ "gswitch2[33]", "gswitch2[12]", 0 ],
+			"obj-19" : [ "live.text[3]", "live.text", 0 ],
+			"obj-190" : [ "gswitch2[35]", "gswitch2[11]", 0 ],
+			"obj-191" : [ "gswitch2[43]", "gswitch2[10]", 0 ],
+			"obj-192" : [ "gswitch2[46]", "gswitch2[9]", 0 ],
+			"obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
+			"obj-194" : [ "gswitch2[30]", "gswitch2[8]", 0 ],
+			"obj-195" : [ "gswitch2[32]", "gswitch2[6]", 0 ],
+			"obj-196" : [ "gswitch2[34]", "gswitch2[5]", 0 ],
+			"obj-197" : [ "gswitch2[42]", "gswitch2[4]", 0 ],
+			"obj-198" : [ "gswitch2[45]", "gswitch2[3]", 0 ],
+			"obj-199" : [ "gswitch2[36]", "gswitch2[2]", 0 ],
+			"obj-200" : [ "gswitch2[29]", "gswitch2[1]", 0 ],
+			"obj-23" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-25" : [ "Pitch max[2]", "Pitch max", 0 ],
+			"obj-28" : [ "number[5]", "number", 0 ],
+			"obj-29" : [ "gswitch2[44]", "gswitch2[40]", 0 ],
+			"obj-33" : [ "live.text[2]", "live.text", 0 ],
+			"obj-42" : [ "number[6]", "number[1]", 0 ],
+			"obj-55" : [ "Pan max[2]", "Pan max", 0 ],
+			"obj-56" : [ "live.text[4]", "live.text", 0 ],
+			"obj-57" : [ "live.text[37]", "live.text", 0 ],
+			"obj-59" : [ "live.text[41]", "live.text", 0 ],
+			"obj-61" : [ "live.text[40]", "live.text", 0 ],
+			"obj-62" : [ "Gain max[2]", "Gain max", 0 ],
+			"obj-66" : [ "Length min[2]", "Length min", 0 ],
+			"obj-67" : [ "live.text[5]", "live.text", 0 ],
+			"obj-68" : [ "Offset min[2]", "Offset min", 0 ],
+			"obj-69" : [ "Gain min[2]", "Gain min", 0 ],
+			"obj-70" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-71" : [ "live.text[1]", "live.text", 0 ],
+			"obj-72" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-73" : [ "live.text[38]", "live.text", 0 ],
+			"obj-74" : [ "Alpha Max[2]", "Alpha Max", 0 ],
+			"obj-75" : [ "Pan min[2]", "Pan min", 0 ],
+			"obj-76" : [ "Alpha min[2]", "Alpha min", 0 ],
+			"obj-78" : [ "Pitch min[2]", "Pitch min", 0 ],
+			"obj-90" : [ "Offset max[2]", "Offset max", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -7633,8 +7697,8 @@
 , 			{
 				"name" : "black in white",
 				"default" : 				{
-					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "number001",
@@ -7643,8 +7707,8 @@
 , 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -7707,8 +7771,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
