@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 257.0, 130.0, 733.0, 850.0 ],
+		"rect" : [ 34.0, 79.0, 873.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
@@ -44,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 36.0, 432.0, 97.0, 22.0 ],
+					"patching_rect" : [ 36.0, 474.0, 97.0, 22.0 ],
 					"text" : "o.select /gesture"
 				}
 
@@ -56,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 36.0, 273.0, 48.0, 22.0 ],
+					"patching_rect" : [ 36.0, 199.0, 48.0, 22.0 ],
 					"text" : "o.union"
 				}
 
@@ -103,13 +104,13 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-126",
-					"linecount" : 5,
+					"linecount" : 10,
 					"maxclass" : "o.expr.codebox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 36.0, 308.0, 836.0, 86.0 ],
-					"text" : "assign(\"/gesture/\" + /gestNum + \"/alignments\", /alignments[[/gestNum]]),\nassign(\"/gesture/\" + /gestNum + \"/speeds\", /speeds[[/gestNum]]),\nassign(\"/gesture/\" + /gestNum + \"/accelerations\", /accelerations[[/gestNum]]),\nassign(\"/gesture/\" + /gestNum + \"/scalings\", /scalings[[/gestNum*2,/gestNum*2+1]]),\nassign(\"/gesture/\" + /gestNum + \"/likelihoods\", /likelihoods[[/gestNum]])"
+					"patching_rect" : [ 36.0, 262.0, 788.0, 154.0 ],
+					"text" : "if( length(/alignments) > /gestNum && length(/speeds) > /gestNum && length(/accelerations) > /gestNum && length(/scalings) > /gestNum*2 && length(/likelihoods) > /gestNum ,\n  progn(\n  assign(\"/gesture/\" + /gestNum + \"/alignments\", /alignments[[/gestNum]]),\n  assign(\"/gesture/\" + /gestNum + \"/speeds\", /speeds[[/gestNum]]),\n  assign(\"/gesture/\" + /gestNum + \"/accelerations\", /accelerations[[/gestNum]]),\n  assign(\"/gesture/\" + /gestNum + \"/scalings\", /scalings[[/gestNum*2,/gestNum*2+1]]),\n  assign(\"/gesture/\" + /gestNum + \"/likelihoods\", /likelihoods[[/gestNum]])\n  )\n)"
 				}
 
 			}
@@ -135,7 +136,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 475.999973238587472, 30.0, 30.0 ],
+					"patching_rect" : [ 36.0, 548.999973238587472, 30.0, 30.0 ],
 					"varname" : "u054009870"
 				}
 
