@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1976.75, 237.730392220100498, 80.0, 22.0 ],
-					"text" : "loadmess 0.1"
+					"patching_rect" : [ 1976.75, 238.5, 73.0, 22.0 ],
+					"text" : "loadmess 0."
 				}
 
 			}
@@ -93,8 +93,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1976.75, 112.75, 73.0, 22.0 ],
-					"text" : "loadmess 1."
+					"patching_rect" : [ 1976.75, 112.75, 80.0, 22.0 ],
+					"text" : "loadmess 0.4"
 				}
 
 			}
@@ -108,27 +108,27 @@
 					"patching_rect" : [ 113.218100323932731, 918.7984619140625, 56.0, 22.0 ],
 					"restore" : 					{
 						"gswitch2" : [ 0 ],
-						"gswitch2[1]" : [ 0 ],
-						"live.text" : [ 0.0 ],
+						"gswitch2[1]" : [ 1 ],
+						"live.text" : [ 1.0 ],
 						"live.text[1]" : [ 0.0 ],
 						"live.text[2]" : [ 0.0 ],
 						"live.text[3]" : [ 0.0 ],
 						"live.text[4]" : [ 0.0 ],
 						"live.text[5]" : [ 0.0 ],
-						"live.text[6]" : [ 0.0 ],
+						"live.text[6]" : [ 1.0 ],
 						"live.text[7]" : [ 1.0 ],
 						"live.text[8]" : [ 0.0 ],
 						"live.toggle[2]" : [ 0.0 ],
 						"multislider[39]" : [ 0.0 ],
 						"multislider[40]" : [ 0.0 ],
 						"multislider[41]" : [ 0.0 ],
-						"multislider[42]" : [ 0.0 ],
+						"multislider[42]" : [ 0.187289357185364, 0.959999978542328 ],
 						"number" : [ 1 ],
-						"number[1]" : [ 0 ],
-						"number[3]" : [ 0 ],
-						"number[4]" : [ 0 ],
-						"number[5]" : [ 0 ],
-						"number[6]" : [ 0 ],
+						"number[1]" : [ 2002 ],
+						"number[3]" : [ 1001 ],
+						"number[4]" : [ 2001 ],
+						"number[5]" : [ 2003 ],
+						"number[6]" : [ 2004 ],
 						"number[7]" : [ 8000 ]
 					}
 ,
@@ -563,6 +563,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-161",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1293,7 +1294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2879.936766828124746, 548.444920881717962, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 2004"
 				}
 
 			}
@@ -1376,7 +1377,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2596.322265374999915, 548.444920881717962, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 2003"
 				}
 
 			}
@@ -1459,7 +1460,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2879.718993640624831, 232.029397120487715, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 2002"
 				}
 
 			}
@@ -2052,7 +2053,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2596.322265374999915, 232.029397120487715, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 2001"
 				}
 
 			}
@@ -2160,7 +2161,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1427.0, 290.868636555687772, 165.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"tolerance" : 1.0
+						"tolerance" : 0.400000005960464
 					}
 ,
 					"style" : "newobjRed-1",
@@ -2251,6 +2252,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-188",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -5587,6 +5589,7 @@
 ,
 					"setstyle" : 1,
 					"signed" : 1,
+					"size" : 2,
 					"varname" : "multislider[42]"
 				}
 
@@ -5712,7 +5715,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.470627253363602, 278.962847666996481, 77.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 1001"
 				}
 
 			}
@@ -6892,7 +6895,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-107",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6954,6 +6957,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-77",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7235,6 +7239,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-77",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -7655,6 +7660,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-77",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -8062,7 +8068,7 @@
 					"presentation_rect" : [ 370.527343937500063, 400.790101239713863, 350.0, 64.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
+					"size" : 3,
 					"style" : "default"
 				}
 
@@ -9643,105 +9649,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "live.text[64]", "live.text", 0 ],
-			"obj-104" : [ "number[8]", "number[3]", 0 ],
-			"obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
-			"obj-130" : [ "live.text", "live.text", 0 ],
-			"obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
-			"obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
-			"obj-146" : [ "live.text[53]", "live.text", 0 ],
-			"obj-149" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-170" : [ "number[29]", "number[4]", 0 ],
-			"obj-174" : [ "number[25]", "number[4]", 0 ],
-			"obj-178" : [ "number[7]", "number[4]", 0 ],
-			"obj-188" : [ "gswitch2[1]", "gswitch2[1]", 0 ],
-			"obj-197" : [ "live.text[68]", "live.text", 0 ],
-			"obj-198" : [ "live.text[67]", "live.text", 0 ],
-			"obj-242" : [ "number", "number", 0 ],
-			"obj-249" : [ "live.text[65]", "live.text", 0 ],
-			"obj-254" : [ "live.text[66]", "live.text", 0 ],
-			"obj-38" : [ "multislider[42]", "multislider[1]", 0 ],
-			"obj-42" : [ "live.text[55]", "live.text", 0 ],
-			"obj-62" : [ "number[26]", "number[3]", 0 ],
-			"obj-7" : [ "gswitch2", "gswitch2", 0 ],
-			"obj-8" : [ "live.text[54]", "live.text", 0 ],
-			"obj-93" : [ "number[27]", "number[4]", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "./abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gvf2OSC.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "./abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gestureSelection.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "./abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gvf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-125", "obj-80", "obj-127" ]
 			}
@@ -9782,8 +9689,8 @@
 , 			{
 				"name" : "black in white",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
+					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "number001",
@@ -9792,8 +9699,8 @@
 , 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
