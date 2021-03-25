@@ -2,8 +2,9 @@
 
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
-## Video Tutorial
-Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
+## Video Tutorials
+1. Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
+2. Gesture following with PoseNet and GVF: https://youtu.be/GoNqiCvVgoY
 
 ## Installation
 ### Install the required packages
@@ -39,13 +40,22 @@ NOTE: the required objects from these libraries are included in the package in o
   
 - HfMT Optitrack OSC bridge  
   https://github.com/HfMT-ZM4/motion-tracking  
-  
+
+## Literature
+### Book chapter with an overview of interactive machine learning of musical gesture
+Visi, F. G., & Tanaka, A. (2021). Interactive Machine Learning of Musical Gesture. In E. R. Miranda (Ed.), Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for Creativity. Springer, forthcoming. Preprint: http://arxiv.org/abs/2011.13487
+
+### Paper on the Gesture Variation Follower algorithm
+Caramiaux, B., Montecchio, N., Tanaka, A., & Bevilacqua, F. (2014). Adaptive Gesture Recognition with Variation Estimation for Interactive Systems. ACM Transactions on Interactive Intelligent Systems, 4(4), 1–34. https://doi.org/10.1145/2643204
+
 ## Acknowledgements
 
 KiSS: Kinetics in Sound and Space – HfMT Hamburg, Germany. 
 
 gimlet.mangle is based on a synth design by Atau Tanaka. 
 The data recorder in gimlet.ml.ann is based on a design by Michael Zbyszyński. 
+
+GEMM))) Gesture Embodiment and Machines in Music – Piteå School of Music – Luleå University of Technology, Sweden.
 
 ## Contact
 
