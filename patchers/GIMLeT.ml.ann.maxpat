@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1314.0, 79.0, 1212.0, 1327.0 ],
+		"rect" : [ 434.0, 79.0, 531.0, 1327.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2532,7 +2532,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 392.280193457167115, 235.864956942537333, 74.0, 75.0 ],
-					"pic" : "_FV:/Users/federicovisi/Dropbox/_FV_git/GitHub/GIMLeT/Media/Gimlet_logo_solo.svg",
+					"pic" : "Gimlet_logo_solo.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 790.556640625, 29.955928534907173, 63.0, 60.571966230869293 ]
 				}
@@ -2925,8 +2925,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3182,7 +3182,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1644.919907788882028, 398.656657377205647, 97.0, 22.0 ],
+					"patching_rect" : [ 1638.919907788882028, 394.043104768004184, 97.0, 22.0 ],
 					"text" : "s #0_trainRun"
 				}
 
@@ -5632,7 +5632,6 @@
 						"style" : "",
 						"subpatcher_template" : "mzed_default",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -5640,7 +5639,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 625.0, 624.0, 76.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "To dictionary"
 								}
 
@@ -5652,7 +5650,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 216.0, 624.0, 167.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "Bang when finished recording"
 								}
 
@@ -5675,7 +5672,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 597.0, 8.129150390625, 125.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Clear model message"
 								}
 
@@ -5687,7 +5683,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 476.0, 8.129150390625, 99.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Output examples"
 								}
 
@@ -5699,7 +5694,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 255.5, 8.129150390625, 99.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Output examples"
 								}
 
@@ -5711,7 +5705,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 161.5, 8.129150390625, 90.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Input examples"
 								}
 
@@ -7528,36 +7521,36 @@
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7594,7 +7587,6 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -7699,8 +7691,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
