@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 873.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 873.0, 911.0 ],
+						"rect" : [ 34.0, 105.0, 1612.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,236 +87,20 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-20",
-									"maxclass" : "comment",
-									"numinlets" : 1,
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-40",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "GIMLeT.LMA.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 479.0, 150.0, 20.0 ],
-									"text" : "Maybe also Flow"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 24.0,
-									"id" : "obj-19",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 37.0, 316.0, 87.0 ],
-									"text" : "Laban Movement Analysis extended to the multimodal domain"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"linecount" : 19,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 373.0, 254.0, 316.0, 261.0 ],
-									"text" : "The Effort component describes human MQs using four factors: Space, Time, Weight, and Flow. Observable qualities of Effort mark the outer manifestation of an inner attitude. Each of the Effort factors is a continuum bounded by two extreme values (Space: direct/indirect, Time: sudden/sustained, Weight: light/strong, Flow: bound/free) in which movement can vary and thus reveal different qualities or “Effort qualities”. One of the values is the result of “indulging” through the Effort, while the other extreme value is the result of “fighting” through the Effort [14]. Space is related to the subject’s attention to the surrounding environment, and the directedness of their interaction with it. Time is related to the subject’s sense of urgency. Weight is related to the subject’s sense of presence in the world and the impact they make upon it. Flow is the feeling of “aliveness” and the attitude towards bodily control. Table 1 lists the indulging and fighting values for each Effort factor and the internal attitudes related to each."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"autofit" : 1,
-									"forceaspect" : 1,
-									"id" : "obj-7",
-									"maxclass" : "fpic",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 373.0, 37.0, 307.0, 202.358395989974952 ],
-									"pic" : "LMA_table.png"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 298.0, 414.0, 42.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 298.0, 414.0, 42.0, 20.0 ],
-									"text" : "strong"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 414.0, 33.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 414.0, 33.0, 20.0 ],
-									"text" : "light"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"floatoutput" : 1,
-									"id" : "obj-12",
-									"knobshape" : 5,
-									"maxclass" : "slider",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"orientation" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 38.0, 436.0, 302.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 436.0, 302.0, 18.0 ],
-									"size" : 1.0,
-									"thickness" : 70.0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"floatoutput" : 1,
-									"id" : "obj-11",
-									"knobshape" : 5,
-									"maxclass" : "slider",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"orientation" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 38.0, 311.0, 302.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 311.0, 302.0, 18.0 ],
-									"size" : 1.0,
-									"thickness" : 70.0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 303.0, 289.0, 37.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 303.0, 289.0, 37.0, 20.0 ],
-									"text" : "quick"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 289.0, 62.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 289.0, 62.0, 20.0 ],
-									"text" : "sustained"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 168.0, 39.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 301.0, 168.0, 39.0, 20.0 ],
-									"text" : "direct"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 168.0, 52.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 168.0, 52.0, 20.0 ],
-									"text" : "indirect"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"floatoutput" : 1,
-									"id" : "obj-4",
-									"knobshape" : 5,
-									"maxclass" : "slider",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"orientation" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 38.0, 190.0, 302.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 38.0, 190.0, 302.0, 18.0 ],
-									"size" : 1.0,
-									"thickness" : 70.0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial Fet",
-									"fontsize" : 14.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 390.0, 59.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 36.0, 390.0, 59.0, 20.0 ],
-									"text" : "Weight"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial Fet",
-									"fontsize" : 14.0,
-									"id" : "obj-2",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 264.0, 45.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 36.0, 264.0, 45.0, 20.0 ],
-									"text" : "Time"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial Fet",
-									"fontsize" : 14.0,
-									"id" : "obj-1",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 143.0, 52.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 36.0, 143.0, 52.0, 20.0 ],
-									"text" : "Space"
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 21.0, 18.0, 1500.0, 770.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -335,6 +119,35 @@
 										"autogradient" : 0
 									}
 
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Jamoma_highlighted_orange",
+								"default" : 								{
+									"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "black in white",
+								"default" : 								{
+									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+,
+								"parentstyle" : "number001",
+								"multi" : 0
+							}
+, 							{
+								"name" : "filtergraphBronze",
+								"default" : 								{
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -386,6 +199,15 @@
 								"multi" : 0
 							}
 , 							{
+								"name" : "newobjRed-1",
+								"default" : 								{
+									"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
 									"fontsize" : [ 12.059008 ],
@@ -396,9 +218,32 @@
 								"multi" : 0
 							}
 , 							{
+								"name" : "number001",
+								"parentstyle" : "velvet",
+								"multi" : 0
+							}
+, 							{
 								"name" : "numberGold-1",
 								"default" : 								{
 									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "panelViolet",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.372549, 0.196078, 0.486275, 0.2 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
 								}
 ,
 								"parentstyle" : "",
@@ -414,10 +259,20 @@
 								"parentstyle" : "",
 								"multi" : 0
 							}
+, 							{
+								"name" : "scope~001",
+								"default" : 								{
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 268.0, 112.0, 43.0, 22.0 ],
+					"patching_rect" : [ 477.55985758789501, 112.0, 43.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -516,7 +371,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 873.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -874,7 +729,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 653.0, 112.0, 117.0, 22.0 ],
+					"patching_rect" : [ 572.839786381842487, 112.0, 117.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -903,7 +758,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 873.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -940,45 +795,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 878.0, 402.0, 150.0, 20.0 ],
 									"text" : "ToDo: with MiM buttons"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "multislider",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 615.0, 665.0, 247.0, 155.0 ],
-									"setminmax" : [ -100.0, 100.0 ],
-									"setstyle" : 1,
-									"size" : 6
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 615.0, 618.0, 90.0, 22.0 ],
-									"text" : "o.route /regrLst"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 615.0, 580.0, 142.0, 22.0 ],
-									"text" : "udpreceive 2001 CNMAT"
 								}
 
 							}
@@ -1072,24 +888,10 @@
 
 							}
  ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
- ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 390.0, 112.0, 181.0, 22.0 ],
+					"patching_rect" : [ 244.279928793947505, 112.0, 181.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1119,7 +921,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 873.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1154,7 +956,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 874.0, 746.0, 150.0, 20.0 ],
+									"patching_rect" : [ 860.5, 807.023459535658731, 150.0, 20.0 ],
 									"text" : "ToDo buttons to remote"
 								}
 
@@ -2105,13 +1907,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
-									"linecount" : 10,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 156.0 ],
-									"text" : "/modosc/points/mim/acc : [62, 58, 92],\n/modosc/points/mim/acc_mag : 125.188,\n/modosc/points/mim/gyro : [57, 91, 58],\n/modosc/points/mim/quat : [76, 32, 87, 61],\n/modosc/points/mim/rot_rpy : [0., 102.497, 90.],\n/modosc/points/mim/battery : 44,\n/modosc/points/mim/buttons : [48, 11],\n/modosc/points/mim/jrk : [13, 30, 9],\n/modosc/points/mim/jrk_mag : 33.9116,\n/modosc/points/mim/fluidity : 0.0264571"
+									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 34.0 ]
 								}
 
 							}
@@ -2120,13 +1920,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
-									"linecount" : 7,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 133.387234300374985, 558.0, 116.0 ],
-									"text" : "/modosc/points/mim/acc : [62, 58, 92],\n/modosc/points/mim/acc_mag : 125.188,\n/modosc/points/mim/gyro : [57, 91, 58],\n/modosc/points/mim/quat : [76, 32, 87, 61],\n/modosc/points/mim/rot_rpy : [0., 102.497, 90.],\n/modosc/points/mim/battery : 44,\n/modosc/points/mim/buttons : [48, 11]"
+									"patching_rect" : [ 25.0, 133.387234300374985, 558.0, 34.0 ]
 								}
 
 							}
@@ -2578,6 +2376,25 @@
 			"obj-10::obj-1::obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
 			"obj-10::obj-1::obj-67" : [ "Resonance[2]", "Res", 0 ],
 			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
+			"obj-1::obj-40::obj-188" : [ "gswitch2[43]", "gswitch2[13]", 0 ],
+			"obj-1::obj-40::obj-189" : [ "gswitch2[42]", "gswitch2[12]", 0 ],
+			"obj-1::obj-40::obj-190" : [ "gswitch2[38]", "gswitch2[11]", 0 ],
+			"obj-1::obj-40::obj-191" : [ "gswitch2[37]", "gswitch2[10]", 0 ],
+			"obj-1::obj-40::obj-192" : [ "gswitch2[36]", "gswitch2[9]", 0 ],
+			"obj-1::obj-40::obj-193" : [ "gswitch2[35]", "gswitch2[7]", 0 ],
+			"obj-1::obj-40::obj-27" : [ "live.text[12]", "live.text", 0 ],
+			"obj-1::obj-40::obj-28" : [ "Duration[4]", "Duration", 0 ],
+			"obj-1::obj-40::obj-29" : [ "gswitch2[34]", "gswitch2[40]", 0 ],
+			"obj-1::obj-40::obj-30" : [ "StartTime[1]", "StartTime", 0 ],
+			"obj-1::obj-40::obj-31" : [ "Speed[3]", "Speed", 0 ],
+			"obj-1::obj-40::obj-43" : [ "live.text[11]", "live.text", 0 ],
+			"obj-1::obj-40::obj-44" : [ "live.text[10]", "live.text", 0 ],
+			"obj-1::obj-40::obj-49" : [ "live.text[9]", "live.text", 0 ],
+			"obj-1::obj-40::obj-50" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-1::obj-40::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-1::obj-40::obj-53" : [ "Cutoff[6]", "Cutoff", 0 ],
+			"obj-1::obj-40::obj-67" : [ "Resonance[3]", "Res", 0 ],
+			"obj-1::obj-40::obj-90" : [ "Pitch Shift[2]", "Pitch Shift", 0 ],
 			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
@@ -2632,35 +2449,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "o.gather.select.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
+				"patcherrelativepath" : "../../CNMAT-odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.jerk.maxpat",
 				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.fluidity.maxpat",
 				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.imu.mim.maxpat",
 				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2673,49 +2490,56 @@
 , 			{
 				"name" : "populateCellBlock.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routeNames.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.mangle.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GIMLeT.LMA.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LMA_table.png",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../../../../../../Users/federicovisi/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
