@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 772.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1612.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,6 +87,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ 2001, 3001 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -99,7 +100,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 21.0, 18.0, 1500.0, 770.0 ],
+									"patching_rect" : [ 11.0, 11.0, 713.0, 599.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -136,8 +137,8 @@
 , 							{
 								"name" : "black in white",
 								"default" : 								{
-									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "number001",
@@ -146,8 +147,8 @@
 , 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -252,8 +253,8 @@
 , 							{
 								"name" : "rsliderGold",
 								"default" : 								{
-									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+									"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+									"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -371,7 +372,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -618,8 +619,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -758,7 +759,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
+						"rect" : [ 34.0, 105.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -921,7 +922,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1612.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1907,11 +1908,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
+									"linecount" : 10,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 156.0 ],
+									"text" : "/modosc/points/mim/acc : [90, 68, 39],\n/modosc/points/mim/acc_mag : 119.352,\n/modosc/points/mim/gyro : [50, 71, 42],\n/modosc/points/mim/quat : [13, 49, 59, 34],\n/modosc/points/mim/rot_rpy : [0., 41.849, 90.],\n/modosc/points/mim/battery : 54,\n/modosc/points/mim/buttons : [54, 28],\n/modosc/points/mim/jrk : [39, -7, 24],\n/modosc/points/mim/jrk_mag : 46.3249,\n/modosc/points/mim/fluidity : 0.0197188"
 								}
 
 							}
@@ -1920,11 +1923,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
+									"linecount" : 7,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 133.387234300374985, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 133.387234300374985, 558.0, 116.0 ],
+									"text" : "/modosc/points/mim/acc : [90, 68, 39],\n/modosc/points/mim/acc_mag : 119.352,\n/modosc/points/mim/gyro : [50, 71, 42],\n/modosc/points/mim/quat : [13, 49, 59, 34],\n/modosc/points/mim/rot_rpy : [0., 41.849, 90.],\n/modosc/points/mim/battery : 54,\n/modosc/points/mim/buttons : [54, 28]"
 								}
 
 							}
@@ -2221,8 +2226,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2380,21 +2385,11 @@
 			"obj-1::obj-40::obj-189" : [ "gswitch2[42]", "gswitch2[12]", 0 ],
 			"obj-1::obj-40::obj-190" : [ "gswitch2[38]", "gswitch2[11]", 0 ],
 			"obj-1::obj-40::obj-191" : [ "gswitch2[37]", "gswitch2[10]", 0 ],
-			"obj-1::obj-40::obj-192" : [ "gswitch2[36]", "gswitch2[9]", 0 ],
-			"obj-1::obj-40::obj-193" : [ "gswitch2[35]", "gswitch2[7]", 0 ],
 			"obj-1::obj-40::obj-27" : [ "live.text[12]", "live.text", 0 ],
-			"obj-1::obj-40::obj-28" : [ "Duration[4]", "Duration", 0 ],
 			"obj-1::obj-40::obj-29" : [ "gswitch2[34]", "gswitch2[40]", 0 ],
-			"obj-1::obj-40::obj-30" : [ "StartTime[1]", "StartTime", 0 ],
-			"obj-1::obj-40::obj-31" : [ "Speed[3]", "Speed", 0 ],
 			"obj-1::obj-40::obj-43" : [ "live.text[11]", "live.text", 0 ],
 			"obj-1::obj-40::obj-44" : [ "live.text[10]", "live.text", 0 ],
 			"obj-1::obj-40::obj-49" : [ "live.text[9]", "live.text", 0 ],
-			"obj-1::obj-40::obj-50" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-1::obj-40::obj-51" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-1::obj-40::obj-53" : [ "Cutoff[6]", "Cutoff", 0 ],
-			"obj-1::obj-40::obj-67" : [ "Resonance[3]", "Res", 0 ],
-			"obj-1::obj-40::obj-90" : [ "Pitch Shift[2]", "Pitch Shift", 0 ],
 			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
@@ -2596,8 +2591,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
