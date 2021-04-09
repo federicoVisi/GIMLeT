@@ -462,7 +462,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 2001, 3001, 1001 ],
+									"args" : [ 2002, 3002, 1010 ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -791,17 +791,6 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 878.0, 402.0, 150.0, 20.0 ],
-									"text" : "ToDo: with MiM buttons"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bubble" : 1,
 									"id" : "obj-8",
 									"linecount" : 2,
@@ -954,11 +943,106 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-107",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "FullPacket", "FullPacket" ],
+									"patching_rect" : [ 1098.5, 735.341153178552872, 58.0, 22.0 ],
+									"text" : "o.change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-106",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1302.5, 704.0, 153.0, 33.0 ],
+									"text" : "stream of 0s when off\nstream of 1s when pressed"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-96",
+									"linecount" : 3,
+									"maxclass" : "o.expr.codebox",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "FullPacket", "FullPacket" ],
+									"patching_rect" : [ 1098.5, 764.682306357105858, 371.0, 59.0 ],
+									"text" : "/gimletRemote/record = /points/mim/buttons[[0]],\n/gimletRemote/trainRun = /points/mim/buttons[[1]],\ndelete(/points/mim/buttons)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-88",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1249.0, 834.382397413253784, 105.0, 20.0 ],
+									"text" : "Buttons to IML rec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-81",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1098.5, 834.382397413253784, 138.0, 22.0 ],
+									"text" : "udpsend 127.0.0.1 4003"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-73",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 1098.5, 705.0, 194.0, 22.0 ],
+									"text" : "o.gather.select /points/mim/buttons"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-70",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 709.0, 770.682306357105972, 66.0, 20.0 ],
+									"text" : "3D vectors"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 504.0, 735.341153178552872, 71.0, 20.0 ],
+									"text" : "magnitudes"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-87",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 709.0, 836.382397413253784, 106.0, 20.0 ],
+									"patching_rect" : [ 832.5, 807.023459535658731, 106.0, 20.0 ],
 									"text" : "(without loudness)"
 								}
 
@@ -970,7 +1054,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 25.0, 683.0, 48.0, 22.0 ],
+									"patching_rect" : [ 25.0, 696.0, 48.0, 22.0 ],
 									"text" : "o.union"
 								}
 
@@ -982,7 +1066,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 856.5, 641.0, 99.0, 22.0 ],
+									"patching_rect" : [ 863.5, 641.0, 99.0, 22.0 ],
 									"text" : "o.pack /loudness"
 								}
 
@@ -1019,18 +1103,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 104.0, 891.0, 314.0, 79.0 ],
-									"text" : "NOTE: you can try different combinations of features by changing the input port number in the Interactive Machine Learning tab (1001 by default, try change it to 1002 or 1003 _before_ training)"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-68",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 860.5, 807.023459535658731, 150.0, 20.0 ],
-									"text" : "ToDo buttons to remote"
+									"text" : "NOTE: you can try different combinations of features by changing the input port number in the Interactive Machine Learning tab (1001 by default, try change it to 1002 or 1003 _before_ training)."
 								}
 
 							}
@@ -1887,7 +1960,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1493.0, 948.382397413253784, 19.0, 20.0 ],
+									"patching_rect" : [ 1973.5, 1004.382397413253784, 19.0, 20.0 ],
 									"text" : " "
 								}
 
@@ -1986,7 +2059,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 470.262272372841835, 558.0, 156.0 ],
-									"text" : "/modosc/points/mim/acc : [2, 41, 39],\n/modosc/points/mim/acc_mag : 56.6216,\n/modosc/points/mim/gyro : [69, 94, 56],\n/modosc/points/mim/quat : [27, 91, 22, 98],\n/modosc/points/mim/rot_rpy : [0., 30.8068, 90.],\n/modosc/points/mim/battery : 85,\n/modosc/points/mim/buttons : [98, 77],\n/modosc/points/mim/jrk : [-28, 5, -56],\n/modosc/points/mim/jrk_mag : 62.8092,\n/modosc/points/mim/fluidity : 0.0152947"
+									"text" : "/modosc/points/mim/acc : 0.,\n/modosc/points/mim/acc_mag : 0.,\n/modosc/points/mim/gyro : [16, 29, 33],\n/modosc/points/mim/quat : [70, 28, 71, 75],\n/modosc/points/mim/rot_rpy : [0., 86.0501, 90.],\n/modosc/points/mim/battery : 37,\n/modosc/points/mim/buttons : [33, 79],\n/modosc/points/mim/jrk : [-98., -9., -43.],\n/modosc/points/mim/jrk_mag : 107.396,\n/modosc/points/mim/fluidity : 0.00946321"
 								}
 
 							}
@@ -2001,7 +2074,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 133.387234300374985, 558.0, 116.0 ],
-									"text" : "/modosc/points/mim/acc : [2, 41, 39],\n/modosc/points/mim/acc_mag : 56.6216,\n/modosc/points/mim/gyro : [69, 94, 56],\n/modosc/points/mim/quat : [27, 91, 22, 98],\n/modosc/points/mim/rot_rpy : [0., 30.8068, 90.],\n/modosc/points/mim/battery : 85,\n/modosc/points/mim/buttons : [98, 77]"
+									"text" : "/modosc/points/mim/acc : 0.,\n/modosc/points/mim/acc_mag : 0.,\n/modosc/points/mim/gyro : [16, 29, 33],\n/modosc/points/mim/quat : [70, 28, 71, 75],\n/modosc/points/mim/rot_rpy : [0., 86.0501, 90.],\n/modosc/points/mim/battery : 37,\n/modosc/points/mim/buttons : [33, 79]"
 								}
 
 							}
@@ -2017,6 +2090,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-96", 0 ],
+									"source" : [ "obj-107", 0 ]
 								}
 
 							}
@@ -2217,7 +2297,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-73", 0 ],
+									"order" : 0,
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-82", 0 ],
+									"order" : 1,
 									"source" : [ "obj-56", 0 ]
 								}
 
@@ -2278,6 +2367,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-107", 0 ],
+									"source" : [ "obj-73", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-82", 1 ],
 									"source" : [ "obj-77", 0 ]
 								}
@@ -2321,6 +2417,13 @@
 									"destination" : [ "obj-21", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-86", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-81", 0 ],
+									"source" : [ "obj-96", 0 ]
 								}
 
 							}
@@ -2678,6 +2781,10 @@
 			}
 , 			{
 				"name" : "pipo~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.change.mxo",
 				"type" : "iLaX"
 			}
 , 			{
