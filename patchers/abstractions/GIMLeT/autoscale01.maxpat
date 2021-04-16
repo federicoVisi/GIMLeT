@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "<none>",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -56,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 115.725006000000121, 84.0, 42.0, 22.0 ],
+					"patching_rect" : [ 115.725006250000206, 93.5, 42.0, 22.0 ],
 					"text" : "t b b b"
 				}
 
@@ -68,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.725006000000121, 130.5, 29.5, 22.0 ],
+					"patching_rect" : [ 166.625030000000152, 139.5, 29.5, 22.0 ],
 					"text" : "1."
 				}
 
@@ -80,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.725006000000121, 130.5, 29.5, 22.0 ],
+					"patching_rect" : [ 110.725006000000121, 139.5, 29.5, 22.0 ],
 					"text" : "0."
 				}
 
@@ -103,9 +104,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 73.725006000000121, 181.890158817040174, 43.0, 22.0 ],
-					"text" : "trough"
+					"outlettype" : [ "float", "int", "int" ],
+					"patching_rect" : [ 73.725006000000121, 181.890158817040174, 56.0, 22.0 ],
+					"text" : "trough 0."
 				}
 
 			}
@@ -127,9 +128,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 129.625030000000152, 181.890158817040174, 40.0, 22.0 ],
-					"text" : "peak"
+					"outlettype" : [ "float", "int", "int" ],
+					"patching_rect" : [ 137.625030000000152, 181.890158817040174, 48.0, 22.0 ],
+					"text" : "peak 0."
 				}
 
 			}
@@ -154,7 +155,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 115.725006250000206, 40.000021817040192, 30.0, 30.0 ]
 				}
 
