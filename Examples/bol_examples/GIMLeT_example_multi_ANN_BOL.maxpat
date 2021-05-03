@@ -1097,7 +1097,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 693.0, 765.091914989054203, 385.0, 48.0 ],
-									"text" : "/points/right/pos_aed : [45.4476, 81.4717, 14208.3],\n/points/left/pos_aed : [180., 0., 664.631]"
+									"text" : "/points/right/pos_aed : [150.222, 77.857, 14372.8],\n/points/left/pos_aed : [0., 0., 2154.32]"
 								}
 
 							}
@@ -1107,8 +1107,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 693.0, 872.382397413253784, 157.0, 22.0 ],
-									"text" : "udpsend 10.1.105.19 55011"
+									"patching_rect" : [ 693.0, 872.382397413253784, 144.0, 22.0 ],
+									"text" : "udpsend 127.0.0.1 55011"
 								}
 
 							}
@@ -1598,7 +1598,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 170.0 ],
-									"text" : "/modosc/points/left/pos : [-11.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -23.4],\n/modosc/points/right/pos : [25.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -25.4],\n/modosc/points/left/vel : [0.758117, 0., 0.],\n/modosc/points/left/vel_mag : 0.758117,\n/modosc/points/right/vel : [-1.89756, 3.89899e-16, 1.5596e-14],\n/modosc/points/right/vel_mag : 1.89756,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 1.32784"
+									"text" : "/modosc/points/left/pos : [37.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -44.8],\n/modosc/points/right/pos : [-45.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -12.8],\n/modosc/points/left/vel : [-0.750496, 0., 0.],\n/modosc/points/left/vel_mag : 0.750496,\n/modosc/points/right/vel : [0.0897803, 3.89899e-16, 1.5596e-14],\n/modosc/points/right/vel_mag : 0.0897803,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.420138"
 								}
 
 							}
@@ -1673,7 +1673,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
-									"text" : "/modosc/points/left/pos : [-11.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -23.4],\n/modosc/points/right/pos : [25.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -25.4]"
+									"text" : "/modosc/points/left/pos : [37.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -44.8],\n/modosc/points/right/pos : [-45.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -12.8]"
 								}
 
 							}
