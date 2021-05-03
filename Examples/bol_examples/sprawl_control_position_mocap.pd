@@ -1,4 +1,4 @@
-#N canvas 841 92 1227 800 10;
+#N canvas 436 116 1227 800 10;
 #X text 8 7 Example patch for controlling spatial properties of a sound
 on the SPRAWL server.;
 #X obj 9 441 netsend -u -b;
