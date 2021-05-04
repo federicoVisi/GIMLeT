@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 122.0, 1450.0, 883.0 ],
+		"rect" : [ 34.0, 79.0, 1479.0, 1018.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.0, 209.0, 114.0, 30.0 ],
-					"text" : ";\r\nmax launchbrowser $1"
+					"text" : ";\rmax launchbrowser $1"
 				}
 
 			}
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1450.0, 857.0 ],
+						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -187,7 +187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 688.0, 262.0, 35.0 ]
+									"patching_rect" : [ 1162.0, 688.0, 262.0, 34.0 ]
 								}
 
 							}
@@ -236,7 +236,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 642.0, 196.0, 35.0 ]
+									"patching_rect" : [ 901.0, 642.0, 196.0, 34.0 ]
 								}
 
 							}
@@ -410,7 +410,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 175.5, 262.0, 35.0 ]
+									"patching_rect" : [ 1162.0, 175.5, 262.0, 34.0 ]
 								}
 
 							}
@@ -459,7 +459,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 416.5, 262.0, 35.0 ]
+									"patching_rect" : [ 1162.0, 416.5, 262.0, 34.0 ]
 								}
 
 							}
@@ -508,7 +508,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 370.5, 196.0, 35.0 ]
+									"patching_rect" : [ 901.0, 370.5, 196.0, 34.0 ]
 								}
 
 							}
@@ -564,7 +564,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 132.5, 189.0, 35.0 ]
+									"patching_rect" : [ 901.0, 132.5, 189.0, 34.0 ]
 								}
 
 							}
@@ -725,8 +725,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -789,8 +789,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -866,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1450.0, 857.0 ],
+						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -988,7 +988,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 148.0, 1450.0, 857.0 ],
+						"rect" : [ 34.0, 105.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1019,12 +1019,58 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 797.453432440757751, 715.209517575800419, 298.0, 20.0 ],
+									"text" : "strips off /modosc, making addresses more compact"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 693.0, 715.0, 95.0, 22.0 ],
+									"text" : "o.route /modosc"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 898.0, 687.237156201153994, 270.0, 20.0 ],
+									"text" : "Conversion to spherical coordinates for SPRAWL"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "FullPacket" ],
+									"patching_rect" : [ 693.0, 686.237156201153994, 196.0, 22.0 ],
+									"text" : "mo.cart2sph /left /right @degrees 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 872.382397413253784, 150.0, 20.0 ],
-									"text" : "6DoF to SPRAWL"
+									"patching_rect" : [ 872.0, 854.382397413253784, 264.0, 20.0 ],
+									"text" : "Spherical coordinates to SPRAWL"
 								}
 
 							}
@@ -1035,22 +1081,23 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 693.0, 693.091914989054203, 460.0, 22.0 ],
-									"text" : "o.gather.select /points/left/pos /points/left/rot_rpy /points/right/pos /points/right/rot_rpy"
+									"patching_rect" : [ 693.0, 745.091914989054203, 309.0, 22.0 ],
+									"text" : "o.gather.select /points/left/pos_aed /points/right/pos_aed"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 4,
+									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 693.0, 722.091914989054203, 343.0, 72.0 ],
-									"text" : "/points/right/rot_rpy : [-0., 0., 72.4],\n/points/right/pos : [-44.6, 0., 0.],\n/points/left/rot_rpy : [-0., 0., 99.],\n/points/left/pos : [-86.6, 0., 0.]"
+									"patching_rect" : [ 693.0, 785.091914989054203, 385.0, 48.0 ],
+									"text" : "/points/right/pos_aed : [93.4938, 83.8893, 14131.5],\n/points/left/pos_aed : [180., 0., 137.51]"
 								}
 
 							}
@@ -1060,8 +1107,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 693.0, 872.382397413253784, 157.0, 22.0 ],
-									"text" : "udpsend 10.1.105.19 55011"
+									"patching_rect" : [ 693.0, 854.382397413253784, 144.0, 22.0 ],
+									"text" : "udpsend 127.0.0.1 55011"
 								}
 
 							}
@@ -1116,7 +1163,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 183.5, 822.382397413253784, 169.0, 20.0 ],
+									"patching_rect" : [ 183.5, 854.382397413253784, 169.0, 20.0 ],
 									"text" : "Selected features to port 1001"
 								}
 
@@ -1127,7 +1174,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 136.0, 687.209517575800419, 298.0, 20.0 ],
+									"patching_rect" : [ 136.0, 719.209517575800419, 298.0, 20.0 ],
 									"text" : "strips off /modosc, making addresses more compact"
 								}
 
@@ -1138,7 +1185,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.546567559242249, 822.382397413253784, 138.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 854.382397413253784, 138.0, 22.0 ],
 									"text" : "udpsend 127.0.0.1 1001"
 								}
 
@@ -1273,9 +1320,9 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.000000767501831, 115.000000000000028, 583.0, 513.0 ],
-													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 114, 97, 109, 101, 73, 68, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 62, -45, 0, 0, 0, 24, 47, 116, 105, 109, 101, 115, 116, 97, 109, 112, 0, 0, 44, 100, 0, 0, 64, 96, -64, -52, -52, -52, -52, -51, 0, 0, 0, 32, 47, 108, 97, 116, 101, 110, 99, 121, 47, 115, 111, 102, 116, 119, 97, 114, 101, 0, 0, 0, 44, 100, 0, 0, 63, -5, -87, -5, -25, 108, -117, 68, 0, 0, 0, 28, 47, 108, 97, 116, 101, 110, 99, 121, 47, 115, 121, 115, 116, 101, 109, 0, 44, 100, 0, 0, 64, 26, -128, -21, -19, -6, 67, -2, 0, 0, 0, 28, 47, 108, 97, 116, 101, 110, 99, 121, 47, 99, 108, 105, 101, 110, 116, 0, 44, 100, 0, 0, 64, 26, -35, -105, -10, 43, 106, -24, 0, 0, 0, 32, 47, 108, 97, 116, 101, 110, 99, 121, 47, 116, 114, 97, 110, 115, 105, 116, 0, 0, 0, 0, 44, 100, 0, 0, 63, -74, -56, -76, 57, 88, 16, 98, 0, 0, 0, 20, 47, 105, 115, 82, 101, 99, 111, 114, 100, 105, 110, 103, 0, 0, 0, 0, 44, 70, 0, 0, 0, 0, 0, 20, 47, 109, 111, 100, 101, 108, 67, 104, 97, 110, 103, 101, 100, 0, 0, 0, 44, 70, 0, 0, 0, 0, 0, 32, 47, 116, 105, 109, 101, 99, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 48, 48, 58, 48, 48, 58, 48, 48, 58, 48, 48, 46, 48, 0, 0, 0, 0, 0, 0, 28, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 99, 111, 117, 110, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 40, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 105, 100, 0, 0, 0, 44, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 0, 44, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 110, 97, 109, 101, 0, 44, 115, 115, 115, 115, 0, 0, 0, 67, 0, 0, 0, 65, 0, 0, 0, 66, 0, 0, 0, 115, 116, 105, 99, 107, 0, 0, 0, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 120, 95, 111, 108, 100, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, 64, 99, -47, -54, -64, -125, 18, 111, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 121, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 58, 52, -48, 19, -87, 42, 48, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 122, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 110, -89, -82, 20, 122, -31, 72, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 120, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -65, -65, -121, 38, -48, 78, 97, -115, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 121, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, -39, 35, 40, -7, -12, 77, 68, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 122, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, -21, -21, -44, -49, -48, -115, 76, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 119, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, 63, -48, -41, 56, 96, -103, -99, -53, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 121, 97, 119, 95, 111, 108, 100, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 98, 71, 18, 110, -105, -115, 80, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 112, 105, 116, 99, 104, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 68, 87, -112, -106, -69, -104, -56, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 114, 111, 108, 108, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -64, 86, -74, 41, -57, 121, -90, -75, 0, 0, 0, 36, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 118, 97, 108, 105, 100, 84, 114, 97, 99, 107, 105, 110, 103, 0, 0, 0, 0, 44, 70, 70, 70, 84, 0, 0, 0, 0, 0, 0, 64, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 109, 101, 97, 110, 69, 114, 114, 111, 114, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 91, -121, 26, 16, 33, -117, 64, 0, 0, 0, 24, 47, 115, 107, 101, 108, 101, 116, 111, 110, 47, 99, 111, 117, 110, 116, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 99, 111, 117, 110, 116, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 120, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 106, 72, -19, -111, 104, 114, -80, 64, 114, 126, -80, 32, -60, -101, -90, 64, 112, -126, 28, -84, 8, 49, 39, -64, 61, -9, 88, -30, 25, 101, 44, 64, 72, -50, -102, -44, 44, 60, -97, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 121, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 85, 35, -22, -77, 103, -96, -7, 64, 48, 0, -119, -96, 39, 82, 84, 64, 44, -51, 66, -61, -55, -18, -52, 64, 20, 76, 16, 14, 106, -4, -50, 64, 38, -3, -118, -38, -71, -11, 90, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 122, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 116, 91, -119, 55, 75, -58, -88, 64, 117, 41, -46, -15, -87, -5, -25, 64, 121, 27, 18, 110, -105, -115, 80, 64, 70, 45, -26, -102, -44, 44, 61, 64, 93, 57, -5, -25, 108, -117, 68, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 97, 99, 116, 105, 118, 101, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 108, 97, 98, 101, 108, 101, 100, 0, 44, 84, 84, 84, 84, 84, 0, 0, 0, 0, 0, 28, 47, 109, 97, 114, 107, 101, 114, 47, 111, 99, 99, 117, 108, 100, 101, 100, 0, 0, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 28, 47, 109, 97, 114, 107, 101, 114, 47, 115, 111, 108, 118, 101, 100, 47, 112, 99, 0, 0, 0, 44, 84, 84, 84, 84, 84, 0, 0, 0, 0, 0, 32, 47, 109, 97, 114, 107, 101, 114, 47, 115, 111, 108, 118, 101, 100, 47, 109, 111, 100, 101, 108, 0, 0, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 48, 47, 109, 97, 114, 107, 101, 114, 47, 109, 97, 114, 107, 101, 114, 73, 68, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 0, 5, 0, 0, 0, 44, 47, 109, 97, 114, 107, 101, 114, 47, 109, 111, 100, 101, 108, 73, 68, 0, 44, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 64, 47, 109, 97, 114, 107, 101, 114, 47, 115, 105, 122, 101, 0, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6 ],
-													"saved_bundle_length" : 1704,
-													"text" : "/frameID : 16083,\n/timestamp : 134.025,\n/latency/software : 1.729,\n/latency/system : 6.6259,\n/latency/client : 6.7164,\n/latency/transit : 0.089,\n/isRecording : false,\n/modelChanged : false,\n/timecode : \"00:00:00:00.0\",\n/rigidBody/count : 4,\n/rigidBody/id : [1, 2, 3, 4],\n/rigidBody/name : [\"C\", \"A\", \"B\", \"stick\"],\n/rigidBody/x_old : [-0., -0., -0., 158.556],\n/rigidBody/y : [0., 0., 0., 26.2063],\n/rigidBody/z : [0., 0., 0., 245.24],\n/rigidBody/qx : [-0., -0., -0., -0.123156],\n/rigidBody/qy : [0., 0., 0., 0.392771],\n/rigidBody/qz : [0., 0., 0., 0.872538],\n/rigidBody/qw : [-1., -1., -1., 0.263136],\n/rigidBody/yaw_old : [0., 0., 0., 146.221],\n/rigidBody/pitch : [0., 0., 0., 40.6841],\n/rigidBody/roll : [-0., -0., -0., -90.8463],\n/rigidBody/validTracking : [false, false, false, true],\n/rigidBody/meanError : [0., 0., 0., 0.00168016],\n/skeleton/count : 0,\n/marker/count : 5,\n/marker/x : [210.279, 295.918, 264.132, -29.9662, 49.6141],\n/marker/y : [84.5612, 16.0021, 14.4009, 5.07428, 11.4952],\n/marker/z : [325.721, 338.614, 401.692, 44.3586, 116.906],\n/marker/active : [false, false, false, false, false],\n/marker/labeled : [true, true, true, true, true],\n/marker/occulded : [false, false, false, false, false],\n/marker/solved/pc : [true, true, true, true, true],\n/marker/solved/model : [false, false, false, false, false],\n/marker/markerID : [1, 2, 3, 4, 5],\n/marker/modelID : [4, 4, 4, 4, 4],\n/marker/size : [0.012, 0.012, 0.012, 0.012, 0.012]"
+													"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 102, 114, 97, 109, 101, 73, 68, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 62, -45, 0, 0, 0, 24, 47, 116, 105, 109, 101, 115, 116, 97, 109, 112, 0, 0, 44, 100, 0, 0, 64, 96, -64, -52, -52, -52, -52, -51, 0, 0, 0, 32, 47, 108, 97, 116, 101, 110, 99, 121, 47, 115, 111, 102, 116, 119, 97, 114, 101, 0, 0, 0, 44, 100, 0, 0, 63, -5, -87, -5, -25, 108, -117, 68, 0, 0, 0, 28, 47, 108, 97, 116, 101, 110, 99, 121, 47, 115, 121, 115, 116, 101, 109, 0, 44, 100, 0, 0, 64, 26, -128, -21, -19, -6, 67, -2, 0, 0, 0, 28, 47, 108, 97, 116, 101, 110, 99, 121, 47, 99, 108, 105, 101, 110, 116, 0, 44, 100, 0, 0, 64, 26, -35, -105, -10, 43, 106, -24, 0, 0, 0, 32, 47, 108, 97, 116, 101, 110, 99, 121, 47, 116, 114, 97, 110, 115, 105, 116, 0, 0, 0, 0, 44, 100, 0, 0, 63, -74, -56, -76, 57, 88, 16, 98, 0, 0, 0, 20, 47, 105, 115, 82, 101, 99, 111, 114, 100, 105, 110, 103, 0, 0, 0, 0, 44, 70, 0, 0, 0, 0, 0, 20, 47, 109, 111, 100, 101, 108, 67, 104, 97, 110, 103, 101, 100, 0, 0, 0, 44, 70, 0, 0, 0, 0, 0, 32, 47, 116, 105, 109, 101, 99, 111, 100, 101, 0, 0, 0, 44, 115, 0, 0, 48, 48, 58, 48, 48, 58, 48, 48, 58, 48, 48, 46, 48, 0, 0, 0, 0, 0, 0, 28, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 99, 111, 117, 110, 116, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 40, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 105, 100, 0, 0, 0, 44, 105, 105, 105, 105, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 0, 48, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 110, 97, 109, 101, 0, 44, 115, 115, 115, 115, 0, 0, 0, 108, 101, 102, 116, 0, 0, 0, 0, 65, 0, 0, 0, 66, 0, 0, 0, 114, 105, 103, 104, 116, 0, 0, 0, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 120, 95, 111, 108, 100, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, 64, 99, -47, -54, -64, -125, 18, 111, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 121, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 58, 52, -48, 19, -87, 42, 48, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 122, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 110, -89, -82, 20, 122, -31, 72, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 120, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -65, -65, -121, 38, -48, 78, 97, -115, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 121, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, -39, 35, 40, -7, -12, 77, 68, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 122, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, -21, -21, -44, -49, -48, -115, 76, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 113, 119, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, -65, -16, 0, 0, 0, 0, 0, 0, 63, -48, -41, 56, 96, -103, -99, -53, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 121, 97, 119, 95, 111, 108, 100, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 98, 71, 18, 110, -105, -115, 80, 0, 0, 0, 60, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 112, 105, 116, 99, 104, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 68, 87, -112, -106, -69, -104, -56, 0, 0, 0, 56, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 114, 111, 108, 108, 0, 44, 100, 100, 100, 100, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -128, 0, 0, 0, 0, 0, 0, 0, -64, 86, -74, 41, -57, 121, -90, -75, 0, 0, 0, 36, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 118, 97, 108, 105, 100, 84, 114, 97, 99, 107, 105, 110, 103, 0, 0, 0, 0, 44, 84, 84, 70, 84, 0, 0, 0, 0, 0, 0, 64, 47, 114, 105, 103, 105, 100, 66, 111, 100, 121, 47, 109, 101, 97, 110, 69, 114, 114, 111, 114, 0, 0, 0, 0, 44, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 91, -121, 26, 16, 33, -117, 64, 0, 0, 0, 24, 47, 115, 107, 101, 108, 101, 116, 111, 110, 47, 99, 111, 117, 110, 116, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 99, 111, 117, 110, 116, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 5, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 120, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 106, 72, -19, -111, 104, 114, -80, 64, 114, 126, -80, 32, -60, -101, -90, 64, 112, -126, 28, -84, 8, 49, 39, -64, 61, -9, 88, -30, 25, 101, 44, 64, 72, -50, -102, -44, 44, 60, -97, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 121, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 85, 35, -22, -77, 103, -96, -7, 64, 48, 0, -119, -96, 39, 82, 84, 64, 44, -51, 66, -61, -55, -18, -52, 64, 20, 76, 16, 14, 106, -4, -50, 64, 38, -3, -118, -38, -71, -11, 90, 0, 0, 0, 60, 47, 109, 97, 114, 107, 101, 114, 47, 122, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 64, 116, 91, -119, 55, 75, -58, -88, 64, 117, 41, -46, -15, -87, -5, -25, 64, 121, 27, 18, 110, -105, -115, 80, 64, 70, 45, -26, -102, -44, 44, 61, 64, 93, 57, -5, -25, 108, -117, 68, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 97, 99, 116, 105, 118, 101, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 24, 47, 109, 97, 114, 107, 101, 114, 47, 108, 97, 98, 101, 108, 101, 100, 0, 44, 84, 84, 84, 84, 84, 0, 0, 0, 0, 0, 28, 47, 109, 97, 114, 107, 101, 114, 47, 111, 99, 99, 117, 108, 100, 101, 100, 0, 0, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 28, 47, 109, 97, 114, 107, 101, 114, 47, 115, 111, 108, 118, 101, 100, 47, 112, 99, 0, 0, 0, 44, 84, 84, 84, 84, 84, 0, 0, 0, 0, 0, 32, 47, 109, 97, 114, 107, 101, 114, 47, 115, 111, 108, 118, 101, 100, 47, 109, 111, 100, 101, 108, 0, 0, 0, 0, 44, 70, 70, 70, 70, 70, 0, 0, 0, 0, 0, 48, 47, 109, 97, 114, 107, 101, 114, 47, 109, 97, 114, 107, 101, 114, 73, 68, 0, 0, 0, 0, 44, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 0, 5, 0, 0, 0, 44, 47, 109, 97, 114, 107, 101, 114, 47, 109, 111, 100, 101, 108, 73, 68, 0, 44, 105, 105, 105, 105, 105, 0, 0, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 64, 47, 109, 97, 114, 107, 101, 114, 47, 115, 105, 122, 101, 0, 0, 0, 0, 44, 100, 100, 100, 100, 100, 0, 0, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6, 63, -120, -109, 116, -68, 106, 126, -6 ],
+													"saved_bundle_length" : 1708,
+													"text" : "/frameID : 16083,\n/timestamp : 134.025,\n/latency/software : 1.729,\n/latency/system : 6.6259,\n/latency/client : 6.7164,\n/latency/transit : 0.089,\n/isRecording : false,\n/modelChanged : false,\n/timecode : \"00:00:00:00.0\",\n/rigidBody/count : 4,\n/rigidBody/id : [1, 2, 3, 4],\n/rigidBody/name : [\"left\", \"A\", \"B\", \"right\"],\n/rigidBody/x_old : [-0., -0., -0., 158.556],\n/rigidBody/y : [0., 0., 0., 26.2063],\n/rigidBody/z : [0., 0., 0., 245.24],\n/rigidBody/qx : [-0., -0., -0., -0.123156],\n/rigidBody/qy : [0., 0., 0., 0.392771],\n/rigidBody/qz : [0., 0., 0., 0.872538],\n/rigidBody/qw : [-1., -1., -1., 0.263136],\n/rigidBody/yaw_old : [0., 0., 0., 146.221],\n/rigidBody/pitch : [0., 0., 0., 40.6841],\n/rigidBody/roll : [-0., -0., -0., -90.8463],\n/rigidBody/validTracking : [true, true, false, true],\n/rigidBody/meanError : [0., 0., 0., 0.00168016],\n/skeleton/count : 0,\n/marker/count : 5,\n/marker/x : [210.279, 295.918, 264.132, -29.9662, 49.6141],\n/marker/y : [84.5612, 16.0021, 14.4009, 5.07428, 11.4952],\n/marker/z : [325.721, 338.614, 401.692, 44.3586, 116.906],\n/marker/active : [false, false, false, false, false],\n/marker/labeled : [true, true, true, true, true],\n/marker/occulded : [false, false, false, false, false],\n/marker/solved/pc : [true, true, true, true, true],\n/marker/solved/model : [false, false, false, false, false],\n/marker/markerID : [1, 2, 3, 4, 5],\n/marker/modelID : [4, 4, 4, 4, 4],\n/marker/size : [0.012, 0.012, 0.012, 0.012, 0.012]"
 												}
 
 											}
@@ -1372,8 +1419,8 @@
 										"styles" : [ 											{
 												"name" : "filtergraphBronze",
 												"default" : 												{
-													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1427,8 +1474,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-													"fontsize" : [ 12.059008 ]
+													"fontsize" : [ 12.059008 ],
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1475,7 +1522,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 687.0, 95.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 719.0, 95.0, 22.0 ],
 									"text" : "o.route /modosc"
 								}
 
@@ -1487,7 +1534,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 32.546567559242249, 428.563704937696457, 168.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 413.563704937696457, 168.0, 22.0 ],
 									"text" : "mo.setWeights /mygroup 1. 1."
 								}
 
@@ -1511,7 +1558,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 458.262272372841835, 105.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 444.262272372841835, 105.0, 22.0 ],
 									"text" : "mo.qom /mygroup"
 								}
 
@@ -1523,7 +1570,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 400.078442394733429, 165.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 382.078442394733429, 165.0, 22.0 ],
 									"text" : "mo.group /mygroup /left /right"
 								}
 
@@ -1535,7 +1582,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 722.091914989054203, 632.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 765.091914989054203, 632.0, 22.0 ],
 									"text" : "o.gather.select /points/right/rot_rpy /points/right/vel_mag /points/left/rot_rpy /points/left/vel_mag /groups/mygroup/qom"
 								}
 
@@ -1550,8 +1597,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 492.262272372841835, 534.705898404121399, 175.0 ],
-									"text" : "/modosc/points/left/pos : [-86.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 99.],\n/modosc/points/right/pos : [-44.6, 0., 0.],\n/modosc/points/right/rot_rpy : [-0., 0., 72.4],\n/modosc/points/left/vel : [-1.90498, 9.88131e-324, 9.88131e-324],\n/modosc/points/left/vel_mag : 1.90498,\n/modosc/points/right/vel : [1.42511, 9.88131e-324, -4.94066e-324],\n/modosc/points/right/vel_mag : 1.42511,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 1.66505"
+									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 170.0 ],
+									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8],\n/modosc/points/left/vel : [-0.839291, 0., 0.],\n/modosc/points/left/vel_mag : 0.839291,\n/modosc/points/right/vel : [-0.0428167, 0.210499, 1.96986],\n/modosc/points/right/vel_mag : 1.98154,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 1.41042"
 								}
 
 							}
@@ -1562,7 +1609,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "" ],
-									"patching_rect" : [ 31.546567559242249, 369.078442394733429, 131.0, 22.0 ],
+									"patching_rect" : [ 31.546567559242249, 351.078442394733429, 131.0, 22.0 ],
 									"text" : "mo.velocity 1 /left /right"
 								}
 
@@ -1625,8 +1672,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 77.0 ],
-									"text" : "/modosc/points/left/pos : [-86.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 99.],\n/modosc/points/right/pos : [-44.6, 0., 0.],\n/modosc/points/right/rot_rpy : [-0., 0., 72.4]"
+									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
+									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8]"
 								}
 
 							}
@@ -1637,7 +1684,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 196.387234300374985, 159.0, 22.0 ],
+									"patching_rect" : [ 31.5, 196.387234300374985, 159.0, 22.0 ],
 									"text" : "mo.motive6Deuler /left /right"
 								}
 
@@ -1673,6 +1720,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
 									"source" : [ "obj-19", 0 ]
 								}
@@ -1688,6 +1742,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
+									"order" : 1,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1737,15 +1800,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
-									"order" : 1,
-									"source" : [ "obj-31", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"order" : 0,
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -1778,12 +1832,19 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1846,8 +1907,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2424,57 +2485,64 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.motive6Deuler.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../modosc/patchers",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.velocity.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../modosc/patchers",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
-				"patcherrelativepath" : "../patchers/abstractions/odot",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"patcherrelativepath" : "../../patchers/abstractions/odot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.group.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../modosc/patchers",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.qom.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../modosc/patchers",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.setWeights.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../modosc/patchers",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generateFakeData.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.cart2sph.maxpat",
+				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2486,122 +2554,122 @@
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multisliderRange.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.mangle.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.grain.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.streamonsetsV2.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
+				"patcherrelativepath" : "../../../../../../Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.union.mxe64",
-				"type" : "mx64"
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.expr.codebox.mxe64",
-				"type" : "mx64"
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.pack.mxe64",
-				"type" : "mx64"
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxe64",
-				"type" : "mx64"
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.display.mxe64",
-				"type" : "mx64"
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.select.mxe64",
-				"type" : "mx64"
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.var.mxe64",
-				"type" : "mx64"
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.collect.mxe64",
-				"type" : "mx64"
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.if.mxe64",
-				"type" : "mx64"
+				"name" : "o.if.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.compose.mxe64",
-				"type" : "mx64"
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "rapidmax.mxe64",
-				"type" : "mx64"
+				"name" : "rapidmax.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cm.gausscloud~.mxe64",
-				"type" : "mx64"
+				"name" : "cm.gausscloud~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2664,8 +2732,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
