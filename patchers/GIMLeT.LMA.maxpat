@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 874.0, 79.0, 772.0, 937.0 ],
+		"rect" : [ 56.0, 164.0, 1865.0, 1083.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -518,16 +518,30 @@
 					"id" : "obj-25",
 					"knobshape" : 5,
 					"maxclass" : "slider",
+					"min" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 976.4049072265625, 543.462646101562541, 302.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 437.462646101562541, 302.0, 18.0 ],
-					"size" : 1.0,
-					"thickness" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "slider",
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "slider",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 2.0,
+					"thickness" : 70.0,
+					"varname" : "slider"
 				}
 
 			}
@@ -645,7 +659,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -691,7 +705,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1043,8 +1057,8 @@
 , 											{
 												"name" : "black in white",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
+													"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "number001",
@@ -1557,10 +1571,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 254.0, 313.0, 261.0 ],
+					"patching_rect" : [ 373.0, 254.0, 322.0, 261.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 19,
-					"presentation_rect" : [ 373.0, 254.0, 313.0, 261.0 ],
+					"presentation_rect" : [ 373.0, 254.0, 322.0, 261.0 ],
 					"text" : "The Effort component describes human MQs using four factors: Space, Time, Weight, and Flow. Observable qualities of Effort mark the outer manifestation of an inner attitude. Each of the Effort factors is a continuum bounded by two extreme values (Space: direct/indirect, Time: sudden/sustained, Weight: light/strong, Flow: bound/free) in which movement can vary and thus reveal different qualities or “Effort qualities”. One of the values is the result of “indulging” through the Effort, while the other extreme value is the result of “fighting” through the Effort [14]. Space is related to the subject’s attention to the surrounding environment, and the directedness of their interaction with it. Time is related to the subject’s sense of urgency. Weight is related to the subject’s sense of presence in the world and the impact they make upon it. Flow is the feeling of “aliveness” and the attitude towards bodily control. Table 1 lists the indulging and fighting values for each Effort factor and the internal attitudes related to each."
 				}
 
@@ -1613,16 +1627,30 @@
 					"id" : "obj-12",
 					"knobshape" : 5,
 					"maxclass" : "slider",
+					"min" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 976.4049072265625, 371.321640639277234, 302.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 265.321640639277234, 302.0, 18.0 ],
-					"size" : 1.0,
-					"thickness" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "slider[2]",
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "slider[2]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 2.0,
+					"thickness" : 70.0,
+					"varname" : "slider[2]"
 				}
 
 			}
@@ -1632,16 +1660,30 @@
 					"id" : "obj-11",
 					"knobshape" : 5,
 					"maxclass" : "slider",
+					"min" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 976.4049072265625, 456.0, 302.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 350.0, 302.0, 18.0 ],
-					"size" : 1.0,
-					"thickness" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "slider[1]",
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "slider[1]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 2.0,
+					"thickness" : 70.0,
+					"varname" : "slider[1]"
 				}
 
 			}
@@ -1703,16 +1745,30 @@
 					"id" : "obj-4",
 					"knobshape" : 5,
 					"maxclass" : "slider",
+					"min" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 976.4049072265625, 296.0, 302.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 190.0, 302.0, 18.0 ],
-					"size" : 1.0,
-					"thickness" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "slider[3]",
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "slider[3]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 2.0,
+					"thickness" : 70.0,
+					"varname" : "slider[3]"
 				}
 
 			}
@@ -2102,44 +2158,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-188" : [ "gswitch2[43]", "gswitch2[13]", 0 ],
-			"obj-189" : [ "gswitch2[42]", "gswitch2[12]", 0 ],
-			"obj-190" : [ "gswitch2[38]", "gswitch2[11]", 0 ],
-			"obj-191" : [ "gswitch2[37]", "gswitch2[10]", 0 ],
-			"obj-27" : [ "live.text[12]", "live.text", 0 ],
-			"obj-29" : [ "gswitch2[34]", "gswitch2[40]", 0 ],
-			"obj-43" : [ "live.text[11]", "live.text", 0 ],
-			"obj-44" : [ "live.text[10]", "live.text", 0 ],
-			"obj-49" : [ "live.text[9]", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "LMA_table.png",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -2170,8 +2188,8 @@
 , 			{
 				"name" : "black in white",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
+					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "number001",
