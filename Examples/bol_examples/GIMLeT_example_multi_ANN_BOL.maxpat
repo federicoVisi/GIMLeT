@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 965.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1479.0, 1018.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 965.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -826,8 +826,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -866,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 965.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -988,7 +988,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 965.0, 911.0 ],
+						"rect" : [ 34.0, 105.0, 1479.0, 992.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1023,7 +1023,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 797.453432440757751, 695.209517575800419, 298.0, 20.0 ],
+									"patching_rect" : [ 797.453432440757751, 715.209517575800419, 298.0, 20.0 ],
 									"text" : "strips off /modosc, making addresses more compact"
 								}
 
@@ -1035,7 +1035,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 693.0, 695.0, 95.0, 22.0 ],
+									"patching_rect" : [ 693.0, 715.0, 95.0, 22.0 ],
 									"text" : "o.route /modosc"
 								}
 
@@ -1046,7 +1046,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 898.0, 667.237156201153994, 270.0, 20.0 ],
+									"patching_rect" : [ 898.0, 687.237156201153994, 270.0, 20.0 ],
 									"text" : "Conversion to spherical coordinates for SPRAWL"
 								}
 
@@ -1058,7 +1058,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 693.0, 666.237156201153994, 196.0, 22.0 ],
+									"patching_rect" : [ 693.0, 686.237156201153994, 196.0, 22.0 ],
 									"text" : "mo.cart2sph /left /right @degrees 1"
 								}
 
@@ -1069,7 +1069,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 872.382397413253784, 264.0, 20.0 ],
+									"patching_rect" : [ 872.0, 854.382397413253784, 264.0, 20.0 ],
 									"text" : "Spherical coordinates to SPRAWL"
 								}
 
@@ -1081,7 +1081,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 693.0, 725.091914989054203, 309.0, 22.0 ],
+									"patching_rect" : [ 693.0, 745.091914989054203, 309.0, 22.0 ],
 									"text" : "o.gather.select /points/left/pos_aed /points/right/pos_aed"
 								}
 
@@ -1096,8 +1096,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 693.0, 765.091914989054203, 385.0, 48.0 ],
-									"text" : "/points/right/pos_aed : [150.222, 77.857, 14372.8],\n/points/left/pos_aed : [0., 0., 2154.32]"
+									"patching_rect" : [ 693.0, 785.091914989054203, 385.0, 48.0 ],
+									"text" : "/points/right/pos_aed : [93.4938, 83.8893, 14131.5],\n/points/left/pos_aed : [180., 0., 137.51]"
 								}
 
 							}
@@ -1107,7 +1107,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 693.0, 872.382397413253784, 144.0, 22.0 ],
+									"patching_rect" : [ 693.0, 854.382397413253784, 144.0, 22.0 ],
 									"text" : "udpsend 127.0.0.1 55011"
 								}
 
@@ -1493,8 +1493,8 @@
 , 											{
 												"name" : "scope~001",
 												"default" : 												{
-													"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-													"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+													"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+													"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1598,7 +1598,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 170.0 ],
-									"text" : "/modosc/points/left/pos : [37.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -44.8],\n/modosc/points/right/pos : [-45.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -12.8],\n/modosc/points/left/vel : [-0.750496, 0., 0.],\n/modosc/points/left/vel_mag : 0.750496,\n/modosc/points/right/vel : [0.0897803, 3.89899e-16, 1.5596e-14],\n/modosc/points/right/vel_mag : 0.0897803,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.420138"
+									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8],\n/modosc/points/left/vel : [-0.839291, 0., 0.],\n/modosc/points/left/vel_mag : 0.839291,\n/modosc/points/right/vel : [-0.0428167, 0.210499, 1.96986],\n/modosc/points/right/vel_mag : 1.98154,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 1.41042"
 								}
 
 							}
@@ -1673,7 +1673,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
-									"text" : "/modosc/points/left/pos : [37.6, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., -44.8],\n/modosc/points/right/pos : [-45.8, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, -12.8]"
+									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8]"
 								}
 
 							}
@@ -1944,8 +1944,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2769,8 +2769,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
