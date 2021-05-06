@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 621.0, 217.0, 640.0, 480.0 ],
+		"rect" : [ 297.0, 171.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "o.expr.codebox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "FullPacket", "FullPacket" ],
+					"patching_rect" : [ 25.0, 221.0, 150.0, 32.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -121,8 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 158.0, 349.0, 34.0 ],
-					"text" : "/modosc/points/mim/rot_rpy : [0., 153.816, 90.]"
+					"patching_rect" : [ 25.0, 158.0, 349.0, 34.0 ]
 				}
 
 			}
@@ -253,8 +265,8 @@
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
-				"patcherrelativepath" : "../../patchers/abstractions/odot",
+				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/namespace",
+				"patcherrelativepath" : "../../../odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -291,8 +303,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -355,8 +367,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
