@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1479.0, 1018.0 ],
+		"rect" : [ 42.0, 85.0, 1214.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.0, 209.0, 114.0, 30.0 ],
-					"text" : ";\rmax launchbrowser $1"
+					"text" : ";\r\nmax launchbrowser $1"
 				}
 
 			}
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
+						"rect" : [ 0.0, 26.0, 1214.0, 887.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -187,7 +187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 688.0, 262.0, 34.0 ]
+									"patching_rect" : [ 1162.0, 688.0, 262.0, 35.0 ]
 								}
 
 							}
@@ -236,7 +236,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 642.0, 196.0, 34.0 ]
+									"patching_rect" : [ 901.0, 642.0, 196.0, 35.0 ]
 								}
 
 							}
@@ -410,7 +410,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 175.5, 262.0, 34.0 ]
+									"patching_rect" : [ 1162.0, 175.5, 262.0, 35.0 ]
 								}
 
 							}
@@ -459,7 +459,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1162.0, 416.5, 262.0, 34.0 ]
+									"patching_rect" : [ 1162.0, 416.5, 262.0, 35.0 ]
 								}
 
 							}
@@ -508,7 +508,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 370.5, 196.0, 34.0 ]
+									"patching_rect" : [ 901.0, 370.5, 196.0, 35.0 ]
 								}
 
 							}
@@ -564,7 +564,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 132.5, 189.0, 34.0 ]
+									"patching_rect" : [ 901.0, 132.5, 189.0, 35.0 ]
 								}
 
 							}
@@ -725,8 +725,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -866,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1479.0, 992.0 ],
+						"rect" : [ 0.0, 26.0, 1214.0, 887.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -988,7 +988,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1479.0, 992.0 ],
+						"rect" : [ 42.0, 111.0, 1214.0, 887.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1096,8 +1096,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 693.0, 785.091914989054203, 385.0, 48.0 ],
-									"text" : "/points/right/pos_aed : [93.4938, 83.8893, 14131.5],\n/points/left/pos_aed : [180., 0., 137.51]"
+									"patching_rect" : [ 693.0, 785.091914989054203, 385.0, 49.0 ],
+									"text" : "/points/right/pos_aed : [179.303, 28.0996, 24907.7],\n/points/left/pos_aed : [3.87963, -70.5872, 20407]"
 								}
 
 							}
@@ -1419,8 +1419,8 @@
 										"styles" : [ 											{
 												"name" : "filtergraphBronze",
 												"default" : 												{
-													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1597,8 +1597,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 170.0 ],
-									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8],\n/modosc/points/left/vel : [-0.839291, 0., 0.],\n/modosc/points/left/vel_mag : 0.839291,\n/modosc/points/right/vel : [-0.0428167, 0.210499, 1.96986],\n/modosc/points/right/vel_mag : 1.98154,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 1.41042"
+									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 175.0 ],
+									"text" : "/modosc/points/left/pos : [118.109, 8.00972, -335.92],\n/modosc/points/left/rot_rpy : [-176.767, -58.3203, -3.29175],\n/modosc/points/right/pos : [-383.452, 4.66371, 204.756],\n/modosc/points/right/rot_rpy : [-18.9735, -82.5173, 22.3125],\n/modosc/points/left/vel : [-0.0953088, -0.0194331, -0.0141692],\n/modosc/points/left/vel_mag : 0.0982964,\n/modosc/points/right/vel : [-0.00429952, 0.00260638, -0.014775],\n/modosc/points/right/vel_mag : 0.0156071,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.0569517"
 								}
 
 							}
@@ -1621,7 +1621,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 31.546567559242249, 234.166662693023682, 99.0, 22.0 ],
+									"patching_rect" : [ 31.5, 231.166662693023682, 99.0, 22.0 ],
 									"text" : "o.select /modosc"
 								}
 
@@ -1672,8 +1672,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 265.166662693023682, 534.705898404121399, 75.0 ],
-									"text" : "/modosc/points/left/pos : [-2.4, 0., 0.],\n/modosc/points/left/rot_rpy : [-0., 0., 1.8],\n/modosc/points/right/pos : [-1.6, 26.2063, 245.24],\n/modosc/points/right/rot_rpy : [-90.8463, 40.6841, 4.8]"
+									"patching_rect" : [ 31.546567559242249, 261.166662693023682, 534.705898404121399, 77.0 ],
+									"text" : "/modosc/points/left/pos : [118.109, 8.00972, -335.92],\n/modosc/points/left/rot_rpy : [-176.767, -58.3203, -3.29175],\n/modosc/points/right/pos : [-383.452, 4.66371, 204.756],\n/modosc/points/right/rot_rpy : [-18.9735, -82.5173, 22.3125]"
 								}
 
 							}
@@ -1843,8 +1843,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2485,63 +2485,63 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mo.motive6Deuler.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.velocity.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
 				"patcherrelativepath" : "../../patchers/abstractions/odot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.group.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.qom.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.setWeights.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generateFakeData.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.cart2sph.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
+				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2554,122 +2554,122 @@
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multisliderRange.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.mangle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.grain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.streamonsetsV2.maxpat",
-				"bootpath" : "~/Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
-				"patcherrelativepath" : "../../../../../../Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
+				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
+				"name" : "o.union.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
+				"name" : "o.expr.codebox.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
+				"name" : "o.pack.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
+				"name" : "o.display.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
+				"name" : "o.select.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
+				"name" : "o.var.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
+				"name" : "o.collect.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.if.mxo",
-				"type" : "iLaX"
+				"name" : "o.if.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
+				"name" : "o.compose.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "rapidmax.mxo",
-				"type" : "iLaX"
+				"name" : "rapidmax.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "cm.gausscloud~.mxo",
-				"type" : "iLaX"
+				"name" : "cm.gausscloud~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
