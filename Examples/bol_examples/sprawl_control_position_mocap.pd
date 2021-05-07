@@ -1,4 +1,4 @@
-#N canvas 436 116 1227 800 10;
+#N canvas 336 59 690 562 10;
 #X text 8 7 Example patch for controlling spatial properties of a sound
 on the SPRAWL server.;
 #X obj 9 441 netsend -u -b;
@@ -102,14 +102,13 @@ on the SPRAWL server.;
 #X connect 5 0 1 0;
 #X coords 0 -1 1 1 133 88 2 100 100;
 #X restore 430 353 pd default;
-#X msg 61 376 connect 85.214.78.6 57120;
-#X obj 11 83 o.display 393 36;
+#X obj 12 83 o.display 556 44;
 #X obj 11 35 netreceive -u -b 55011;
 #N canvas 0 23 450 300 bytes2bundle 0;
 #X obj 52 27 inlet;
 #X obj 52 261 outlet;
 #X obj 52 65 o.pack /list;
-#X obj 52 101 o.expr.codebox 199 23 binhex b#2F626E646C203D2062756E646C65282F
+#X obj 52 101 o.expr.codebox 199 38 binhex b#2F626E646C203D2062756E646C65282F
 b#6C69737429;
 #X obj 52 156 o.route /bndl;
 #X connect 0 0 2 0;
@@ -119,14 +118,15 @@ b#6C69737429;
 #X restore 11 58 pd bytes2bundle;
 #X obj 146 140 o.route /points/right/pos_aed;
 #X obj 146 161 unpack f f f;
+#X msg 63 375 connect 195.37.74.59 57120;
 #X connect 2 0 1 0;
 #X connect 4 0 1 0;
 #X connect 5 0 1 0;
-#X connect 6 0 1 0;
-#X connect 7 0 10 0;
-#X connect 8 0 9 0;
-#X connect 9 0 7 0;
-#X connect 10 0 11 0;
-#X connect 11 0 4 1;
-#X connect 11 1 4 2;
-#X connect 11 2 4 3;
+#X connect 6 0 9 0;
+#X connect 7 0 8 0;
+#X connect 8 0 6 0;
+#X connect 9 0 10 0;
+#X connect 10 0 4 1;
+#X connect 10 1 4 2;
+#X connect 10 2 4 3;
+#X connect 11 0 1 0;
