@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1214.0, 913.0 ],
+		"rect" : [ 142.0, 106.0, 1125.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1214.0, 887.0 ],
+						"rect" : [ 0.0, 26.0, 1125.0, 894.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -725,8 +725,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -866,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1214.0, 887.0 ],
+						"rect" : [ 0.0, 26.0, 1125.0, 894.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -988,7 +988,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, 111.0, 1214.0, 887.0 ],
+						"rect" : [ 142.0, 132.0, 1125.0, 894.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1023,7 +1023,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 797.453432440757751, 715.209517575800419, 298.0, 20.0 ],
+									"patching_rect" : [ 797.453432440757751, 676.209517575800419, 298.0, 20.0 ],
 									"text" : "strips off /modosc, making addresses more compact"
 								}
 
@@ -1035,7 +1035,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 693.0, 715.0, 95.0, 22.0 ],
+									"patching_rect" : [ 693.0, 676.0, 95.0, 22.0 ],
 									"text" : "o.route /modosc"
 								}
 
@@ -1046,7 +1046,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 898.0, 687.237156201153994, 270.0, 20.0 ],
+									"patching_rect" : [ 947.0, 648.237156201153994, 270.0, 20.0 ],
 									"text" : "Conversion to spherical coordinates for SPRAWL"
 								}
 
@@ -1058,8 +1058,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
-									"patching_rect" : [ 693.0, 686.237156201153994, 196.0, 22.0 ],
-									"text" : "mo.cart2sph /left /right @degrees 1"
+									"patching_rect" : [ 693.0, 647.237156201153994, 245.0, 22.0 ],
+									"text" : "mo.cart2sph.optitrack /left /right @degrees 1"
 								}
 
 							}
@@ -1081,7 +1081,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 693.0, 745.091914989054203, 309.0, 22.0 ],
+									"patching_rect" : [ 693.0, 706.091914989054203, 309.0, 22.0 ],
 									"text" : "o.gather.select /points/left/pos_aed /points/right/pos_aed"
 								}
 
@@ -1091,13 +1091,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 693.0, 785.091914989054203, 385.0, 49.0 ],
-									"text" : "/points/right/pos_aed : [179.303, 28.0996, 24907.7],\n/points/left/pos_aed : [3.87963, -70.5872, 20407]"
+									"patching_rect" : [ 693.0, 765.091914989054203, 385.0, 35.0 ]
 								}
 
 							}
@@ -1419,8 +1417,8 @@
 										"styles" : [ 											{
 												"name" : "filtergraphBronze",
 												"default" : 												{
-													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1592,13 +1590,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-20",
-									"linecount" : 11,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 175.0 ],
-									"text" : "/modosc/points/left/pos : [118.109, 8.00972, -335.92],\n/modosc/points/left/rot_rpy : [-176.767, -58.3203, -3.29175],\n/modosc/points/right/pos : [-383.452, 4.66371, 204.756],\n/modosc/points/right/rot_rpy : [-18.9735, -82.5173, 22.3125],\n/modosc/points/left/vel : [-0.0953088, -0.0194331, -0.0141692],\n/modosc/points/left/vel_mag : 0.0982964,\n/modosc/points/right/vel : [-0.00429952, 0.00260638, -0.014775],\n/modosc/points/right/vel_mag : 0.0156071,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.0569517"
+									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 35.0 ]
 								}
 
 							}
@@ -1667,13 +1663,11 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 4,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 261.166662693023682, 534.705898404121399, 77.0 ],
-									"text" : "/modosc/points/left/pos : [118.109, 8.00972, -335.92],\n/modosc/points/left/rot_rpy : [-176.767, -58.3203, -3.29175],\n/modosc/points/right/pos : [-383.452, 4.66371, 204.756],\n/modosc/points/right/rot_rpy : [-18.9735, -82.5173, 22.3125]"
+									"patching_rect" : [ 31.546567559242249, 261.166662693023682, 534.705898404121399, 35.0 ]
 								}
 
 							}
@@ -1843,8 +1837,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2533,7 +2527,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mo.cart2sph.maxpat",
+				"name" : "mo.cart2sph.optitrack.maxpat",
 				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
 				"patcherrelativepath" : "../../../modosc/patchers",
 				"type" : "JSON",
@@ -2668,8 +2662,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
