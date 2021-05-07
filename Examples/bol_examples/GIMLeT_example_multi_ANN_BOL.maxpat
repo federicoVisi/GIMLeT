@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 106.0, 1125.0, 920.0 ],
+		"rect" : [ 42.0, 85.0, 1467.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1125.0, 894.0 ],
+						"rect" : [ 0.0, 26.0, 1467.0, 868.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -725,8 +725,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -789,8 +789,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -826,8 +826,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -866,7 +866,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1125.0, 894.0 ],
+						"rect" : [ 0.0, 26.0, 1467.0, 868.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -988,7 +988,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 142.0, 132.0, 1125.0, 894.0 ],
+						"rect" : [ 42.0, 137.0, 1467.0, 868.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1059,7 +1059,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "FullPacket" ],
 									"patching_rect" : [ 693.0, 647.237156201153994, 245.0, 22.0 ],
-									"text" : "mo.cart2sph.optitrack /left /right @degrees 1"
+									"text" : "mo.cart2sph.optitrack /left /right @degrees 0"
 								}
 
 							}
@@ -1069,7 +1069,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 854.382397413253784, 264.0, 20.0 ],
+									"patching_rect" : [ 842.0, 855.382397413253784, 264.0, 20.0 ],
 									"text" : "Spherical coordinates to SPRAWL"
 								}
 
@@ -1091,11 +1091,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 693.0, 765.091914989054203, 385.0, 35.0 ]
+									"patching_rect" : [ 693.0, 751.591914989054203, 402.453432440757751, 49.0 ],
+									"text" : "/points/right/pos_aed : [2.84144, 0.104617, 0.126582],\n/points/left/pos_aed : [2.843, 0.154834, 0.122708]"
 								}
 
 							}
@@ -1146,6 +1148,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
+									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -1417,8 +1420,8 @@
 										"styles" : [ 											{
 												"name" : "filtergraphBronze",
 												"default" : 												{
-													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+													"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+													"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1472,8 +1475,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1491,8 +1494,8 @@
 , 											{
 												"name" : "scope~001",
 												"default" : 												{
-													"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-													"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+													"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+													"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1590,11 +1593,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-20",
+									"linecount" : 11,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 35.0 ]
+									"patching_rect" : [ 31.546567559242249, 472.262272372841835, 534.705898404121399, 175.0 ],
+									"text" : "/modosc/points/left/pos : [-115.876, 18.9236, -35.6661],\n/modosc/points/left/rot_rpy : [163.825, -75.7964, -170.981],\n/modosc/points/right/pos : [-120.262, 13.2184, -37.2209],\n/modosc/points/right/rot_rpy : [-173.549, -68.558, 175.515],\n/modosc/points/left/vel : [-0.01812, -0.00354549, 0.00980125],\n/modosc/points/left/vel_mag : 0.0209038,\n/modosc/points/right/vel : [-0.0032378, -0.000390439, 0.000549471],\n/modosc/points/right/vel_mag : 0.00330722,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.0121055"
 								}
 
 							}
@@ -1663,11 +1668,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-6",
+									"linecount" : 4,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.546567559242249, 261.166662693023682, 534.705898404121399, 35.0 ]
+									"patching_rect" : [ 31.546567559242249, 261.166662693023682, 534.705898404121399, 77.0 ],
+									"text" : "/modosc/points/left/pos : [-115.876, 18.9236, -35.6661],\n/modosc/points/left/rot_rpy : [163.825, -75.7964, -170.981],\n/modosc/points/right/pos : [-120.262, 13.2184, -37.2209],\n/modosc/points/right/rot_rpy : [-173.549, -68.558, 175.515]"
 								}
 
 							}
@@ -1837,8 +1844,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1901,8 +1908,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1938,8 +1945,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2662,8 +2669,8 @@
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2726,8 +2733,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2763,8 +2770,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
