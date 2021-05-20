@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 789.0, 920.0 ],
+		"rect" : [ 42.0, 85.0, 950.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.593135118484497, 738.591914989054203, 402.453432440757751, 49.0 ],
-					"text" : "/points/right/pos_aed : [0.327386, 1.40383, 1.11413],\n/points/left/pos_aed : [0.433868, 1.26525, 1.15395]"
+					"text" : "/points/right/pos_aed : [0.232536, 1.22114, 1.17627],\n/points/left/pos_aed : [0.461065, 1.38734, 1.11573]"
 				}
 
 			}
@@ -564,7 +564,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.593135118484497, 457.262272372841835, 534.705898404121399, 175.0 ],
-					"text" : "/modosc/points/left/pos : [314.966, 1100.5, -145.927],\n/modosc/points/left/rot_rpy : [179.867, -23.3577, 2.8183],\n/modosc/points/right/pos : [175.322, 1098.64, -59.5405],\n/modosc/points/right/rot_rpy : [46.4527, 78.5111, -136.533],\n/modosc/points/left/vel : [0.151017, 0.409792, 0.432026],\n/modosc/points/left/vel_mag : 0.614314,\n/modosc/points/right/vel : [-0.00652983, 0.209151, -0.170521],\n/modosc/points/right/vel_mag : 0.269934,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.442124"
+					"text" : "/modosc/points/left/pos : [182.283, 1097.01, -90.554],\n/modosc/points/left/rot_rpy : [-178.853, -76.9603, 0.264054],\n/modosc/points/right/pos : [392.113, 1105.1, -92.8602],\n/modosc/points/right/rot_rpy : [8.53505, 42.3712, -172.49],\n/modosc/points/left/vel : [-0.0829872, -0.0517771, -0.0439576],\n/modosc/points/left/vel_mag : 0.107238,\n/modosc/points/right/vel : [-0.00971991, -0.0476503, 0.0086794],\n/modosc/points/right/vel_mag : 0.0494,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.0783191"
 				}
 
 			}
@@ -639,7 +639,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.593135118484497, 250.166662693023682, 534.705898404121399, 77.0 ],
-					"text" : "/modosc/points/left/pos : [314.966, 1100.5, -145.927],\n/modosc/points/left/rot_rpy : [179.867, -23.3577, 2.8183],\n/modosc/points/right/pos : [175.322, 1098.64, -59.5405],\n/modosc/points/right/rot_rpy : [46.4527, 78.5111, -136.533]"
+					"text" : "/modosc/points/left/pos : [182.283, 1097.01, -90.554],\n/modosc/points/left/rot_rpy : [-178.853, -76.9603, 0.264054],\n/modosc/points/right/pos : [392.113, 1105.1, -92.8602],\n/modosc/points/right/rot_rpy : [8.53505, 42.3712, -172.49]"
 				}
 
 			}

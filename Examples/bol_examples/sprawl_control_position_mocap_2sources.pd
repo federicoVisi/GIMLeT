@@ -1,4 +1,4 @@
-#N canvas 395 75 1331 579 10;
+#N canvas 422 80 1331 579 10;
 #X text 8 7 Example patch for controlling spatial properties of a sound
 on the SPRAWL server.;
 #X obj 6 526 netsend -u -b;
@@ -81,7 +81,7 @@ on the SPRAWL server.;
 #X connect 33 0 25 0;
 #X connect 34 0 13 0;
 #X coords 0 -1 1 1 555 155 2 100 100;
-#X restore 8 185 pd sub1;
+#X restore 15 186 pd sub1;
 #N canvas 18 118 450 300 default 0;
 #X obj 128 259 list trim;
 #X obj 128 232 list prepend send;
@@ -192,7 +192,7 @@ b#6C69737429;
 #X connect 33 0 25 0;
 #X connect 34 0 13 0;
 #X coords 0 -1 1 1 555 155 2 100 100;
-#X restore 617 185 pd sub1;
+#X restore 617 187 pd sub1;
 #X connect 2 0 1 0;
 #X connect 4 0 1 0;
 #X connect 5 0 1 0;
@@ -209,3 +209,4 @@ b#6C69737429;
 #X connect 12 1 14 2;
 #X connect 12 2 14 3;
 #X connect 13 0 9 0;
+#X connect 14 0 1 0;
