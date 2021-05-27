@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 32.593135118484497, 802.487156201153994, 83.0, 22.0 ],
+					"text" : "o.speedlim 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -113,13 +125,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.593135118484497, 738.591914989054203, 402.453432440757751, 49.0 ],
-					"text" : "/points/right/pos_aed : [-0.213909, 1.17919, 1.19677],\n/points/left/pos_aed : [-0.163117, 1.31891, 1.1389]"
+					"patching_rect" : [ 32.593135118484497, 738.591914989054203, 402.453432440757751, 34.0 ]
 				}
 
 			}
@@ -483,8 +493,8 @@
 , 							{
 								"name" : "scope~001",
 								"default" : 								{
-									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+									"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+									"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -558,13 +568,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"linecount" : 11,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.593135118484497, 457.262272372841835, 534.705898404121399, 175.0 ],
-					"text" : "/modosc/points/left/pos : [280.079, 1102.96, 46.095],\n/modosc/points/left/rot_rpy : [177.822, 58.4505, -0.649414],\n/modosc/points/right/pos : [446.367, 1106.17, 96.9651],\n/modosc/points/right/rot_rpy : [-179.2, 28.4, -4.6848],\n/modosc/points/left/vel : [-2.87642e-05, 0.00773818, 0.00639048],\n/modosc/points/left/vel_mag : 0.0100359,\n/modosc/points/right/vel : [0.00645171, 0.00211934, 0.00309048],\n/modosc/points/right/vel_mag : 0.00746105,\n/modosc/groups/mygroup/points : [\"/left\", \"/right\"],\n/modosc/groups/mygroup/weights : [1., 1.],\n/modosc/groups/mygroup/qom : 0.00874846"
+					"patching_rect" : [ 32.593135118484497, 457.262272372841835, 534.705898404121399, 34.0 ]
 				}
 
 			}
@@ -633,13 +641,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 4,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.593135118484497, 250.166662693023682, 534.705898404121399, 77.0 ],
-					"text" : "/modosc/points/left/pos : [280.079, 1102.96, 46.095],\n/modosc/points/left/rot_rpy : [177.822, 58.4505, -0.649414],\n/modosc/points/right/pos : [446.367, 1106.17, 96.9651],\n/modosc/points/right/rot_rpy : [-179.2, 28.4, -4.6848]"
+					"patching_rect" : [ 32.593135118484497, 250.166662693023682, 534.705898404121399, 34.0 ]
 				}
 
 			}
@@ -756,7 +762,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -782,102 +788,116 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "mo.motive6Deuler.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.velocity.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.group.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.qom.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.setWeights.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generateFakeData.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
 				"patcherrelativepath" : "../../patchers/abstractions/odot",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.cart2sph.optitrack.maxpat",
-				"bootpath" : "D:/Users/chef/Documents/Max 8/Packages/modosc/patchers",
-				"patcherrelativepath" : "../../../modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.union.mxe64",
-				"type" : "mx64"
+				"name" : "o.speedlim.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
+				"patcherrelativepath" : "../../patchers/abstractions/odot",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "o.expr.codebox.mxe64",
-				"type" : "mx64"
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.pack.mxe64",
-				"type" : "mx64"
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxe64",
-				"type" : "mx64"
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.display.mxe64",
-				"type" : "mx64"
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.select.mxe64",
-				"type" : "mx64"
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.var.mxe64",
-				"type" : "mx64"
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.if.mxe64",
-				"type" : "mx64"
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.compose.mxe64",
-				"type" : "mx64"
+				"name" : "o.if.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.collect.mxe64",
-				"type" : "mx64"
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
@@ -985,8 +1005,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
