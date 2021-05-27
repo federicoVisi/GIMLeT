@@ -2,32 +2,31 @@
 
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
-## Video Tutorials
-1. Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
-2. Gesture following with PoseNet and GVF: https://youtu.be/GoNqiCvVgoY
-
 ## Installation
 ### Install the required packages
-1. Download the modosc package .zip file: https://github.com/motiondescriptors/modosc/archive/main.zip
-2. Open the .zip file and copy the `modosc` folder in your `/Max 8/Packages` folder. 
-3. Download the GIMLeT package .zip file: https://github.com/federicoVisi/GIMLeT/archive/main.zip
-4. Open the .zip file and copy the `GIMLeT` folder in your `/Max 8/Packages` folder. 
+1. Download the odot package .zip file: https://github.com/CNMAT/CNMAT-odot/releases/download/1.3.0/odot-Max-1.3.0.zip
+2. Open the .zip file and copy the `odot` folder in your `/Max 8/Packages` folder. 
+3. Download the modosc package .zip file: https://github.com/motiondescriptors/modosc/archive/main.zip
+4. Open the .zip file and copy the `modosc` folder in your `/Max 8/Packages` folder. 
+5. Download the GIMLeT package .zip file: https://github.com/federicoVisi/GIMLeT/archive/main.zip
+6. Open the .zip file and copy the `GIMLeT` folder in your `/Max 8/Packages` folder. 
+
+### Install the TouchOSC layout
+1. Install TouchOSC on your smarphone (iOS or Android, you'll find it on the app store)
+2. Sync the /TouchOSC/GIMLeT_TouchOSC_remote.touchosc using this guide: https://hexler.net/docs/touchosc-editor-sync
+3. Connect TouchOSC to your computer followng this guide: https://hexler.net/docs/touchosc-configuration-connections-osc 
+4. Make sure the outgoing OSC port in the TouchOSC settings (see link above) is the same as the RmtCtrl Port shown in the `gimlet.ml.ann` module.
 
 ### Launch the example patches
 Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an example. 
 
-### Install the TouchOSC layout
-- Install TouchOSC on your smarphone (iOS or Android, you'll find it on the app store)
-- Sync the /TouchOSC/GIMLeT_TouchOSC_remote.touchosc using this guide: https://hexler.net/docs/touchosc-editor-sync
-- Connect TouchOSC to your computer followng this guide: https://hexler.net/docs/touchosc-configuration-connections-osc 
-- Make sure the outgoing OSC port in the TouchOSC settings (see link above) is the same as the RmtCtrl Port shown in the `gimlet.ml.ann` module.
- 
-## Dependencies
-NOTE: the required objects from these libraries are included in the package in order to make distribution easier.
+## Video Tutorials
+1. Installation and linear regression with artifical neural networks: https://youtu.be/Dace1sHy1IM
+2. Gesture following with PoseNet and GVF: https://youtu.be/GoNqiCvVgoY
 
-- o.dot : OSC-centred multipardigm dynamic programming in Max  
-  https://github.com/CNMAT/CNMAT-odot 
-  
+## Dependencies
+
+### Included in the package
 - rapidmax : Max external for interactive machine learning  
   https://github.com/samparkewolfe/RapidMax (Mac)  
   https://github.com/MartinTownley/RapidMax_Windows   
@@ -37,8 +36,11 @@ NOTE: the required objects from these libraries are included in the package in o
   
 - Gesture Variation Follower  
   https://github.com/bcaramiaux/ofxGVF  
-  
-- HfMT Optitrack OSC bridge  
+
+### Installed separately 
+- [odot](https://github.com/CNMAT/CNMAT-odot/releases/download/1.3.0/odot-Max-1.3.0.zip), [modosc](https://github.com/motiondescriptors/modosc/archive/main.zip) (required, see installation section above)
+
+- HfMT Optitrack OSC bridge (optional, if used with Optitrack Motive)  
   https://github.com/HfMT-ZM4/motion-tracking  
 
 ## Literature
