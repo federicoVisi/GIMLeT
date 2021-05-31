@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1106.0, 937.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "Remote Control Port",
+					"id" : "obj-120",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 582.6044921875, 40.269607779899502, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Out Port",
+					"id" : "obj-114",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 520.380859500000042, 40.269607779899502, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "In Port",
+					"id" : "obj-42",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 458.157226812500085, 40.269607779899502, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-93",
 					"maxclass" : "newobj",
@@ -382,7 +421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.666666666666742, 733.20378601596758, 77.0, 22.0 ],
-					"text" : "port 4003"
+					"text" : "port 0"
 				}
 
 			}
@@ -1204,7 +1243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 543.6044921875, 602.127815866286369, 69.0, 22.0 ],
-					"text" : "port 1001"
+					"text" : "port 0"
 				}
 
 			}
@@ -2969,6 +3008,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-115", 0 ]
 				}
@@ -2999,6 +3045,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
 					"source" : [ "obj-119", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -3359,6 +3412,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -3734,6 +3794,70 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-112" : [ "live.text[9]", "live.text", 0 ],
+			"obj-123" : [ "number[9]", "number[4]", 0 ],
+			"obj-18" : [ "number[3]", "number[3]", 0 ],
+			"obj-197" : [ "live.text[8]", "live.text", 0 ],
+			"obj-26" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-35" : [ "live.text[32]", "live.text", 0 ],
+			"obj-64" : [ "live.text", "live.text", 0 ],
+			"obj-67" : [ "live.text[1]", "live.text", 0 ],
+			"obj-69" : [ "live.text[2]", "live.text", 0 ],
+			"obj-71" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-72" : [ "number[2]", "number[2]", 0 ],
+			"obj-75" : [ "live.text[3]", "live.text[4]", 0 ],
+			"obj-76" : [ "live.text[5]", "live.text[4]", 0 ],
+			"obj-77" : [ "live.text[6]", "live.text[4]", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Gimlet_logo_solo.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "routeNames.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
