@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "Remote Control Port",
 					"id" : "obj-120",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -55,7 +55,7 @@
 				"box" : 				{
 					"comment" : "Out Port",
 					"id" : "obj-114",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -68,7 +68,7 @@
 				"box" : 				{
 					"comment" : "In Port",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -421,7 +421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.666666666666742, 733.20378601596758, 77.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 4003"
 				}
 
 			}
@@ -914,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 218.0, 150.0, 20.0 ],
+					"patching_rect" : [ 299.5, 434.101694915254257, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.652343999999999, 132.95592853490723, 71.0, 20.0 ],
 					"text" : "tempo mult."
@@ -928,7 +928,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 264.5, 431.101694915254257, 58.0, 22.0 ],
+					"patching_rect" : [ 226.5, 434.101694915254257, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1243,7 +1243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 543.6044921875, 602.127815866286369, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 1001"
 				}
 
 			}
@@ -3794,70 +3794,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-112" : [ "live.text[9]", "live.text", 0 ],
-			"obj-123" : [ "number[9]", "number[4]", 0 ],
-			"obj-18" : [ "number[3]", "number[3]", 0 ],
-			"obj-197" : [ "live.text[8]", "live.text", 0 ],
-			"obj-26" : [ "live.text[7]", "live.text[4]", 0 ],
-			"obj-35" : [ "live.text[32]", "live.text", 0 ],
-			"obj-64" : [ "live.text", "live.text", 0 ],
-			"obj-67" : [ "live.text[1]", "live.text", 0 ],
-			"obj-69" : [ "live.text[2]", "live.text", 0 ],
-			"obj-71" : [ "live.text[4]", "live.text[4]", 0 ],
-			"obj-72" : [ "number[2]", "number[2]", 0 ],
-			"obj-75" : [ "live.text[3]", "live.text[4]", 0 ],
-			"obj-76" : [ "live.text[5]", "live.text[4]", 0 ],
-			"obj-77" : [ "live.text[6]", "live.text[4]", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "./abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
