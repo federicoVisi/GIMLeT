@@ -1,4 +1,4 @@
-#N canvas 75 139 997 549 12;
+#N canvas 76 140 997 549 12;
 #X text 109 193 3: Control parameters:;
 #X floatatom 110 150 5 0 0 0 - - -;
 #X obj 105 612 list trim;
@@ -32,7 +32,7 @@
 #X text 613 101 reverb;
 #X floatatom 459 261 5 0 0 0 - - -;
 #X floatatom 111 295 5 0 0 0 - - -;
-#N canvas 1110 127 652 608 scale 1;
+#N canvas 460 154 945 659 scale 0;
 #X obj 115 416 *;
 #X obj 45 45 inlet;
 #X obj 136 44 inlet;
@@ -148,6 +148,7 @@
 #X floatatom 458 332 5 0 0 0 - - -;
 #X text 456 315 Curvature;
 #X text 457 244 scal. factor;
+#X text 498 338 (works well with 1.03-1.06);
 #X connect 1 0 10 1;
 #X connect 1 0 13 1;
 #X connect 1 0 17 1;
