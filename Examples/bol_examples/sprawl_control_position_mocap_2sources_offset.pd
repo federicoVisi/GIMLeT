@@ -1,4 +1,4 @@
-#N canvas 69 41 1350 768 10;
+#N canvas 91 35 1350 768 10;
 #X text 8 7 Example patch for controlling spatial properties of a sound
 on the SPRAWL server.;
 #X obj 13 716 netsend -u -b;
@@ -37,8 +37,15 @@ b#6C69737429;
 #X obj 754 134 o.route /points/right/pos_aed;
 #X obj 754 155 unpack f f f;
 #X obj 146 140 o.route /points/left/pos_aed;
-#X obj 13 190 positionToOSC, f 28;
-#X obj 653 197 positionToOSC, f 28;
+#X obj 14 199 positionToOSC, f 28;
+#X obj 652 196 positionToOSC, f 28;
+#X msg 1244 158 1;
+#X msg 1125 157 6 0 1.03;
+#X obj 1125 128 loadbang;
+#X obj 1243 132 loadbang;
+#X text 974 79 NOTE on params: scaling_factor=6 and curvature=1.03
+worked well. Reverb=1 improved the perception of source position considerably.
+;
 #X connect 2 0 1 0;
 #X connect 4 0 1 0;
 #X connect 5 0 12 0;
@@ -56,3 +63,7 @@ b#6C69737429;
 #X connect 12 0 8 0;
 #X connect 13 0 1 0;
 #X connect 14 0 1 0;
+#X connect 15 0 14 5;
+#X connect 16 0 14 4;
+#X connect 17 0 16 0;
+#X connect 18 0 15 0;
