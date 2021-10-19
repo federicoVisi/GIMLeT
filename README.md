@@ -55,7 +55,7 @@ Caramiaux, B., Montecchio, N., Tanaka, A., & Bevilacqua, F. (2014). Adaptive Ges
 
 ## Acknowledgements and history
 
-The project was initiated as a collaboration between Federico Visi and HfMT Hamburg, Germany within the framwork of the _KiSS: Kinetics in Sound and Space_ project.
+The project was initiated as a collaboration between Federico Visi and HfMT Hamburg, Germany within the framework of the _KiSS: Kinetics in Sound and Space_ project.
 
 `gimlet.mangle` is based on a synth design by Atau Tanaka. 
 The data recorder in `gimlet.ml.ann` is based on a design by Michael Zbyszyński. 
