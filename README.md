@@ -55,12 +55,12 @@ Caramiaux, B., Montecchio, N., Tanaka, A., & Bevilacqua, F. (2014). Adaptive Ges
 
 ## Acknowledgements and history
 
-The project was initiated as a collaboration between Federico Visi and HfMT Hamburg, Germany within the framework of the _KiSS: Kinetics in Sound and Space_ project.
+The project was initiated as a collaboration between Federico Visi and [Hochschule für Musik und Theater Hamburg](https://www.hfmt-hamburg.de/start/), Germany, within the framework of the _KiSS: Kinetics in Sound and Space_ project.
 
 `gimlet.mangle` is based on a synth design by Atau Tanaka. 
 The data recorder in `gimlet.ml.ann` is based on a design by Michael Zbyszyński. 
 
-Further development was carried out by FV as part of a postdoctoral research position at GEMM))) Gesture Embodiment and Machines in Music – Piteå School of Music – Luleå University of Technology, Sweden.
+Further development was carried out by FV as part of a postdoctoral research position at [GEMM))) Gesture Embodiment and Machines in Music](https://www.ltu.se/research/subjects/Musikalisk-gestaltning/GEMM) – Piteå School of Music – Luleå University of Technology, Sweden.
 
 The package is being used and developed further in several projects including:
 * [N-Place](https://www.uio.no/ritmo/english/news-and-events/events/conferences/2021/RPPW/performances/telematic-etudes/index.html), a collaborative project focused on telematic music performance involving Luleå University of Technology, University of Oslo, and Technical University Berlin;
