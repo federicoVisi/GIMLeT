@@ -66,7 +66,8 @@ The package is being used and developed further in several projects including:
 * [N-Place](https://www.uio.no/ritmo/english/news-and-events/events/conferences/2021/RPPW/performances/telematic-etudes/index.html), a collaborative project focused on telematic music performance involving Luleå University of Technology, University of Oslo, and Technical University Berlin;
 * A collaboration between FV and [Opera Mecatronica](https://www.operamecatronica.com) for the development of an interactive opera piece to be premiered in 2022;
 * [The Global Hyperorgan project](https://youtu.be/49UgqmFoNmE);
-* [The Assisted Interactive Machine Learning project](https://youtu.be/emqqHxmkiqQ).
+* [The Assisted Interactive Machine Learning project](https://youtu.be/emqqHxmkiqQ);
+* [The Wearing Sound course at Universität der Künste Berlin](https://design.udk-berlin.de/lehrangebot/wearingsound). 
 
 ## Contact
 
