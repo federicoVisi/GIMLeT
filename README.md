@@ -44,20 +44,29 @@ Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an exampl
   https://github.com/HfMT-ZM4/motion-tracking  
 
 ## Literature
-### Book chapter with an overview of interactive machine learning of musical gesture
-Visi, F. G., & Tanaka, A. (2021). Interactive Machine Learning of Musical Gesture. In E. R. Miranda (Ed.), Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for Creativity. Springer, forthcoming. Preprint: http://arxiv.org/abs/2011.13487
+### Book chapter with an overview of interactive machine learning of musical gesture (please cite this if you use the package in a research project)
+Visi, F. G., & Tanaka, A. (2021). Interactive Machine Learning of Musical Gesture. In E. R. Miranda (Ed.), Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for Creativity. Springer, 2021. 
+
+- Preprint on ArXiV (open access): http://arxiv.org/abs/2011.13487
+- Final version on SpringerLink (paywall): https://link.springer.com/chapter/10.1007/978-3-030-72116-9_27
 
 ### Paper on the Gesture Variation Follower algorithm
 Caramiaux, B., Montecchio, N., Tanaka, A., & Bevilacqua, F. (2014). Adaptive Gesture Recognition with Variation Estimation for Interactive Systems. ACM Transactions on Interactive Intelligent Systems, 4(4), 1–34. https://doi.org/10.1145/2643204
 
-## Acknowledgements
+## Acknowledgements and history
 
-KiSS: Kinetics in Sound and Space – HfMT Hamburg, Germany. 
+The project was initiated as a collaboration between Federico Visi and HfMT Hamburg, Germany within the framwork of the _KiSS: Kinetics in Sound and Space_ project.
 
 `gimlet.mangle` is based on a synth design by Atau Tanaka. 
 The data recorder in `gimlet.ml.ann` is based on a design by Michael Zbyszyński. 
 
-GEMM))) Gesture Embodiment and Machines in Music – Piteå School of Music – Luleå University of Technology, Sweden.
+Further development was carried out by FV as part of a postdoctoral research position at GEMM))) Gesture Embodiment and Machines in Music – Piteå School of Music – Luleå University of Technology, Sweden.
+
+The package is being used and developed further in several projects including:
+* [N-Place](https://www.uio.no/ritmo/english/news-and-events/events/conferences/2021/RPPW/performances/telematic-etudes/index.html), a collaborative project focused on telematic music performance involving Luleå University of Technology, University of Oslo, and Technical University Berlin;
+* A collaboration between FV and [Opera Mecatronica](https://www.operamecatronica.com) for the development of an interactive opera piece to be premiered in 2022;
+* [The Global Hyperorgan project](https://youtu.be/49UgqmFoNmE);
+* [The Assisted Interactive Machine Learning project](https://youtu.be/emqqHxmkiqQ).
 
 ## Contact
 
