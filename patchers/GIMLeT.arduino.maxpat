@@ -1157,7 +1157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.720093187499998, 670.555079118282038, 69.0, 22.0 ],
-					"text" : "port 1001"
+					"text" : "port 0"
 				}
 
 			}
@@ -1311,16 +1311,13 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-12",
-					"linecount" : 8,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.914550562500011, 508.0, 119.0, 123.0 ],
+					"patching_rect" : [ 68.914550562500011, 508.0, 119.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 357.878960000000006, 0.95592853490723, 105.999999999999986, 123.0 ],
-					"text" : "/a0 : 0.,\n/a1 : 600.,\n/a2 : 7.,\n/a3 : 0.,\n/a4 : 707.,\n/a5 : 454.,\n/a6 : 958.,\n/a7 : 750."
+					"presentation_rect" : [ 357.878960000000006, 0.95592853490723, 105.999999999999986, 33.0 ]
 				}
 
 			}
@@ -4132,6 +4129,24 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"grad1" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
+					"grad2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"id" : "obj-26",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 774.280193457167115, 244.625, 61.0, 63.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 468.878960000000006, 152.177277000000004 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -4468,6 +4483,46 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1129" : [ "umenu", "umenu", 0 ],
+			"obj-17" : [ "number[6]", "number[3]", 0 ],
+			"obj-35" : [ "live.text[11]", "live.text", 0 ],
+			"obj-38" : [ "live.text[13]", "live.text", 0 ],
+			"obj-39" : [ "live.text[10]", "live.text", 0 ],
+			"obj-41" : [ "live.text[9]", "live.text", 0 ],
+			"obj-42" : [ "live.text[16]", "live.text", 0 ],
+			"obj-43" : [ "live.text[15]", "live.text", 0 ],
+			"obj-44" : [ "live.text[14]", "live.text", 0 ],
+			"obj-45" : [ "live.text[12]", "live.text", 0 ],
+			"obj-70" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Gimlet_logo_solo.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
