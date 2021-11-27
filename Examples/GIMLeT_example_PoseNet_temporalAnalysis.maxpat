@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -201,14 +201,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
+						"rect" : [ 34.0, 105.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -689,14 +689,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 772.0, 911.0 ],
+						"rect" : [ 0.0, 26.0, 772.0, 911.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -735,6 +735,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-5",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.ml.temporal.maxpat",
 									"numinlets" : 0,
@@ -774,8 +775,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -812,7 +813,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"args" : [ 2003, 0, 1001, "bass.wav" ],
+									"args" : [ 2003, 0, 1004, "bass.wav" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -820,6 +821,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-18",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.grain.maxpat",
 									"numinlets" : 0,
@@ -834,7 +836,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 2002, 0, 1001, "cello.wav" ],
+									"args" : [ 2002, 0, 1003, "cello.wav" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -842,6 +844,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-14",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.grain.maxpat",
 									"numinlets" : 0,
@@ -856,7 +859,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 2001, 0, 1001, "electric_piano.wav" ],
+									"args" : [ 2001, 0, 1002, "electric_piano.wav" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -864,6 +867,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-15",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.grain.maxpat",
 									"numinlets" : 0,
@@ -970,8 +974,8 @@
 , 							{
 								"name" : "black in white",
 								"default" : 								{
-									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "number001",
@@ -1748,8 +1752,8 @@
 			}
 , 			{
 				"name" : "fv.streamonsetsV2.maxpat",
-				"bootpath" : "~/Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
-				"patcherrelativepath" : "../../../../../Dropbox/Myo_perf_DGM/grain_strobe/grain_kines_slomo_project/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1768,8 +1772,8 @@
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1789,43 +1793,43 @@
 			}
 , 			{
 				"name" : "o.gather.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../../CNMAT-odot/patchers/namespace",
+				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/namespace",
+				"patcherrelativepath" : "../../odot/patchers/namespace",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.posenet.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modosc_posenet_main.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/n4m-posenet",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/n4m-posenet",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "index.js",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/n4m-posenet",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/n4m-posenet",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/n4m-posenet",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.jerk.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.acceleration.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc/patchers",
-				"patcherrelativepath" : "../../../../../Dropbox/_FV_git/GitHub/modosc/patchers",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1916,8 +1920,8 @@
 , 			{
 				"name" : "black in white",
 				"default" : 				{
-					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.953755, 0.965255, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "number001",
