@@ -41,8 +41,9 @@ Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an exampl
 - [odot](https://github.com/CNMAT/CNMAT-odot/releases/download/1.3.0/odot-Max-1.3.0.zip), [modosc](https://github.com/motiondescriptors/modosc/archive/main.zip) (required, see installation section above)
 
 - HfMT Optitrack OSC bridge (optional, if used with Optitrack Motive)  
-  https://github.com/HfMT-ZM4/motion-tracking 
-  A compiled build is available here, just edit the .bat file with the ip and port where you want to send the OSC data to and then run it: https://github.com/HfMT-ZM4/motion-tracking/releases/download/0.0.1/motion-osc.zip
+  https://github.com/HfMT-ZM4/motion-tracking  
+  
+  A compiled build is available [here](https://github.com/HfMT-ZM4/motion-tracking/releases/download/0.0.1/motion-osc.zip), just edit the .bat file with the ip and port where you want to send the OSC data to and then run it: https://github.com/HfMT-ZM4/motion-tracking/releases/download/0.0.1/motion-osc.zip
 
 ## Literature
 ### Book chapter with an overview of interactive machine learning of musical gesture (please cite this if you use the package in a research project)
