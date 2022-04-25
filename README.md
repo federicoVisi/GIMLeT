@@ -42,7 +42,6 @@ Launch Max, click on Extras->"GIMLeT examples" on the menu bar, choose an exampl
 
 - HfMT Optitrack OSC bridge (optional, if used with Optitrack Motive)  
   https://github.com/HfMT-ZM4/motion-tracking  
-  
   A compiled build is available [here](https://github.com/HfMT-ZM4/motion-tracking/releases/download/0.0.1/motion-osc.zip), just edit the .bat file with the ip and port where you want to send the OSC data to and then run it: https://github.com/HfMT-ZM4/motion-tracking/releases/download/0.0.1/motion-osc.zip
 
 ## Literature
