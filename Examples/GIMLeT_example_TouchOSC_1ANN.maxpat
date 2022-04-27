@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1112.0, 967.0 ],
+		"rect" : [ 724.0, 259.0, 1112.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,7 @@
 		"subpatcher_template" : "",
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"align" : 0,
@@ -119,8 +120,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -154,6 +155,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-28",
@@ -222,6 +224,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.mangle.maxpat",
 									"numinlets" : 0,
@@ -372,8 +375,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -436,8 +439,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -456,13 +459,13 @@
 								"name" : "panelViolet",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.372549, 0.196078, 0.486275, 0.2 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -505,14 +508,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1112.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -540,6 +543,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
@@ -619,6 +623,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "GIMLeT.ml.ann.maxpat",
 									"numinlets" : 0,
@@ -656,14 +661,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
+						"rect" : [ 724.0, 285.0, 1112.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -691,6 +696,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-49",
@@ -698,7 +704,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 176.0, 834.382397413253784, 169.0, 20.0 ],
-									"text" : "Selected features to port 1003"
+									"text" : "Selected features to port 1001"
 								}
 
 							}
@@ -918,8 +924,8 @@
 						"styles" : [ 							{
 								"name" : "filtergraphBronze",
 								"default" : 								{
-									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+									"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -982,8 +988,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1002,13 +1008,13 @@
 								"name" : "panelViolet",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.372549, 0.196078, 0.486275, 0.2 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -1053,108 +1059,197 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9::obj-1::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
+			"obj-10::obj-1::obj-11" : [ "live.text[7]", "live.text", 0 ],
 			"obj-10::obj-1::obj-120" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-9::obj-1::obj-124" : [ "number[1]", "number[1]", 0 ],
-			"obj-9::obj-1::obj-17" : [ "number[3]", "number[3]", 0 ],
-			"obj-9::obj-1::obj-82" : [ "multislider[20]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-43" : [ "live.text[8]", "live.text", 0 ],
-			"obj-10::obj-1::obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
-			"obj-9::obj-1::obj-47" : [ "multislider[28]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-18" : [ "Duration[3]", "Duration", 0 ],
-			"obj-9::obj-1::obj-23" : [ "multislider[25]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-77" : [ "multislider[17]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
-			"obj-10::obj-1::obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-10::obj-1::obj-15" : [ "StartTime[4]", "StartTime", 0 ],
-			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-49" : [ "live.text[6]", "live.text", 0 ],
-			"obj-10::obj-1::obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
-			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
-			"obj-9::obj-1::obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
 			"obj-10::obj-1::obj-16" : [ "Speed[2]", "Speed", 0 ],
-			"obj-10::obj-1::obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
-			"obj-9::obj-1::obj-66" : [ "multislider[14]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-46" : [ "multislider[27]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-109" : [ "multislider[39]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-78" : [ "multislider[34]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-85" : [ "multislider[22]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
-			"obj-9::obj-1::obj-28" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-10::obj-1::obj-18" : [ "Duration[3]", "Duration", 0 ],
 			"obj-10::obj-1::obj-188" : [ "gswitch2[33]", "gswitch2[13]", 0 ],
+			"obj-10::obj-1::obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
+			"obj-10::obj-1::obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
+			"obj-10::obj-1::obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
+			"obj-10::obj-1::obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
+			"obj-10::obj-1::obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
+			"obj-10::obj-1::obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
+			"obj-10::obj-1::obj-43" : [ "live.text[8]", "live.text", 0 ],
+			"obj-10::obj-1::obj-44" : [ "live.text[5]", "live.text", 0 ],
+			"obj-10::obj-1::obj-49" : [ "live.text[6]", "live.text", 0 ],
+			"obj-10::obj-1::obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-10::obj-1::obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-10::obj-1::obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
+			"obj-10::obj-1::obj-67" : [ "Resonance[2]", "Res", 0 ],
+			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
+			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-109" : [ "multislider[39]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-119" : [ "multislider[40]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-123" : [ "multislider[41]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-124" : [ "number[1]", "number[1]", 0 ],
+			"obj-9::obj-1::obj-127" : [ "multislider[42]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-134" : [ "multislider[44]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-151" : [ "Beep Vol.", "Beep Vol.", 0 ],
+			"obj-9::obj-1::obj-153" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-9::obj-1::obj-17" : [ "number[3]", "number[3]", 0 ],
+			"obj-9::obj-1::obj-18" : [ "multislider[3]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-182" : [ "number[5]", "number[3]", 0 ],
+			"obj-9::obj-1::obj-19" : [ "number", "number", 0 ],
+			"obj-9::obj-1::obj-22" : [ "multislider[24]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-23" : [ "multislider[25]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-271" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-9::obj-1::obj-272" : [ "live.text[4]", "live.text[3]", 0 ],
+			"obj-9::obj-1::obj-28" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-9::obj-1::obj-39" : [ "gswitch2", "gswitch2", 0 ],
+			"obj-9::obj-1::obj-41" : [ "multislider[26]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-46" : [ "multislider[27]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-47" : [ "multislider[28]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-49" : [ "multislider[13]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-50" : [ "multislider[29]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-52" : [ "multislider[30]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-53" : [ "multislider[31]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-56" : [ "multislider[32]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-81" : [ "multislider[19]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-151" : [ "Beep Vol.", "Beep Vol.", 0 ],
 			"obj-9::obj-1::obj-6" : [ "multislider[23]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-19" : [ "number", "number", 0 ],
-			"obj-10::obj-1::obj-44" : [ "live.text[5]", "live.text", 0 ],
-			"obj-9::obj-1::obj-22" : [ "multislider[24]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-76" : [ "multislider[16]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-62" : [ "number[4]", "number[4]", 0 ],
-			"obj-9::obj-1::obj-127" : [ "multislider[42]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-72" : [ "number[2]", "number[2]", 0 ],
-			"obj-9::obj-1::obj-133" : [ "multislider[43]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-49" : [ "multislider[13]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-18" : [ "multislider[3]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-67" : [ "Resonance[2]", "Res", 0 ],
-			"obj-9::obj-1::obj-84" : [ "multislider[21]", "multislider[1]", 0 ],
-			"obj-10::obj-1::obj-11" : [ "live.text[7]", "live.text", 0 ],
-			"obj-10::obj-1::obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-10::obj-1::obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
-			"obj-9::obj-1::obj-95" : [ "multislider[35]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-41" : [ "multislider[26]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-80" : [ "multislider[18]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-182" : [ "number[5]", "number[3]", 0 ],
-			"obj-9::obj-1::obj-153" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-9::obj-1::obj-103" : [ "multislider[37]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-86" : [ "live.text", "live.text", 0 ],
-			"obj-9::obj-1::obj-106" : [ "multislider[38]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-64" : [ "multislider[33]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-50" : [ "multislider[29]", "multislider[1]", 0 ],
-			"obj-9::obj-1::obj-119" : [ "multislider[40]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-66" : [ "multislider[14]", "multislider[1]", 0 ],
 			"obj-9::obj-1::obj-70" : [ "multislider[15]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-72" : [ "number[2]", "number[2]", 0 ],
+			"obj-9::obj-1::obj-76" : [ "multislider[16]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-77" : [ "multislider[17]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-78" : [ "multislider[34]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-80" : [ "multislider[18]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-81" : [ "multislider[19]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-82" : [ "multislider[20]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-84" : [ "multislider[21]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-85" : [ "multislider[22]", "multislider[1]", 0 ],
+			"obj-9::obj-1::obj-86" : [ "live.text", "live.text", 0 ],
+			"obj-9::obj-1::obj-95" : [ "multislider[35]", "multislider[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mo.imu.touchOSC.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc",
-				"patcherrelativepath" : "../../modosc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.gather.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/CNMAT-odot/patchers/namespace",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.jerk.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc",
-				"patcherrelativepath" : "../../modosc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mo.fluidity.maxpat",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/modosc",
-				"patcherrelativepath" : "../../modosc",
+				"name" : "GIMLeT.mangle.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GIMLeT.ml.ann.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Gimlet_logo_solo.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "autoscale01.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.fluidity.maxpat",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.imu.touchOSC.maxpat",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mo.jerk.maxpat",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/modosc/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multisliderRange.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.gather.select.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/odot/patchers/namespace",
+				"patcherrelativepath" : "../../odot/patchers/namespace",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.if.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "populateCellBlock.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rapidmax.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "routeNames.maxpat",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1165,98 +1260,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "routeNames.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/Dropbox/_FV_git/GitHub/GIMLeT/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "GIMLeT.mangle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GIMLeT-1.0-beta/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.if.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rapidmax.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1319,8 +1335,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1339,13 +1355,13 @@
 				"name" : "panelViolet",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.372549, 0.196078, 0.486275, 0.2 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
