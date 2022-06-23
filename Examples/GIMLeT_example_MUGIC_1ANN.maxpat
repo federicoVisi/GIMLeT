@@ -792,7 +792,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 20.0, 244.0, 29.0 ],
-									"text" : "TouchOSC"
+									"text" : "MUGIC"
 								}
 
 							}
