@@ -306,7 +306,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 901.0, 132.5, 189.0, 104.0 ],
-									"text" : "/speed : 1.,\n/pitchShift : 0.,\n/startTime : 100.,\n/dur : 907.,\n/cutoff : 20.,\n/resonance : 0."
+									"text" : "/speed : 1.,\n/pitchShift : 0.,\n/startTime : 43.3833,\n/dur : 238.,\n/cutoff : 20.,\n/resonance : 0."
 								}
 
 							}
@@ -812,11 +812,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
+									"linecount" : 5,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 512.262272372841835, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 512.262272372841835, 558.0, 90.0 ],
+									"text" : "/mugicdata : [0.01, -0.03, 0.01, 352.938, 0.9375, 178.5, -0.0625, 0., 0., 6.5, 18.5, 41.5, -0.00787354, -0.0614014, 0.997986, -0.0134277, 55., 3727, 0, 3, 3, 3, 8821.29, 24301],\n/mugic_euler : [352.938, 0.9375, 178.5],\n/mugic_energy : 1."
 								}
 
 							}
@@ -825,11 +827,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-59",
+									"linecount" : 3,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 62.0 ],
+									"text" : "/mugicdata : [0.01, -0.03, 0.01, 352.938, 0.9375, 178.5, -0.0625, 0., 0., 6.5, 18.5, 41.5, -0.00787354, -0.0614014, 0.997986, -0.0134277, 55., 3727, 0, 3, 3, 3, 8821.29, 24301]"
 								}
 
 							}
@@ -1148,22 +1152,22 @@
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/SoundS-gesture-sound-interaction/Max/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.rescale01_au.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/SoundS-gesture-sound-interaction/Max/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multisliderRange.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/SoundS-gesture-sound-interaction/Max/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1216,8 +1220,8 @@
 			}
 , 			{
 				"name" : "populateCellBlock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/SoundS-gesture-sound-interaction/Max/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1240,8 +1244,8 @@
 			}
 , 			{
 				"name" : "viewTrainingData.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/SoundS-gesture-sound-interaction/Max/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
