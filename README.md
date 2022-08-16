@@ -68,7 +68,8 @@ The package is being used and developed further in several projects including:
 * A collaboration between FV and [Opera Mecatronica](https://www.operamecatronica.com) for the development of an interactive opera piece to be premiered in 2022;
 * [The Global Hyperorgan project](https://youtu.be/49UgqmFoNmE);
 * [The Assisted Interactive Machine Learning project](https://youtu.be/emqqHxmkiqQ);
-* [The Wearing Sound course at Universität der Künste Berlin](https://design.udk-berlin.de/lehrangebot/wearingsound). 
+* [The Wearing Sound course at Universität der Künste Berlin](https://design.udk-berlin.de/lehrangebot/wearingsound);
+* [The Gesture-Sound Interaction and Embodied Music Cognition course at Universität der Künste Berlin](https://www.udk-berlin.de/fileadmin/2_dezentral/FR_Soundstudies/Sonic_Arts/Syllabi_SoSe_2022/F22-Visi_SE.pdf).
 
 ## Contact
 
