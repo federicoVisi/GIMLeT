@@ -2,7 +2,7 @@
 
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
-NOTE: the PoseNet implementation used in this package is now deprecated and therefore is likely not going to work. I don't think Il will have time to fix that in the foreseeable future and therefore anyone's contrubution is welcome, see [this issue](https://github.com/federicoVisi/GIMLeT/issues/11).
+**NOTE**: the PoseNet implementation used in this package is now deprecated and therefore is likely not going to work. I don't think Il will have time to fix that in the foreseeable future and therefore anyone's contrubution is welcome, see [this issue](https://github.com/federicoVisi/GIMLeT/issues/11).
 
 ## Installation
 ### Install the required packages
