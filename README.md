@@ -2,6 +2,8 @@
 
 A set of Max patches for gesture analysis, interactive machine learning, and gesture-sound interaction design. GIMLeT features a modular design that allows to easily share meaningfully structured data between several gesture tracking devices, machine learning, and sound synthesis modules.
 
+NOTE: the PoseNet implementation used in this package is now deprecated and therefore is likely not going to work. I don't think Il will have time to fix that in the foreseeable future and therefore anyone's contrubution is welcome, see [this issue](https://github.com/federicoVisi/GIMLeT/issues/11).
+
 ## Installation
 ### Install the required packages
 1. Download the odot package .zip file: https://github.com/CNMAT/CNMAT-odot/releases/download/1.3.0/odot-Max-1.3.0.zip
@@ -64,6 +66,7 @@ The data recorder in `gimlet.ml.ann` is based on a design by Michael Zbyszyński
 Further development was carried out by FV as part of a postdoctoral research position at [GEMM))) Gesture Embodiment and Machines in Music](https://www.ltu.se/research/subjects/Musikalisk-gestaltning/GEMM) – Piteå School of Music – Luleå University of Technology, Sweden.
 
 The package is being used and developed further in several projects including:
+* [Interwoven Sound Spaces (ISS)](https://www.interwovensoundspaces.com/en/interwoven-sound-spaces-en/), a project lead by Berit Greinke and Federico Visi at Universität der Künste Berlin focused on developing technologies and practices for live telematic music performance.
 * [N-Place](https://www.uio.no/ritmo/english/news-and-events/events/conferences/2021/RPPW/performances/telematic-etudes/index.html), a collaborative project focused on telematic music performance involving Luleå University of Technology, University of Oslo, and Technical University Berlin;
 * A collaboration between FV and [Opera Mecatronica](https://www.operamecatronica.com) for the development of an interactive opera piece to be premiered in 2022;
 * [The Global Hyperorgan project](https://youtu.be/49UgqmFoNmE);
