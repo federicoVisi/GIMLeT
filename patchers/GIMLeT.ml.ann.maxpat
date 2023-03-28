@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1230.0, 937.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -889,7 +889,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2610.231992436451037, 77.331756025073901, 77.0, 22.0 ],
-					"text" : "port 4001"
+					"text" : "port 4003"
 				}
 
 			}
@@ -1863,7 +1863,7 @@
 
 					}
 ,
-					"setminmax" : [ 0.0, 0.0 ],
+					"setminmax" : [ 0.0, 1.666299364856054 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"varname" : "multislider[39]"
@@ -1899,9 +1899,10 @@
 
 					}
 ,
-					"setminmax" : [ 0.0, 0.0 ],
+					"setminmax" : [ -1.000808715820312, 1.53900146484375 ],
 					"setstyle" : 1,
 					"signed" : 1,
+					"size" : 3,
 					"varname" : "multislider[40]"
 				}
 
@@ -1935,7 +1936,7 @@
 
 					}
 ,
-					"setminmax" : [ 0.0, 0.0 ],
+					"setminmax" : [ 0.0, 0.913877048935633 ],
 					"setstyle" : 1,
 					"signed" : 1,
 					"varname" : "multislider[41]"
@@ -1971,10 +1972,9 @@
 
 					}
 ,
-					"setminmax" : [ 0.0, 105.0 ],
+					"setminmax" : [ 0.0, 1.404550868705485 ],
 					"setstyle" : 1,
 					"signed" : 1,
-					"size" : 2,
 					"varname" : "multislider[42]"
 				}
 
@@ -2016,8 +2016,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3282,8 +3282,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3361,14 +3361,13 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 348.9598388671875, 83.5, 78.0, 22.0 ],
-									"text" : "port 3001"
+									"text" : "port 3002"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-93",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3766,7 +3765,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 702.612820867364007, 90.694947923411746, 78.0, 22.0 ],
-					"text" : "port 3001"
+					"text" : "port 3002"
 				}
 
 			}
@@ -4014,7 +4013,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1869.631322907405774, 512.711736495487685, 69.0, 22.0 ],
-					"text" : "port 2001"
+					"text" : "port 2002"
 				}
 
 			}
@@ -4263,8 +4262,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4435,8 +4434,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6002,6 +6001,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.396078431372549, 0.074509803921569, 1.0 ],
 					"fontlink" : 1,
 					"id" : "obj-185",
 					"maxclass" : "textbutton",
@@ -6013,7 +6013,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 648.75, 327.589923898833945, 71.359375, 21.40625 ],
 					"rounded" : 10.0,
-					"text" : "train & run"
+					"text" : "train & run",
+					"textoncolor" : [ 0.219607843137255, 0.890196078431372, 0.149019607843137, 1.0 ]
 				}
 
 			}
@@ -6095,6 +6096,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 648.75, 130.988624076528083, 50.013671875, 21.40625 ],
 					"rounded" : 10.0,
+					"style" : "redness",
 					"text" : "record"
 				}
 
@@ -6110,8 +6112,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6318,7 +6320,7 @@
 					"patching_rect" : [ 1934.661499586806258, 358.269714507533422, 123.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 729.056640625, 354.087636796875302, 111.0, 20.0 ],
-					"text" : "Status: Not Trained",
+					"text" : "Status: Trained",
 					"textcolor" : [ 0.796078431372549, 0.184313725490196, 0.184313725490196, 1.0 ]
 				}
 
@@ -6334,8 +6336,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
