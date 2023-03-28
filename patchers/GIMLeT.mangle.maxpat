@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1149.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 1087.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -398,7 +398,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1091,7 +1091,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1293,7 +1293,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1407,7 +1407,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.0, 210.0, 68.0, 22.0 ],
-									"text" : "1."
+									"text" : "0.400348"
 								}
 
 							}
@@ -1600,7 +1600,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2070,7 +2070,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2100,7 +2100,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[17]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2130,7 +2130,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[18]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2160,7 +2160,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2199,7 +2199,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2245,7 +2245,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3935,7 +3935,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4147,7 +4147,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"items" : [ "/emg1", ",", "/emg2", ",", "/emg3", ",", "/emg4" ],
+					"items" : [ "/points/phone1/jrk_mag", ",", "/points/phone1/fluidity", ",", "/points/phone1/acc", ",", "/points/phone1/acc_mag" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4234,7 +4234,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4686,13 +4686,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 479.0, 111.0, 814.0, 587.0 ],
+						"rect" : [ 840.0, 217.0, 814.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4720,7 +4720,22 @@
 						"style" : "",
 						"subpatcher_template" : "mzed_default",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 131.0, 357.5, 151.0, 22.0 ],
+									"text" : "if $f1 <= 0. then 0. else $f1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-17",
 									"maxclass" : "newobj",
@@ -4835,7 +4850,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.5, 332.5, 39.0, 22.0 ],
+									"patching_rect" : [ 131.0, 253.5, 39.0, 22.0 ],
 									"text" : "gate"
 								}
 
@@ -4847,7 +4862,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.5, 368.0, 39.0, 22.0 ],
+									"patching_rect" : [ 131.0, 289.0, 39.0, 22.0 ],
 									"text" : "$1 20"
 								}
 
@@ -4859,7 +4874,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 130.5, 401.0, 39.0, 22.0 ],
+									"patching_rect" : [ 130.5, 423.0, 39.0, 22.0 ],
 									"text" : "line~"
 								}
 
@@ -4871,7 +4886,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 104.0, 436.0, 45.5, 22.0 ],
+									"patching_rect" : [ 83.75, 468.0, 65.75, 22.0 ],
 									"text" : "*~"
 								}
 
@@ -4884,7 +4899,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.0, 494.0, 30.0, 30.0 ]
+									"patching_rect" : [ 83.75, 507.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -4926,7 +4941,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -4974,6 +4989,13 @@
 									"destination" : [ "obj-32", 0 ],
 									"order" : 1,
 									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -5099,7 +5121,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
