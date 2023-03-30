@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 724.0, 259.0, 1112.0, 967.0 ],
+		"rect" : [ 187.0, 79.0, 1210.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -120,14 +120,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
+						"rect" : [ 187.0, 105.0, 1210.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -231,7 +231,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 27.0, 23.0, 616.444444954395294, 278.0 ],
+									"patching_rect" : [ 27.0, 23.0, 616.444444954395294, 211.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -300,11 +300,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-5",
+									"linecount" : 6,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 901.0, 132.5, 189.0, 34.0 ]
+									"patching_rect" : [ 901.0, 132.5, 189.0, 104.0 ],
+									"text" : "/speed : 1.,\n/pitchShift : 0.,\n/startTime : 40.1667,\n/dur : 312.,\n/cutoff : 2788.19,\n/resonance : 0."
 								}
 
 							}
@@ -324,7 +326,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 1 ],
-									"midpoints" : [ 36.5, 303.0, 12.0, 303.0, 12.0, 9.0, 830.5, 9.0 ],
+									"midpoints" : [ 36.5, 244.0, 12.0, 244.0, 12.0, 9.0, 830.5, 9.0 ],
 									"order" : 0,
 									"source" : [ "obj-1", 0 ]
 								}
@@ -333,7 +335,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"midpoints" : [ 36.5, 303.0, 12.0, 303.0, 12.0, 9.0, 804.5, 9.0 ],
+									"midpoints" : [ 36.5, 243.0, 12.0, 243.0, 12.0, 9.0, 804.5, 9.0 ],
 									"order" : 1,
 									"source" : [ "obj-1", 0 ]
 								}
@@ -508,14 +510,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1112.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 1210.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -661,14 +663,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 724.0, 285.0, 1112.0, 941.0 ],
+						"rect" : [ 0.0, 26.0, 1210.0, 941.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -807,11 +809,13 @@
 									"fontface" : 0,
 									"fontsize" : 12.0,
 									"id" : "obj-58",
+									"linecount" : 5,
 									"maxclass" : "o.display",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 439.262272372841835, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 439.262272372841835, 558.0, 90.0 ],
+									"text" : "/modosc/points/phone1/acc : [0.0187378, -0.00790405, -0.99559],\n/modosc/points/phone1/acc_mag : 0.995798,\n/modosc/points/phone1/jrk : [-0.000198364, 0.000717163, -0.000289917],\n/modosc/points/phone1/jrk_mag : 0.000798576,\n/modosc/points/phone1/fluidity : 0.999018"
 								}
 
 							}
@@ -824,7 +828,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 34.0 ]
+									"patching_rect" : [ 25.0, 208.387234300374985, 558.0, 34.0 ],
+									"text" : "/accxyz : [0.0187378, -0.00790405, -0.99559]"
 								}
 
 							}
@@ -1061,6 +1066,7 @@
 		"parameters" : 		{
 			"obj-10::obj-1::obj-11" : [ "live.text[7]", "live.text", 0 ],
 			"obj-10::obj-1::obj-120" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-10::obj-1::obj-14" : [ "AM_Att", "Slide", 0 ],
 			"obj-10::obj-1::obj-15" : [ "StartTime[4]", "StartTime", 0 ],
 			"obj-10::obj-1::obj-16" : [ "Speed[2]", "Speed", 0 ],
 			"obj-10::obj-1::obj-18" : [ "Duration[3]", "Duration", 0 ],
@@ -1070,6 +1076,7 @@
 			"obj-10::obj-1::obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
 			"obj-10::obj-1::obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
 			"obj-10::obj-1::obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
+			"obj-10::obj-1::obj-22" : [ "AM_Rel", "Rel", 0 ],
 			"obj-10::obj-1::obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
 			"obj-10::obj-1::obj-43" : [ "live.text[8]", "live.text", 0 ],
 			"obj-10::obj-1::obj-44" : [ "live.text[5]", "live.text", 0 ],
@@ -1077,6 +1084,9 @@
 			"obj-10::obj-1::obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-10::obj-1::obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
 			"obj-10::obj-1::obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
+			"obj-10::obj-1::obj-54" : [ "live.text[17]", "live.text[3]", 0 ],
+			"obj-10::obj-1::obj-56" : [ "live.text[16]", "live.text[3]", 0 ],
+			"obj-10::obj-1::obj-59" : [ "live.text[18]", "live.text[3]", 0 ],
 			"obj-10::obj-1::obj-67" : [ "Resonance[2]", "Res", 0 ],
 			"obj-10::obj-1::obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
 			"obj-9::obj-1::obj-102" : [ "multislider[36]", "multislider[1]", 0 ],
@@ -1155,6 +1165,20 @@
 			}
 , 			{
 				"name" : "autoscale01.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fv.ampmod.maxpat",
+				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
+				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fv.rescale01_au.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
 				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
@@ -1248,8 +1272,8 @@
 			}
 , 			{
 				"name" : "routeNames.maxpat",
-				"bootpath" : "~/OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
-				"patcherrelativepath" : "../../../../../OneDrive - ltu.se/_FV_git/GitHub/AIML/abstractions",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
