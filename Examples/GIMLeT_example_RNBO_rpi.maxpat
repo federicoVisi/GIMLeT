@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 352.0, 239.0, 822.0, 593.0 ],
+		"rect" : [ 385.0, 149.0, 742.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,52 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 422.0, 534.0, 175.0, 20.0 ],
+					"text" : "RNBO Raspberry Pi connected"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 390.333333333333371, 532.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Wearing Sound", 5004, 1001 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "GIMLeT.arduino.Nano33IoT.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 18.0, 364.0, 280.0, 341.0 ],
+					"varname" : "GIMLeT.arduino.Nano33IoT[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
@@ -142,7 +188,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 361.333333333333371, 276.0, 40.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Base Pitch",
 					"textjustification" : 1
 				}
@@ -156,7 +201,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 427.944975628046564, 276.0, 40.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Arp Rate",
 					"textjustification" : 1
 				}
@@ -170,7 +214,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 627.77990251218614, 276.0, 40.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "LFO\nAmt",
 					"textjustification" : 1
 				}
@@ -184,7 +227,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.168260217472721, 276.0, 40.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "LFORate",
 					"textjustification" : 1
 				}
@@ -198,7 +240,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.556617922759756, 276.0, 40.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Filter Freq",
 					"textjustification" : 1
 				}
@@ -221,7 +262,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 18.0, 12.0, 280.0, 297.0 ],
+					"patching_rect" : [ 18.0, 12.0, 280.0, 341.0 ],
 					"varname" : "GIMLeT.arduino.Nano33IoT",
 					"viewvisibility" : 1
 				}
@@ -244,7 +285,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -285,6 +327,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 596.0, 895.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-104",
 									"maxclass" : "message",
@@ -369,7 +423,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 31.0, 31.0, 40.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Base Pitch",
 									"textjustification" : 1
 								}
@@ -383,7 +436,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 360.0, 31.0, 40.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Arp Rate",
 									"textjustification" : 1
 								}
@@ -409,7 +461,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 765.0, 806.0, 134.0, 60.0 ],
-									"presentation_linecount" : 4,
 									"text" : "The instance info lists the parameters, inports, outports and data_refs"
 								}
 
@@ -432,7 +483,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 283.0, 849.0, 99.0, 100.0 ],
-									"presentation_linecount" : 7,
 									"text" : "The \"host_names\" message retrieves a list of discovered remote rnbo devices"
 								}
 
@@ -457,7 +507,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 489.25, 937.0, 111.0, 37.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Set a remote to connect to. "
 								}
 
@@ -647,7 +696,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-81",
-									"items" : "<empty>",
+									"items" : "c74rpi",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -665,7 +714,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1056.75, 509.5, 99.0, 114.0 ],
-									"presentation_linecount" : 8,
 									"text" : "The \"patchername\" message retrieves a list of patchers exported to a named remote device."
 								}
 
@@ -691,7 +739,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 524.0, 563.0, 475.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "- Connect either by name or by addr (IP) and port. \n- Connect to the device by name, the addr and port will be filled in automatically.\n- Unless you have an advanced setup, port will always be 5678."
 								}
 
@@ -1429,6 +1476,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
@@ -1717,6 +1771,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -1811,6 +1872,26 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-1" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-17" : [ "number[34]", "number[3]", 0 ],
+			"obj-2::obj-18" : [ "number[22]", "number[14]", 0 ],
+			"obj-2::obj-33" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-35" : [ "live.text[10]", "live.text", 0 ],
+			"obj-2::obj-36" : [ "number[4]", "number[14]", 0 ],
+			"obj-2::obj-38" : [ "live.text[9]", "live.text", 0 ],
+			"obj-2::obj-39" : [ "live.text[8]", "live.text", 0 ],
+			"obj-2::obj-41" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-42" : [ "live.text[6]", "live.text", 0 ],
+			"obj-2::obj-43" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-44" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-45" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-46" : [ "number[24]", "number[3]", 0 ],
+			"obj-2::obj-50" : [ "number[3]", "number[14]", 0 ],
+			"obj-2::obj-57" : [ "number[2]", "number[14]", 0 ],
+			"obj-2::obj-59" : [ "number[5]", "number[14]", 0 ],
+			"obj-2::obj-67" : [ "number[35]", "number[14]", 0 ],
+			"obj-2::obj-88" : [ "number[21]", "number[14]", 0 ],
+			"obj-2::obj-95" : [ "number[7]", "number[14]", 0 ],
 			"obj-3::obj-1" : [ "live.text[45]", "live.text", 0 ],
 			"obj-3::obj-17" : [ "number[6]", "number[3]", 0 ],
 			"obj-3::obj-18" : [ "number[14]", "number[14]", 0 ],
@@ -1824,7 +1905,7 @@
 			"obj-3::obj-43" : [ "live.text[67]", "live.text", 0 ],
 			"obj-3::obj-44" : [ "live.text[73]", "live.text", 0 ],
 			"obj-3::obj-45" : [ "live.text[78]", "live.text", 0 ],
-			"obj-3::obj-46" : [ "number[17]", "number[3]", 0 ],
+			"obj-3::obj-46" : [ "number[1]", "number[3]", 0 ],
 			"obj-3::obj-50" : [ "number[16]", "number[14]", 0 ],
 			"obj-3::obj-57" : [ "number[19]", "number[14]", 0 ],
 			"obj-3::obj-59" : [ "number[20]", "number[14]", 0 ],
@@ -1840,13 +1921,56 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-2::obj-1" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-2::obj-33" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-2::obj-35" : 				{
+					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-2::obj-38" : 				{
+					"parameter_longname" : "live.text[9]"
+				}
+,
+				"obj-2::obj-39" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-2::obj-41" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-2::obj-42" : 				{
+					"parameter_longname" : "live.text[6]"
+				}
+,
+				"obj-2::obj-43" : 				{
+					"parameter_longname" : "live.text[5]"
+				}
+,
+				"obj-2::obj-44" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-2::obj-45" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "GIMLeT.arduino.Nano33IoT.maxpat",
-				"bootpath" : "~/Documents/git/interwoven-sound-spaces/Max/modules/sensors",
-				"patcherrelativepath" : "../../../../git/interwoven-sound-spaces/Max/modules/sensors",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
