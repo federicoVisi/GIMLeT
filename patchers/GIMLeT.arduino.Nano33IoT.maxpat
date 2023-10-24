@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 1116.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 482.5, 299.0, 83.0, 22.0 ],
+					"text" : "o.speedlim 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -63,7 +75,7 @@
 						"number[17]" : [ 3.0 ],
 						"number[1]" : [ 5003 ],
 						"number[2]" : [ 3.0 ],
-						"number[3]" : [ 0 ],
+						"number[3]" : [ 1001 ],
 						"number[4]" : [ 3.0 ],
 						"number[7]" : [ 3.0 ],
 						"number[8]" : [ 3.0 ]
@@ -82,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0, 335.0, 132.0, 17.0 ],
+					"patching_rect" : [ 564.0, 1014.0, 132.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.180076999999983, 316.177277000000004, 35.0, 17.0 ],
 					"text" : "out"
@@ -97,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 320.0, 136.0, 17.0 ],
+					"patching_rect" : [ 529.0, 590.0, 136.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 244.180076999999983, 292.677277000000004, 35.0, 17.0 ],
 					"text" : "factor"
@@ -227,7 +239,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[30]",
+							"parameter_longname" : "number[21]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -315,7 +327,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[33]",
+							"parameter_longname" : "number[7]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -403,7 +415,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[23]",
+							"parameter_longname" : "number[35]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -467,7 +479,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[20]",
+							"parameter_longname" : "number[5]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -543,7 +555,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[19]",
+							"parameter_longname" : "number[2]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -595,7 +607,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[16]",
+							"parameter_longname" : "number[3]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -647,7 +659,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[15]",
+							"parameter_longname" : "number[4]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -700,7 +712,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[40]",
+							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -754,7 +766,7 @@
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[14]",
+							"parameter_longname" : "number[22]",
 							"parameter_shortname" : "number[14]",
 							"parameter_type" : 3
 						}
@@ -798,7 +810,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 448.895292344879181, 298.0, 24.0, 24.0 ],
+					"patching_rect" : [ 442.895292344879181, 305.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 205.590038499999991, 21.588638500000002, 19.0, 19.0 ]
 				}
@@ -833,7 +845,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[45]",
+							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -932,7 +944,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[1]",
+							"parameter_longname" : "number[24]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -988,7 +1000,7 @@
 					"patching_rect" : [ 668.5, 115.0, 234.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.677540977636284, 7.588638500000002, 271.502536022363699, 33.0 ],
-					"text" : "ISS sensor board"
+					"text" : "Wearing Sound"
 				}
 
 			}
@@ -1008,7 +1020,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1120,7 +1132,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[78]",
+							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1150,7 +1162,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[73]",
+							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1180,7 +1192,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[67]",
+							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1210,7 +1222,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[74]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1240,7 +1252,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[75]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1270,7 +1282,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[68]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1300,7 +1312,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[76]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1330,7 +1342,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[77]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -2135,7 +2147,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.805542624999987, 1234.555079118282038, 69.0, 22.0 ],
-					"text" : "port 0"
+					"text" : "port 1001"
 				}
 
 			}
@@ -2232,7 +2244,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[6]",
+							"parameter_longname" : "number[34]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -2247,16 +2259,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-51",
-					"linecount" : 15,
+					"linecount" : 13,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.5, 342.125, 275.0, 213.0 ],
+					"patching_rect" : [ 682.5, 342.125, 275.0, 187.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 15,
-					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 271.322459022363716, 213.0 ],
-					"text" : "/in0 : 1,\n/in1 : 4,\n/in2 : 301,\n/in3 : 338,\n/in6 : 344,\n/in7 : 214,\n/intIMU/acc : [0.0321045, 0.0177002, 1.00842],\n/intIMU/gyro : [-0.244141, -3.72314, -2.99072],\n/extIMU/acc : [0., 0., 0.],\n/extIMU/gyro : [0., 0., 0.],\n/diagnostics/wifi : -39,\n/diagnostics/ip : [192, 168, 1, 15],\n/diagnostics/vibrationCount : 154"
+					"presentation_linecount" : 13,
+					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 271.322459022363716, 187.0 ],
+					"text" : "/in1 : 438,\n/in2 : 409,\n/in3_rs : 382,\n/in4_rs : 378,\n/intIMU/acc : [0.133057, -0.0230713, -0.997192],\n/intIMU/gyro : [-0.366211, -3.54004, -2.50244],\n/extIMU/acc : [0., 0., 0.],\n/extIMU/gyro : [0., 0., 0.],\n/diagnostics/wifi : -59,\n/diagnostics/ip : [192, 168, 1, 11],\n/diagnostics/vibrationCount : 0"
 				}
 
 			}
@@ -2441,24 +2453,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -2868,6 +2863,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 2,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-83", 2 ]
 				}
@@ -3068,61 +3087,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[45]", "live.text", 0 ],
-			"obj-17" : [ "number[6]", "number[3]", 0 ],
-			"obj-18" : [ "number[14]", "number[14]", 0 ],
-			"obj-33" : [ "live.text[40]", "live.text", 0 ],
-			"obj-35" : [ "live.text[77]", "live.text", 0 ],
-			"obj-36" : [ "number[15]", "number[14]", 0 ],
-			"obj-38" : [ "live.text[76]", "live.text", 0 ],
-			"obj-39" : [ "live.text[68]", "live.text", 0 ],
-			"obj-41" : [ "live.text[75]", "live.text", 0 ],
-			"obj-42" : [ "live.text[74]", "live.text", 0 ],
-			"obj-43" : [ "live.text[67]", "live.text", 0 ],
-			"obj-44" : [ "live.text[73]", "live.text", 0 ],
-			"obj-45" : [ "live.text[78]", "live.text", 0 ],
-			"obj-46" : [ "number[1]", "number[3]", 0 ],
-			"obj-50" : [ "number[16]", "number[14]", 0 ],
-			"obj-57" : [ "number[19]", "number[14]", 0 ],
-			"obj-59" : [ "number[20]", "number[14]", 0 ],
-			"obj-67" : [ "number[23]", "number[14]", 0 ],
-			"obj-88" : [ "number[30]", "number[14]", 0 ],
-			"obj-95" : [ "number[33]", "number[14]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
