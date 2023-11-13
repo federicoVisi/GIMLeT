@@ -97,11 +97,11 @@
 						"live.text[9]" : [ 1.0 ],
 						"number" : [ 0.5 ],
 						"number[1]" : [ 50.0 ],
-						"number[2]" : [ 2001 ],
-						"number[3]" : [ 3001 ],
-						"number[4]" : [ 1001 ],
-						"offsetMax" : [ 80.314960629921302 ],
-						"offsetMin" : [ 13.352116141732342 ],
+						"number[2]" : [ 2002 ],
+						"number[3]" : [ 3002 ],
+						"number[4]" : [ 1002 ],
+						"offsetMax" : [ 15.012499999999999 ],
+						"offsetMin" : [ 15.012499999999999 ],
 						"panMax" : [ 0.0 ],
 						"panMin" : [ 0.0 ],
 						"pitchMax" : [ 1.0 ],
@@ -2982,7 +2982,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1691.2901611328125, 568.65789794921875, 59.0, 22.0 ],
-					"text" : "port 3001"
+					"text" : "port 3002"
 				}
 
 			}
@@ -6407,7 +6407,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-139", 0 ],
+					"destination" : [ "obj-139", 1 ],
 					"order" : 0,
 					"source" : [ "obj-140", 0 ]
 				}
