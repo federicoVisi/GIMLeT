@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1260.0, 407.0, 1539.0, 946.0 ],
+		"rect" : [ 34.0, 100.0, 1116.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -94,8 +94,8 @@
 
 					}
 ,
-					"text" : "in6",
-					"texton" : "in6",
+					"text" : "in7",
+					"texton" : "in7",
 					"varname" : "live.text[9]"
 				}
 
@@ -124,8 +124,8 @@
 
 					}
 ,
-					"text" : "in5",
-					"texton" : "in5",
+					"text" : "in6",
+					"texton" : "in6",
 					"varname" : "live.text[11]"
 				}
 
@@ -373,8 +373,8 @@
 					"numinlets" : 10,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 668.5, 997.0, 799.0, 22.0 ],
-					"text" : "o.pack /in1 /in2 /in3 /in4 /in5 /in6 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
+					"patching_rect" : [ 668.5, 997.0, 449.0, 22.0 ],
+					"text" : "o.pack /in0 /in1 /in2 /in3 /in6 /in7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
 				}
 
 			}
@@ -893,8 +893,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 668.5, 532.0, 804.0, 22.0 ],
-					"text" : "o.route /in1 /in2 /in3 /in4 /in5 /in6 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
+					"patching_rect" : [ 668.5, 532.0, 779.0, 22.0 ],
+					"text" : "o.route /in0 /in1 /in2 /in3 /in6 /in7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
 				}
 
 			}
@@ -1461,8 +1461,8 @@
 
 					}
 ,
-					"text" : "in4",
-					"texton" : "in4",
+					"text" : "in3",
+					"texton" : "in3",
 					"varname" : "live.text[3]"
 				}
 
@@ -1491,8 +1491,8 @@
 
 					}
 ,
-					"text" : "in3",
-					"texton" : "in3",
+					"text" : "in2",
+					"texton" : "in2",
 					"varname" : "live.text[2]"
 				}
 
@@ -1521,8 +1521,8 @@
 
 					}
 ,
-					"text" : "in2",
-					"texton" : "in2",
+					"text" : "in1",
+					"texton" : "in1",
 					"varname" : "live.text[1]"
 				}
 
@@ -1551,8 +1551,8 @@
 
 					}
 ,
-					"text" : "in1",
-					"texton" : "in1",
+					"text" : "in0",
+					"texton" : "in0",
 					"varname" : "live.text"
 				}
 
@@ -1575,7 +1575,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 734.0, 227.0, 1631.0, 1046.0 ],
+						"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1665,7 +1665,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 569.470588235294144, 119.0, 32.0 ],
-									"text" : "delete(/in4)"
+									"text" : "delete(/in7)"
 								}
 
 							}
@@ -1679,7 +1679,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 477.352941176470608, 119.0, 32.0 ],
-									"text" : "delete(/in3)"
+									"text" : "delete(/in6)"
 								}
 
 							}
@@ -1904,7 +1904,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 378.470588235294144, 119.0, 32.0 ],
-									"text" : "delete(/in4)"
+									"text" : "delete(/in3)"
 								}
 
 							}
@@ -1918,7 +1918,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 286.352941176470608, 119.0, 32.0 ],
-									"text" : "delete(/in3)"
+									"text" : "delete(/in2)"
 								}
 
 							}
@@ -1932,7 +1932,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 194.235294117647072, 97.0, 32.0 ],
-									"text" : "delete(/in2)"
+									"text" : "delete(/in1)"
 								}
 
 							}
@@ -1999,7 +1999,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 102.117647058823536, 97.0, 32.0 ],
-									"text" : "delete(/in1)"
+									"text" : "delete(/in0)"
 								}
 
 							}
