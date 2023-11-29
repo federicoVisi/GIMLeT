@@ -86,7 +86,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -271,7 +271,7 @@
 						"number[11]" : [ 3.0 ],
 						"number[14]" : [ 3.0 ],
 						"number[17]" : [ 3.0 ],
-						"number[1]" : [ 5003 ],
+						"number[1]" : [ 5000 ],
 						"number[2]" : [ 3.0 ],
 						"number[3]" : [ 1001 ],
 						"number[4]" : [ 3.0 ],
@@ -373,8 +373,8 @@
 					"numinlets" : 10,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 668.5, 997.0, 449.0, 22.0 ],
-					"text" : "o.pack /in0 /in1 /in2 /in3 /in6 /in7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
+					"patching_rect" : [ 668.5, 997.0, 433.0, 22.0 ],
+					"text" : "o.pack /a0 /a1 /a2 /a3 /a6 /a7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
 				}
 
 			}
@@ -893,8 +893,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 668.5, 532.0, 779.0, 22.0 ],
-					"text" : "o.route /in0 /in1 /in2 /in3 /in6 /in7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
+					"patching_rect" : [ 668.5, 532.0, 435.0, 22.0 ],
+					"text" : "o.route /a0 /a1 /a2 /a3 /a6 /a7 /intIMU/acc /intIMU/gyro /extIMU/acc /extIMU/gyro"
 				}
 
 			}
@@ -1027,7 +1027,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 662.5, 294.0, 39.0, 32.0 ]
+					"patching_rect" : [ 662.5, 247.0, 39.0, 32.0 ]
 				}
 
 			}
@@ -1039,7 +1039,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 662.5, 256.5, 44.0, 15.0 ],
+					"patching_rect" : [ 662.5, 209.5, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.590038499999991, 21.588638500000002, 48.590038499999935, 19.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1221,7 +1221,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1453,7 +1453,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[7]",
+							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1483,7 +1483,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "live.text[10]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1513,7 +1513,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1543,7 +1543,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[10]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1603,6 +1603,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1665,7 +1666,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 569.470588235294144, 119.0, 32.0 ],
-									"text" : "delete(/in7)"
+									"text" : "delete(/a7)"
 								}
 
 							}
@@ -1679,7 +1680,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 477.352941176470608, 119.0, 32.0 ],
-									"text" : "delete(/in6)"
+									"text" : "delete(/a6)"
 								}
 
 							}
@@ -1904,7 +1905,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 378.470588235294144, 119.0, 32.0 ],
-									"text" : "delete(/in3)"
+									"text" : "delete(/a3)"
 								}
 
 							}
@@ -1918,7 +1919,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 286.352941176470608, 119.0, 32.0 ],
-									"text" : "delete(/in2)"
+									"text" : "delete(/a2)"
 								}
 
 							}
@@ -1932,7 +1933,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 194.235294117647072, 97.0, 32.0 ],
-									"text" : "delete(/in1)"
+									"text" : "delete(/a1)"
 								}
 
 							}
@@ -1999,7 +2000,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "FullPacket", "FullPacket" ],
 									"patching_rect" : [ 11.0, 102.117647058823536, 97.0, 32.0 ],
-									"text" : "delete(/in0)"
+									"text" : "delete(/a0)"
 								}
 
 							}
@@ -2588,13 +2589,16 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-51",
+					"linecount" : 15,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.5, 342.125, 275.0, 33.0 ],
+					"patching_rect" : [ 682.5, 295.125, 275.0, 213.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 271.322459022363716, 33.0 ]
+					"presentation_linecount" : 15,
+					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 271.322459022363716, 213.0 ],
+					"text" : "/a0 : 415,\n/a1 : 404,\n/a2 : 360,\n/a3 : 295,\n/a6 : 367,\n/a7 : 277,\n/intIMU/acc : [-0.00415039, -0.111938, 1.00879],\n/intIMU/gyro : [2.01416, -2.92969, 0.915527],\n/extIMU/acc : [0., 0., 0.],\n/extIMU/gyro : [0., 0., 0.],\n/diagnostics/wifi : -63,\n/diagnostics/ip : [192, 168, 1, 35],\n/diagnostics/vibrationCount : 0"
 				}
 
 			}
@@ -3487,76 +3491,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "live.text[1]", "live.text", 0 ],
-			"obj-12" : [ "number[8]", "number[14]", 0 ],
-			"obj-17" : [ "number[34]", "number[3]", 0 ],
-			"obj-18" : [ "number[22]", "number[14]", 0 ],
-			"obj-21" : [ "live.text[12]", "live.text", 0 ],
-			"obj-33" : [ "live.text[2]", "live.text", 0 ],
-			"obj-35" : [ "live.text[10]", "live.text", 0 ],
-			"obj-36" : [ "number[4]", "number[14]", 0 ],
-			"obj-38" : [ "live.text[9]", "live.text", 0 ],
-			"obj-39" : [ "live.text[8]", "live.text", 0 ],
-			"obj-41" : [ "live.text[7]", "live.text", 0 ],
-			"obj-42" : [ "live.text[6]", "live.text", 0 ],
-			"obj-43" : [ "live.text[5]", "live.text", 0 ],
-			"obj-44" : [ "live.text[4]", "live.text", 0 ],
-			"obj-45" : [ "live.text[3]", "live.text", 0 ],
-			"obj-46" : [ "number[24]", "number[3]", 0 ],
-			"obj-50" : [ "number[3]", "number[14]", 0 ],
-			"obj-53" : [ "live.text[13]", "live.text", 0 ],
-			"obj-57" : [ "number[2]", "number[14]", 0 ],
-			"obj-59" : [ "number[5]", "number[14]", 0 ],
-			"obj-67" : [ "number[35]", "number[14]", 0 ],
-			"obj-88" : [ "number[21]", "number[14]", 0 ],
-			"obj-9" : [ "number[6]", "number[14]", 0 ],
-			"obj-95" : [ "number[7]", "number[14]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.speedlim.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/odot",
-				"patcherrelativepath" : "./abstractions/odot",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
