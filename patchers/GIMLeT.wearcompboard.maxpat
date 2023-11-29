@@ -78,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 160.285449437499949, 704.926322995871146, 44.0, 15.0 ],
+					"patching_rect" : [ 158.285449437499949, 708.926322995871146, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 152.261327966042586, 315.177277000000004, 29.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
@@ -86,7 +86,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[15]",
+							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -94,8 +94,8 @@
 
 					}
 ,
-					"text" : "in7",
-					"texton" : "in7",
+					"text" : "a7",
+					"texton" : "a7",
 					"varname" : "live.text[9]"
 				}
 
@@ -116,7 +116,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -124,8 +124,8 @@
 
 					}
 ,
-					"text" : "in6",
-					"texton" : "in6",
+					"text" : "a6",
+					"texton" : "a6",
 					"varname" : "live.text[11]"
 				}
 
@@ -914,7 +914,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1047,7 +1047,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1333,7 +1333,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[22]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1363,7 +1363,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[4]",
+							"parameter_longname" : "live.text[23]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1393,7 +1393,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[5]",
+							"parameter_longname" : "live.text[24]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1423,7 +1423,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[25]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1453,7 +1453,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1461,8 +1461,8 @@
 
 					}
 ,
-					"text" : "in3",
-					"texton" : "in3",
+					"text" : "a3",
+					"texton" : "a3",
 					"varname" : "live.text[3]"
 				}
 
@@ -1483,7 +1483,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[10]",
+							"parameter_longname" : "live.text[8]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1491,8 +1491,8 @@
 
 					}
 ,
-					"text" : "in2",
-					"texton" : "in2",
+					"text" : "a2",
+					"texton" : "a2",
 					"varname" : "live.text[2]"
 				}
 
@@ -1513,7 +1513,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1521,8 +1521,8 @@
 
 					}
 ,
-					"text" : "in1",
-					"texton" : "in1",
+					"text" : "a1",
+					"texton" : "a1",
 					"varname" : "live.text[1]"
 				}
 
@@ -1543,7 +1543,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1551,8 +1551,8 @@
 
 					}
 ,
-					"text" : "in0",
-					"texton" : "in0",
+					"text" : "a0",
+					"texton" : "a0",
 					"varname" : "live.text"
 				}
 
@@ -1603,7 +1603,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2594,11 +2593,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.5, 295.125, 275.0, 213.0 ],
+					"patching_rect" : [ 682.5, 295.125, 267.0, 213.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 15,
-					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 271.322459022363716, 213.0 ],
-					"text" : "/a0 : 415,\n/a1 : 404,\n/a2 : 360,\n/a3 : 295,\n/a6 : 367,\n/a7 : 277,\n/intIMU/acc : [-0.00415039, -0.111938, 1.00879],\n/intIMU/gyro : [2.01416, -2.92969, 0.915527],\n/extIMU/acc : [0., 0., 0.],\n/extIMU/gyro : [0., 0., 0.],\n/diagnostics/wifi : -63,\n/diagnostics/ip : [192, 168, 1, 35],\n/diagnostics/vibrationCount : 0"
+					"presentation_rect" : [ 3.677540977636284, 44.588638500000002, 267.322459022363716, 213.0 ],
+					"text" : "/a0 : 0,\n/a1 : 358,\n/a2 : 362,\n/a3 : 324,\n/a6 : 360,\n/a7 : 254,\n/intIMU/acc : [0.00610352, -0.0135498, 1.01416],\n/intIMU/gyro : [1.89209, -2.99072, 0.244141],\n/extIMU/acc : [0., 0., 0.],\n/extIMU/gyro : [0., 0., 0.],\n/diagnostics/wifi : -44,\n/diagnostics/ip : [192, 168, 1, 35],\n/diagnostics/vibrationCount : 0"
 				}
 
 			}
