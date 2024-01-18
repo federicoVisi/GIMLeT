@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 475.0, 87.0, 1390.0, 1263.0 ],
+		"rect" : [ 34.0, 100.0, 997.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 3,
+					"fontsize" : 20.0,
+					"id" : "obj-40",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 20.0, 246.0, 29.0 ],
+					"text" : "Polydelay effect example"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.0, 44.0, 284.0, 60.0 ],
+					"text" : "Merge OSC outputs from both devices and send everything to a new port. To be used with GIMLeT.ml.ann to train a model using paramaters from both devices."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 2003, 3003, 1001 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -50,12 +75,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "GIMLet.sb.polydelay.maxpat",
+					"name" : "GIMLet.polydelay.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 392.0, 633.0, 788.0, 202.0 ],
+					"patching_rect" : [ 21.0, 315.0, 780.0, 200.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 214.0, 427.75, 29.5, 22.0 ],
+					"patching_rect" : [ 841.0, 160.75, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -79,7 +104,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 63.0, 474.0, 35.0, 22.0 ],
+					"patching_rect" : [ 690.0, 207.0, 35.0, 22.0 ],
 					"text" : "o.var"
 				}
 
@@ -91,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 63.0, 505.5, 48.0, 22.0 ],
+					"patching_rect" : [ 690.0, 238.5, 48.0, 22.0 ],
 					"text" : "o.union"
 				}
 
@@ -102,7 +127,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 537.0, 174.0, 22.0 ],
+					"patching_rect" : [ 690.0, 270.0, 174.0, 22.0 ],
 					"text" : "udpsend 127.0.0.1 3004 cnmat"
 				}
 
@@ -114,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 392.0, 133.0, 22.0 ],
+					"patching_rect" : [ 841.0, 125.0, 133.0, 22.0 ],
 					"text" : "udpreceive 3003 cnmat"
 				}
 
@@ -126,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 63.0, 392.0, 133.0, 22.0 ],
+					"patching_rect" : [ 690.0, 125.0, 133.0, 22.0 ],
 					"text" : "udpreceive 3001 cnmat"
 				}
 
@@ -137,7 +162,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 869.0, 45.0, 45.0 ]
+					"patching_rect" : [ 21.0, 551.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -158,7 +183,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 392.0, 392.0, 613.444444954395294, 218.0 ],
+					"patching_rect" : [ 21.0, 74.0, 613.444444954395294, 218.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -323,43 +348,43 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "GIMLeT.mangle.maxpat",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT/patchers",
-				"patcherrelativepath" : "../../GIMLeT/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GIMLet.sb.polydelay.maxpat",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT_addons/patchers",
+				"name" : "GIMLet.polydelay.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Gimlet_logo_solo.svg",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT/Media",
-				"patcherrelativepath" : "../../GIMLeT/Media",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/Media",
+				"patcherrelativepath" : "../Media",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.ampmod.maxpat",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.rescale01_au.maxpat",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.streamonsetsV2.maxpat",
-				"bootpath" : "~/workspace/ongoing/UdK-WC/GIMLeT/patchers/abstractions/GIMLeT",
-				"patcherrelativepath" : "../../GIMLeT/patchers/abstractions/GIMLeT",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "../patchers/abstractions/GIMLeT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
