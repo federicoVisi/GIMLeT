@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 688.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 938.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,11 +79,11 @@
 						"CC13" : [ 82.0 ],
 						"CC14" : [ 75.0 ],
 						"CC15" : [ 76.0 ],
-						"CC16" : [ 61.0 ],
 						"CC2" : [ 62.0 ],
 						"CC3" : [ 76.0 ],
 						"CC4" : [ 90.0 ],
 						"CC5" : [ 91.0 ],
+						"CC58" : [ 61.0 ],
 						"CC6" : [ 56.0 ],
 						"CC7" : [ 86.0 ],
 						"CC8" : [ 49.0 ],
@@ -160,7 +160,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1811.5311279296875, 786.048462510108948, 64.0, 22.0 ],
-					"text" : "ctlout 16 1"
+					"text" : "ctlout 58 1"
 				}
 
 			}
@@ -348,15 +348,15 @@
 					"presentation_rect" : [ 615.581624750907622, 20.588888999999995, 39.0, 95.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "CC16",
-							"parameter_shortname" : "CC16",
+							"parameter_longname" : "CC58",
+							"parameter_shortname" : "CC58",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "CC16"
+					"varname" : "CC58"
 				}
 
 			}
@@ -1054,8 +1054,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1515,8 +1515,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4570,7 +4570,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-8",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5973,6 +5973,87 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-101" : [ "ml_tog_5", "ml_tog_5", 0 ],
+			"obj-102" : [ "CC5", "CC5", 0 ],
+			"obj-126" : [ "ml_tog_12", "ml_tog_12", 0 ],
+			"obj-127" : [ "ml_tog_7", "ml_tog_7", 0 ],
+			"obj-128" : [ "CC6", "CC6", 0 ],
+			"obj-14" : [ "live.text[19]", "live.text", 0 ],
+			"obj-146" : [ "ml_tog_1", "ml_tog_1", 0 ],
+			"obj-147" : [ "CC1", "CC1", 0 ],
+			"obj-156" : [ "gswitch2[47]", "gswitch2[1]", 0 ],
+			"obj-157" : [ "gswitch2[59]", "gswitch2[2]", 0 ],
+			"obj-158" : [ "gswitch2[60]", "gswitch2[3]", 0 ],
+			"obj-159" : [ "ml_tog_16", "ml_tog_16", 0 ],
+			"obj-160" : [ "ml_tog_15", "ml_tog_15", 0 ],
+			"obj-161" : [ "CC58", "CC58", 0 ],
+			"obj-163" : [ "CC15", "CC15", 0 ],
+			"obj-164" : [ "ml_tog_14", "ml_tog_14", 0 ],
+			"obj-165" : [ "CC14", "CC14", 0 ],
+			"obj-188" : [ "gswitch2[3]", "gswitch2[13]", 0 ],
+			"obj-189" : [ "gswitch2[1]", "gswitch2[12]", 0 ],
+			"obj-190" : [ "gswitch2[35]", "gswitch2[11]", 0 ],
+			"obj-191" : [ "gswitch2[43]", "gswitch2[10]", 0 ],
+			"obj-192" : [ "gswitch2[46]", "gswitch2[9]", 0 ],
+			"obj-193" : [ "gswitch2[49]", "gswitch2[7]", 0 ],
+			"obj-194" : [ "gswitch2[48]", "gswitch2[8]", 0 ],
+			"obj-195" : [ "gswitch2[61]", "gswitch2[6]", 0 ],
+			"obj-196" : [ "gswitch2[34]", "gswitch2[5]", 0 ],
+			"obj-197" : [ "gswitch2[42]", "gswitch2[4]", 0 ],
+			"obj-198" : [ "gswitch2[45]", "gswitch2[3]", 0 ],
+			"obj-199" : [ "gswitch2[36]", "gswitch2[2]", 0 ],
+			"obj-200" : [ "gswitch2[2]", "gswitch2[1]", 0 ],
+			"obj-25" : [ "CC7", "CC7", 0 ],
+			"obj-29" : [ "gswitch2[44]", "gswitch2[40]", 0 ],
+			"obj-33" : [ "ml_tog_9", "ml_tog_9", 0 ],
+			"obj-55" : [ "CC9", "CC9", 0 ],
+			"obj-56" : [ "ml_tog_4", "ml_tog_4", 0 ],
+			"obj-57" : [ "ml_tog_3", "ml_tog_3", 0 ],
+			"obj-59" : [ "ml_tog_2", "ml_tog_2", 0 ],
+			"obj-61" : [ "ml_tog_11", "ml_tog_11", 0 ],
+			"obj-62" : [ "CC11", "CC11", 0 ],
+			"obj-66" : [ "CC4", "CC4", 0 ],
+			"obj-67" : [ "ml_tog_10", "ml_tog_10", 0 ],
+			"obj-68" : [ "CC2", "CC2", 0 ],
+			"obj-69" : [ "CC10", "CC10", 0 ],
+			"obj-70" : [ "ml_tog_13", "ml_tog_13", 0 ],
+			"obj-71" : [ "ml_tog_8", "ml_tog_8", 0 ],
+			"obj-73" : [ "ml_tog_6", "ml_tog_6", 0 ],
+			"obj-74" : [ "CC13", "CC13", 0 ],
+			"obj-75" : [ "CC8", "CC8", 0 ],
+			"obj-76" : [ "CC12", "CC12", 0 ],
+			"obj-90" : [ "CC3", "CC3", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-83", "obj-79", "obj-72", "obj-78" ]
 			}
