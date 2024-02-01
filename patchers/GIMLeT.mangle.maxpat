@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 661.0, 422.0, 107.0, 47.0 ],
+					"text" : "gate open for showing wave selection on load"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -47,12 +59,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 137.92047119140625, 10.5, 56.0, 22.0 ],
 					"restore" : 					{
-						"Cutoff" : [ 20.0 ],
-						"Duration" : [ 0.0 ],
+						"Cutoff" : [ 16000.0 ],
+						"Duration" : [ 1104.0 ],
 						"PitchShift" : [ 0.0 ],
 						"Resonance" : [ 0.0 ],
 						"Speed" : [ 1.0 ],
-						"StartTime" : [ 0.0 ],
+						"StartTime" : [ 81.599999999999994 ],
 						"gswitch2[10]" : [ 1 ],
 						"gswitch2[11]" : [ 1 ],
 						"gswitch2[12]" : [ 1 ],
@@ -436,7 +448,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 815.77459716796875, 402.15789794921875, 98.0, 22.0 ],
+					"patching_rect" : [ 815.77459716796875, 395.0, 98.0, 22.0 ],
 					"text" : "o.route /trainRun"
 				}
 
@@ -739,7 +751,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-105",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1274,8 +1285,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.64508056640625, 442.0484619140625, 79.0, 22.0 ],
-					"text" : "gate"
+					"patching_rect" : [ 590.64508056640625, 442.0484619140625, 52.0, 22.0 ],
+					"text" : "gate 1 1"
 				}
 
 			}
@@ -1886,7 +1897,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+						"rect" : [ 1083.0, 498.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3791,7 +3802,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4884,7 +4895,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-138",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -5719,7 +5729,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"midpoints" : [ 458.042796182632515, 432.103179931640625, 660.14508056640625, 432.103179931640625 ],
+					"midpoints" : [ 458.042796182632515, 432.103179931640625, 633.14508056640625, 432.103179931640625 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -6258,6 +6268,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"midpoints" : [ 825.27459716796875, 426.597625923828105, 1007.1651611328125, 426.597625923828105 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -6369,6 +6380,79 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-11" : [ "live.text[72]", "live.text", 0 ],
+			"obj-120" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-14" : [ "AM_Att", "Slide", 0 ],
+			"obj-15" : [ "StartTime[4]", "StartTime", 0 ],
+			"obj-16" : [ "Speed[2]", "Speed", 0 ],
+			"obj-18" : [ "Duration[3]", "Duration", 0 ],
+			"obj-188" : [ "gswitch2[33]", "gswitch2[13]", 0 ],
+			"obj-189" : [ "gswitch2[32]", "gswitch2[12]", 0 ],
+			"obj-190" : [ "gswitch2[31]", "gswitch2[11]", 0 ],
+			"obj-191" : [ "gswitch2[30]", "gswitch2[10]", 0 ],
+			"obj-192" : [ "gswitch2[29]", "gswitch2[9]", 0 ],
+			"obj-193" : [ "gswitch2[28]", "gswitch2[7]", 0 ],
+			"obj-22" : [ "AM_Rel", "Rel", 0 ],
+			"obj-29" : [ "gswitch2[41]", "gswitch2[40]", 0 ],
+			"obj-43" : [ "live.text[70]", "live.text", 0 ],
+			"obj-44" : [ "live.text[71]", "live.text", 0 ],
+			"obj-49" : [ "live.text[64]", "live.text", 0 ],
+			"obj-50" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-51" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-53" : [ "Cutoff[5]", "Cutoff", 0 ],
+			"obj-54" : [ "live.text[65]", "live.text[3]", 0 ],
+			"obj-56" : [ "live.text[68]", "live.text[3]", 0 ],
+			"obj-59" : [ "live.text[69]", "live.text[3]", 0 ],
+			"obj-67" : [ "Resonance[2]", "Res", 0 ],
+			"obj-90" : [ "Pitch Shift[1]", "Pitch Shift", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Gimlet_logo_solo.svg",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/Media",
+				"patcherrelativepath" : "../Media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fv.ampmod.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fv.rescale01_au.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/GIMLeT/patchers/abstractions/GIMLeT",
+				"patcherrelativepath" : "./abstractions/GIMLeT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-27", "obj-2" ]
 			}
