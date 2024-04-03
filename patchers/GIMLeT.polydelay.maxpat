@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1253.0, 195.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -56,7 +68,7 @@
 						"live.dial[5]" : [ 15.0 ],
 						"live.dial[6]" : [ 3.0 ],
 						"live.dial[7]" : [ 12.0 ],
-						"live.dial[8]" : [ 1.338582677165354 ],
+						"live.dial[8]" : [ 1.307086614173228 ],
 						"live.dial[9]" : [ 1.0 ],
 						"live.gain~" : [ -38.318633972987016 ],
 						"live.text[12]" : [ 1.0 ],
@@ -129,6 +141,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[1]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[1]",
 							"parameter_type" : 3
 						}
@@ -158,8 +171,9 @@
 							"parameter_initial" : [ 0.7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[25]",
+							"parameter_longname" : "number[2]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -189,6 +203,7 @@
 							"parameter_longname" : "limiter threshold",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -30.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "limiter threshold",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -206,9 +221,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1253.0, 228.0, 58.0, 22.0 ],
-					"text" : "loadbang"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1253.0, 228.0, 54.0, 22.0 ],
+					"text" : "deferlow"
 				}
 
 			}
@@ -256,6 +271,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "textbutton[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "textbutton",
 							"parameter_type" : 2
 						}
@@ -312,7 +328,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[9]",
+							"parameter_longname" : "number[5]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -442,7 +459,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1101,7 +1118,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1373,6 +1390,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[13]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[4]",
 							"parameter_type" : 3
 						}
@@ -1494,6 +1512,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[14]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -1522,6 +1541,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[12]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 3
 						}
@@ -1608,6 +1628,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "gswitch2[44]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "gswitch2[40]",
 							"parameter_type" : 2
 						}
@@ -1630,7 +1651,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1796,7 +1817,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3318,6 +3339,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3346,8 +3368,9 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[28]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3378,6 +3401,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3408,6 +3432,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[5]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3438,6 +3463,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3584,6 +3610,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3614,6 +3641,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3657,6 +3685,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3687,6 +3716,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[39]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -3718,6 +3748,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -3746,6 +3777,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "dry/wet",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "dry/wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3769,7 +3801,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4650,7 +4682,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7796,6 +7828,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "feedback",
 							"parameter_mmax" : 2.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "feedback",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7824,6 +7857,7 @@
 							"parameter_longname" : "fine",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -12.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "fine",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7852,6 +7886,7 @@
 							"parameter_longname" : "oct",
 							"parameter_mmax" : 3.0,
 							"parameter_mmin" : -5.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "oct",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7880,6 +7915,7 @@
 							"parameter_longname" : "chord index",
 							"parameter_mmax" : 15.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "chord index",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7909,6 +7945,7 @@
 							"parameter_longname" : "HPF freq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "HPF freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -7937,6 +7974,7 @@
 							"parameter_longname" : "LPF Q",
 							"parameter_mmax" : 1.2,
 							"parameter_mmin" : 0.5,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LPF Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7965,6 +8003,7 @@
 							"parameter_longname" : "LPF spread",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LPF spread",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -7994,6 +8033,7 @@
 							"parameter_longname" : "LPF freq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LPF freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -8636,6 +8676,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-41", 0 ]
 				}
 
 			}
