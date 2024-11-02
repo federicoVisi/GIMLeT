@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Use maxdevtools/maxdiff to get condensed diffs
+*.maxpat              text diff=maxpat
+*.amxd                binary diff=amxd
+*.als                 binary diff=als
