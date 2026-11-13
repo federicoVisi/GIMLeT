@@ -16,21 +16,21 @@ ARCHS = i386 x86_64
 
 
 // Paths
-C74SUPPORT = $(SRCROOT)/../../max-sdk/source/c74support
+C74SUPPORT = $(PROJECT_DIR)/../../include/c74support
 HEADER_SEARCH_PATHS = "$(C74SUPPORT)/max-includes" "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
 FRAMEWORK_SEARCH_PATHS = "$(C74SUPPORT)/max-includes" "$(C74SUPPORT)/msp-includes" "$(C74SUPPORT)/jit-includes"
-DSTROOT = $(C74SUPPORT)/../../../externals
+DSTROOT = $(PROJECT_DIR)/../../bin
 // (This next path is relative to DSTROOT)
 INSTALL_PATH = /
 
 
 // Special Files
 GCC_PREFIX_HEADER = $(C74SUPPORT)/max-includes/macho-prefix.pch
-INFOPLIST_FILE = $(C74SUPPORT)/../Info.plist
+INFOPLIST_FILE = $(PROJECT_DIR)/Info.plist
 
 
 // Architecture and Deployment
-ARCHS = i386 x86_64
+ARCHS = x86_64
 
 // The following section sets the Mac SDK version to be used.
 // For most projects this has little to no impact because there are no direct dependencies on OS function calls.
